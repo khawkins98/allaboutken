@@ -1,0 +1,407 @@
+---
+title: Ken Hawkins' CV
+layout: default
+url: /cv
+active_path: front
+---
+<style>
+  .sticky {
+    opacity: 0;
+  }
+  .sticky.is-stuck {
+    opacity: 1;
+  }
+  #cv-menu a {
+    background: none;
+  }
+  #cv-menu a.is-active {
+    border-bottom: 1px dotted #fff;
+  }
+  #cv-menu a:hover {
+    border-bottom: 1px solid #fff;
+  }
+</style>
+<!-- Add a Sticky Menu -->
+<div data-sticky-container class="do-not-print">
+  <div class="black-background white-color padding-top-medium padding-bottom-medium no-underline" data-sticky data-margin-top="0" data-anchor="cvbody" id="cv-menu">
+    <ul class="menu" data-magellan>
+      <span class="lead padding-top-small padding-left-xlarge padding-right-large">Skip <span class="emoji">⤵</span></span>
+      <!-- <li><a class="" href="#visulisation">Visualisations</a></li> -->
+      <li><a class="" href="#experience">Experience</a></li>
+      <li><a class="" href="#history">History</a></li>
+      <li><a class="" href="#more">More</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="show-for-print-only">
+{{#markdown}}
+# {{title}}
+<span class="emoji">📧</span>[khawkins98@gmail.com](mailto:khawkins98@gmail.com) &nbsp;<span class="emoji">📱</span> +44 0 74 7985 2789  &nbsp;<span class="emoji">🐦</span> @khawkins98 &nbsp;<span class="emoji">🌎</span> AllAboutKen.com  &nbsp;<span class="emoji">📇</span> Online problem solver
+
+{{/markdown}}
+</div>
+
+<div id="cvbody">
+
+<div class="hide-for-print">
+<br/>
+{{#markdown}}
+# {{title}} <small>aka, my longer resume</small>
+
+<p class="">My career and interests revolve on common points: distillation of unorganised information into clearer communication.</p>
+
+<!-- I've found this challenge a recurrent and beneficial problem to solve in newspaper reporting, e-commerce, corporate websites and often in things as simple as a rather messy brochure. Below I've attempted to show how my various work experience (left) equates to major areas of my knowledge (right), and I've added a few key lenses in the middle. -->
+
+{{/markdown}}
+</div>
+
+
+<style> /* set the CSS */
+
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  fill: #fff;
+  /*text-shadow: 0 1px 0 #fff;*/
+}
+
+.link {
+  fill: none;
+  stroke: #FFF;
+}
+
+.link:hover {
+  stroke-opacity: .9;
+}
+
+</style>
+
+<!-- <div id="visulisation" data-magellan-target="visulisation"></div> -->
+
+<!-- load the d3.js library -->
+<!-- <script src="//d3js.org/d3.v4.min.js"></script> -->
+<!-- <script src="https://unpkg.com/d3-sankey@0"></script> -->
+<!-- <script src="/sankey.js"></script> -->
+<script>
+
+var data;
+
+document.onreadystatechange = function () {
+  var state = document.readyState;
+  if (state == 'interactive') {
+    // getData();
+  }
+}
+
+function getData() {
+  // load the data
+  d3.json("/data/sankey.json", function(error, fetchedData) {
+    data = fetchedData;
+    // once we have data, do the visualisation
+    init(data.nodes,data.links);
+
+    // // we want to show one visualisation per source
+    // for (var index = 0; index < data.nodes.length; index++) {
+    //   // var element = array[index];
+
+    //   // only keep the links related to the active node
+    //   var activeLinks = data.links.filter(function (el) {
+    //     return el.source == (index || 8 || 2) || el.target == (index || 8 || 2);
+    //   });
+
+    //   if (data.nodes[index].type == "role") {
+    //     init(data.nodes,activeLinks);
+    //   }
+    // }
+  });
+
+
+}
+
+function init(nodes,links) {
+  var units = "Units of experience";
+
+  // set the dimensions and margins of the graph
+  var margin = {top: 10, right: 10, bottom: 10, left: 10},
+      width = $('#main-content-area .medium-10').width() - margin.left - margin.right,
+      height = 500 - margin.top - margin.bottom;
+
+  // format variables
+  var formatNumber = d3.format(",.1f"),    // number of decimal places
+      format = function(d) { return formatNumber(d) + " " + units; },
+      color = d3.scaleOrdinal(d3.schemeCategory20);
+
+  // append the svg object to the body of the page
+  var svg = d3.select("#visulisation").append("svg")
+      .attr("width", width + margin.left + margin.right + 100)
+      .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+      .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")")
+  ;
+
+  // Set the sankey diagram properties
+  var sankey = d3.sankey()
+      .nodeWidth(3)
+      .nodePadding(80)
+      .size([width, height]);
+
+  var path = sankey.link();
+
+  sankey
+    .nodes(nodes)
+    .links(links)
+    .layout(10)
+;
+
+  // add in the links
+  var link = svg.append("g").selectAll(".link")
+      .data(links)
+    .enter().append("path")
+      .attr("class", "link")
+      .attr("d", path)
+      // .style("stroke", function(d) { console.log(d.source.node); return color(d.source.node); })
+      .style("opacity", function(d) {  return ".3"; })
+      .style("stroke", function(d) {
+        // return  color(d.name.replace(/ .*/, ""));
+        return "#fff";
+      })
+      .style("stroke-dasharray", function(d) {
+        if ((d.source.type === "tool") || (d.target.type === "tool")) {
+          return "1,2";
+        } else {
+          return "none";
+        }
+      })
+      // .style("stroke-type", "dotted")
+      .style("stroke-width", function(d) { return Math.max(1, d.dy/1.5); })
+      .sort(function(a, b) { return b.dy - a.dy; });
+
+    // add the link titles
+    link.append("title")
+          .text(function(d) {
+      		return d.source.name + " → " +
+                  d.target.name + "\n" + format(d.value); });
+
+  // add in the nodes
+  var node = svg.append("g").selectAll(".node")
+      .data(nodes)
+    .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) {
+      return "translate(" + d.x + "," + d.y + ")"; })
+      .call(d3.drag()
+        .subject(function(d) {
+          return d;
+        })
+        .on("start", function() {
+          this.parentNode.appendChild(this);
+        })
+        .on("drag", dragmove));
+
+  // add the rectangles for the nodes
+    node.append("rect")
+        .attr("height", function(d) { return d.dy; })
+        .attr("width", sankey.nodeWidth())
+        .style("fill", function(d) {
+  		  return d.color = '#fff'; })
+        // .style("fill", function(d) {
+  		  // return d.color = color(d.name.replace(/ .*/, "")); })
+        // .style("stroke", function(d) {
+  		  // return d3.rgb(d.color).darker(2); })
+      .append("title")
+        .text(function(d) {
+  		  return d.name + "\n" + format(d.value); });
+
+  // add in the title for the nodes
+    node.append("text")
+        .attr("x", -6)
+        .attr("y", function(d) { return d.dy / 2; })
+        .attr("dy", ".35em")
+        .attr("text-anchor", "end")
+        .attr("transform", null)
+        .html(function(d) { return d.name + " " + (d.years || ''); })
+      .filter(function(d) { return d.x < width / 2; })
+        .attr("x", 6 + sankey.nodeWidth())
+        .attr("text-anchor", "start");
+
+  // the function for moving the nodes
+    function dragmove(d) {
+      d3.select(this)
+        .attr("transform",
+              "translate("
+                 + d.x + ","
+                 + (d.y = Math.max(
+                    0, Math.min(height - d.dy, d3.event.y))
+                   ) + ")");
+      sankey.relayout();
+      link.attr("d", path);
+    }
+
+}
+</script>
+
+
+<a id="cv" name="cv"></a>
+{{#markdown}}
+
+<div id="experience" data-magellan-target="experience"></div>
+<div class="hide-for-print padding-top-xlarge"></div>
+<div class="hide-for-print padding-top-xlarge"></div>
+
+## Professional experience
+
+### Areas of expertise: from fuzzy to focus
+
+My time tackling design problems stretches back 16 years. It begins with printing presses, continues through graphic design, information graphics, architecting startups and now centres on designing systems for user needs.
+
+- **Structuring the unstructured**
+  - Maximising for content discoverability and placement of in-date content
+  - Investing in reusable content structures
+  - Storytelling through visualisations, content connections
+  - Utilising social media as a tool for content creation, collaboration
+  - Creating tools understandable by content editors
+  - Utilising the fundamentals of web technology and structured content (HTML)
+- **Strong web background**
+  - HTML, CSS/Sass, JavaScript, browser console, Handlebars, D3.js, Mapbox, PHP, Apache, NPM, Gulp, Browsersync, Foundation Framework, Markdown
+  - Bonus: Strong Web CMSs knowledge including Drupal configuration and development, Jekyll, Wordpress
+- **Contemporary techniques**
+  <br/>Design systems, pattern libraries, controlled taxonomies, prototyping, user stories, user research, user centred design, principles of graphing, Kanban, Agile, Google Analytics custom events, responsive design and progressive web apps
+- **Versatile desktop publishing skills**
+  <br/>Adobe Illustrator, Photoshop, InDesign, from Google Docs to Microsoft Office, Linux, Mac, Windows
+
+<div id="history" data-magellan-target="history"></div>
+<div class="do-not-print padding-top-xlarge"></div>
+<div class="do-not-print padding-top-xlarge"></div>
+
+## Professional work history
+
+### Web design architect
+<span class="label">European Bioinformatics Institute (EMBL-EBI)</span> <span class="label">July 2015 – ongoing</span> <span class="label">Cambridge, UK</span>
+- Lead IA and design tooling for EMBL-EBI web content, design systems
+- Facilitate collaboration between UX, developers and content teams
+- Foster design system growth, adoption by coordinating with development leads
+- Drive for reusable patterns in web interfaces
+- Close gap between web analytics and content effectiveness
+
+**Major technical tooling and processes utilised:** Content modelling and architecture, HTML/JS/CSS, Sass, Adobe Creative Suite, Atom, MapBox, Google Analytics, GitHub, Gulp, npm, Jekyll, Foundation Framework, Drupal, Travis, Continuous integration, Kanban
+
+<hr/>
+
+### Web developer, information designer
+<span class="label">DRS Technical Solutions</span>  <span class="label">February 2011 – June 2015</span> <span class="label">Stuttgart, Germany</span>
+- Managed user-focused efforts (UX, research, metrics) for company web projects
+- Website project lead for a Drupal platform to support more than 150,000 user accounts, provide e-commerce tools
+- Information architecture and infographics for business proposals, strategic planning
+- Numerous intranet-style websites to manage contacts, resumes, documents by consuming JSON and XML feeds for custom dashboards and processing
+- Create and implement several software projects with multi-company team members in the U.S., Europe, and Middle East
+
+**Major technical tooling utilised:** Drupal, HTML, CSS, JavaScript, Bitbucket, Agile, Amazon EC2, Route 53, Google Analytics
+
+<hr/>
+
+### Technical and editorial lead
+<span class="label">TheDigitel</span> <span class="label">May 2008 – February 2011</span> <span class="label">South Carolina, USA</span>
+- Co-founded TheDigitel.com to advance newspaper methodology to website era
+- Lead team of eight staff to report, market, implement web solutions
+- Lead community editor outreach with physical, online, podcast events
+- Oversee intern programme
+- Pioneered use of Twitter hashtags for local media community reporting
+- Dynamic Advertising: a new advertising model powered by social media
+- Speaking at events for the creative community about code, reporting, startups
+- Refined Drupal UX and content editing experience for community collaboration with staff editors
+- Raised funding, expanded TheDigitel.com to three cities
+
+**Major technical tooling utilised:** HTML, CSS, JavaScript, Drupal, LAMP hosting optimisation, reverse proxy caching, Adobe Creative Suite, Google Analytics, A/B testing, Google AdSense and AdWords, podcasting
+
+<hr/>
+
+### Graphics reporter
+<span class="label">The Post and Courier</span> <span class="label">March 2006 - May 2008</span> <span class="label">South Carolina, USA</span>
+Newspaper infographic design and reporting
+- Produce daily deadline-driven information graphics based on news reports
+- Create interactive HTML and Flash information graphics for the Web
+- Process geographic data to create maps (GIS)
+- Design and produce newspaper pages
+- Photo management and copy editing
+
+**Major technical tooling utilised:** Adobe Illustrator, Photoshop, InDesign, Acrobat, QuarkXPress, Flash, ArcGIS, Modo 3D modelling, HTML, CSS, JavaScript, Mac OS
+
+<hr/>
+
+### Graphics reporter
+<span class="label">The Beaufort Gazette</span> <span class="label">May 2003 - March 2006</span> <span class="label">South Carolina, USA</span>
+Newspaper infographic and page design
+- Produce daily deadline-driven information graphics based on news reports
+- Help lead the visual design of newspaper pages
+- Work to educate staff on photo cropping, type kerning, general principles of visual structure and directing the reader's focus
+
+**Major technical tooling utilised:** Adobe Illustrator, Photoshop, InDesign, Acrobat, QuarkXPress, Mac OS
+
+<hr/>
+
+### Production manager
+<span class="label">The Daily Journal</span> <span class="label">May 2000 - April 2003</span> <span class="label">South Carolina, USA</span>
+Newspaper pre-press production, advertising
+- <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="If you ever want to talk about the properties of ink on paper, let me know.">Pre-flight</span> and technical management of daily newspaper pre-press production
+- Lead production of in-house creatives for advertising clients
+- Manage pre-press team of 4 individuals
+
+**Major technical tooling utilised:** Adobe Illustrator, Photoshop, Acrobat, QuarkXPress, Mac OS
+
+<!-- <span class="label">January 2000 - May 2008</span> <span class="label">Ending at The Post and Courier</span> <span class="label">South Carolina, USA</span>
+#### Newspaper infographic design and reporting -->
+
+<div class="do-not-print padding-top-xlarge"></div>
+<div class="do-not-print padding-top-xlarge"></div>
+
+## Education, collaboration, speaking
+- **Clemson University, Bachelor of science degree in Graphic Communications, May 2003**
+  - Internships: Electric City Printing prepress, Seneca Daily Journal prepress
+- **Charleston Drupal meet-up and co-working**
+  <br/>Founding member of the local co-working and Drupal user group
+- **Co-founder of Fuse843**
+  <br/>A regional group of "creative class" individuals, we hosted local networking events, speakers and an online social networking tool
+- **Speaking events**
+  <br/>Charleston PechaKucha, Charleston Drupal user group, Create South conference, Startup Stuttgart, various others
+
+<div class="do-not-print padding-top-xlarge"></div>
+<div class="do-not-print padding-top-xlarge"></div>
+
+<div id="more" data-magellan-target="more"></div>
+
+## Other things
+ <span class="emoji">📐</span>  Clean design  <span class="emoji">🎭</span> creative approaches  <span class="emoji">💫</span> culture  <span class="emoji">🔰</span> Japanese eccentricities
+ <span class="emoji">💬</span>  puns <span class="emoji">🍻</span>  crisp lagers<span class="emoji">🎾</span> tennis  <span class="emoji">🚣</span> kayaking  <span class="emoji">😇</span>  exploring where tech meets culture <small>(that's why I've used these seemingly silly emoji, however I'd argue the [Noto Emoji](https://www.google.com/get/noto/#emoji-zsye) font has provided one of the first open source ways to have consistent emoji communication from content creation to consumption... Hello? Is anyone still there?)</small>
+
+ {{/markdown}}
+
+<div class="do-not-print padding-top-xlarge"></div>
+<div class="do-not-print padding-top-xlarge"></div>
+
+<span class="do-not-print">
+{{#markdown}}
+## Want more about me?
+
+<a href="{{root}}blog" class="">Head to the blog</a> or <span class="emoji">📧</span>[khawkins98@gmail.com](mailto:khawkins98@gmail.com)
+{{/markdown}}
+<br/>
+</span>
+
+<span class="for-print-only">
+{{#markdown}}
+<span class="emoji">📧</span>[khawkins98@gmail.com](mailto:khawkins98@gmail.com) &nbsp;<span class="emoji">📱</span> +44 0 74 7985 2789  &nbsp;<span class="emoji">🐦</span> @khawkins98 &nbsp;<span class="emoji">🌎</span> AllAboutKen.com  &nbsp;<span class="emoji">📇</span> Online problem solver
+{{/markdown}}
+</span>
+
+
+</div> <!-- /cvbody -->
+
+<!-- {{> footer}} -->

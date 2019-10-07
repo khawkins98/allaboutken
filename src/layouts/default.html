@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>{{this.title}} > All about Ken</title>
+    <style type="text/css">{{> criticalmincss}}</style>
+
+    <link rel="preload" href="https://khawkins98.github.io/allaboutken-framework/css/allaboutken-framework.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://khawkins98.github.io/allaboutken-framework/css/allaboutken-framework.css"></noscript>
+    <link rel="preload" href="{{root}}app.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{root}}app.css"></noscript>
+    <script>!function(e){"use strict";var t=function(t,n,r){function o(e){if(i.body)return e();setTimeout(function(){o(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=r||"all"}var l,i=e.document,d=i.createElement("link");if(n)l=n;else{var s=(i.body||i.getElementsByTagName("head")[0]).childNodes;l=s[s.length-1]}var u=i.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",o(function(){l.parentNode.insertBefore(d,n?l:l.nextSibling)});var f=function(e){for(var t=d.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){f(e)})};return d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=f,f(a),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(e){return!1}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r,r.getAttribute("media")),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){t.poly(),e.clearInterval(n)}),e.attachEvent&&e.attachEvent("onload",function(){e.clearInterval(n)})}}}(this);</script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png?v=kPxQgGG9A2">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png?v=kPxQgGG9A2">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png?v=kPxQgGG9A2">
+    <link rel="manifest" href="/manifest.json?v=kPxQgGG9A2">
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg?v=kPxQgGG9A2" color="#7759c3">
+    <link rel="shortcut icon" href="/favicon.ico?v=kPxQgGG9A2">
+    <meta name="theme-color" content="#7759c3">
+
+    <meta name="description" content="Hello. I am Ken Hawkins. Builder of websites, project planner, newspaper nerd, information architect, lover of UX, consultant. Information structure is my thing." />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="abstract" content="Hello. I am Ken Hawkins. Builder of websites, project planner, newspaper nerd, information architect, lover of UX, consultant. Information structure is my thing." />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="keywords" content="Drupal, web development, Ken Hawkins, UX, information architecture" />
+    <!-- <link rel="canonical" href="http://allaboutken.com/" />
+    <link rel="shortlink" href="http://allaboutken.com/" /> -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="All About Ken Hawkins" />
+    <meta property="og:url" content="https://work.allaboutken.com/" />
+    <meta property="og:title" content="{{title}} > All About Ken Hawkins" />
+    <meta property="og:image" content="https://work.allaboutken.com/images/crop-cinema{{image}}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@khawkins98" />
+    <meta name="twitter:site:id" content="3723201" />
+    <meta name="twitter:creator" content="@khawkins98" />
+    <meta name="twitter:creator:id" content="3723201" />
+    <meta name="twitter:url" content="https://work.allaboutken.com/" />
+    <meta name="twitter:description" content="{{teaser}}" />
+    <meta name="twitter:image" content="https://work.allaboutken.com/images/crop-cinema{{image}}" />
+    <meta name="dcterms.title" content="{{title}} > All About Ken Hawkins" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.identifier" content="http://allaboutken.com/" />
+    <meta name="dcterms.format" content="text/html" />
+    <!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="http://work.allaboutken.com/rss.xml"> -->
+    <script src="/sw-register.js"></script>
+  </head>
+  <body class="gradient">
+    <div class="grid-x grid-padding-x black-background">
+      <div class="medium-1 show-for-medium cell do-not-print"></div>
+      <div class="small-12 medium-10 cell">
+        {{> navigation}}
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x main-content-area" id="main-content-area">
+        <div class="medium-1 show-for-medium cell do-not-print"></div>
+        <div class="small-12 medium-10 print-12 cell">
+{{> body}}
+
+        </div>
+      </div>
+      <div class="small-12 do-not-print cell">
+        <p><a class="float-right small" href="/privacy">Curious about privacy?</a></p>
+      </div>
+      <code class="show-for-print-only">Printed direct from AllAboutKen.com</code>
+    </div>
+
+
+    <script src="https://khawkins98.github.io/allaboutken-framework/bower_components/jquery/dist/jquery.js"></script>
+    <!-- <script src="https://khawkins98.github.io/allaboutken-framework/bower_components/what-input/dist/what-input.js"></script> -->
+    <script src="https://khawkins98.github.io/allaboutken-framework/bower_components/foundation-sites/dist/js/foundation.js"></script>
+    <script src="{{root}}app.js"></script>
+  </body>
+</html>

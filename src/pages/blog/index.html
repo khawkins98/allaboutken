@@ -1,0 +1,38 @@
+---
+title: Blog posts
+layout: default
+url: /blog
+---
+{{#markdown}}
+# {{title}}
+{{/markdown}}
+
+<div class="medium-10 cell ">
+{{#each-reverse pages}}
+{{#ifequal this.[2].active_path "blog"}}
+<a class="block only-hover" href="{{this.[2].url}}">
+<div class="grid-x grid-padding-x margin-bottom-large">
+<div class="small-4 medium-3 large-2 cell">
+<img class="" src="{{root}}/images/crop-square{{this.[2].image}}" />
+</div>
+<div class="small-8 medium-9 large-10 cell">
+<h3>{{this.[2].title}}</h3>
+<p>{{this.[2].teaser}}</p>
+<small>{{moment this.[2].date format="YYYY MMM DD"}}</small>
+<small class="">&nbsp; | &nbsp; Topics:</small>
+{{#each this.[2].topics}}
+<span class="label">{{this}}</span>
+{{/each}}
+</div>
+</div>
+</a>
+{{/ifequal}}
+{{/each-reverse}}
+
+{{#markdown}}
+#### <span class="emoji">🐦</span> Want more from me? <a href="https://twitter.com/khawkins98" class="readmore">Head to twitter</a>
+{{/markdown}}
+
+</div>
+
+{{> footer}}

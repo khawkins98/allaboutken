@@ -1,0 +1,28 @@
+---
+title: All About Ken RSS feed
+layout: feed
+---
+<title>{{title}}</title>
+<description>The feed for All about Ken.</description>
+<link rel="self" type="application/rss+xml">https://work.allaboutken.com/rss.xml</link>
+<atom:link href="https://work.allaboutken.com/rss.xml" rel="self" type="application/rss+xml" />
+<language>en-us</language>
+<managingEditor>khawkins98@gmail.com (Ken Hawkins)</managingEditor>
+<webMaster>khawkins98@gmail.com (Ken Hawkins)</webMaster>
+{{#each-reverse pages}}
+  {{#ifequal this.[2].active_path "blog"}}
+<item>
+  <title>{{this.[2].title}}</title>
+  <description>
+<![CDATA[
+{{#markdown}}
+{{#compileBlogPostForRSS this}}{{{ ../this }}}{{/compileBlogPostForRSS}}
+{{/markdown}}
+]]>
+  </description>
+  <link>https://work.allaboutken.com{{this.[2].url}}</link>
+  <guid>https://work.allaboutken.com{{this.[2].url}}</guid>
+  <pubDate>{{this.[2].date}}</pubDate>
+</item>
+  {{/ifequal}}
+{{/each-reverse}}

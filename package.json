@@ -1,0 +1,32 @@
+{
+  "name": "allaboutken",
+  "version": "1.0.0",
+  "description": "A semi-professional site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khawkins98/allaboutken.git"
+  },
+  "author": "Ken Hawkins",
+  "license": "CC-BY-SA-3.0",
+  "bugs": {
+    "url": "https://github.com/khawkins98/allaboutken/issues"
+  },
+  "homepage": "https://github.com/khawkins98/allaboutken#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-image-resize": "^0.12.0",
+    "gulp-minifier": "^0.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.6",
+    "panini": "^2.0.0-alpha.2"
+  },
+  "dependencies": {
+    "critical": "^0.9.1"
+  }
+}
