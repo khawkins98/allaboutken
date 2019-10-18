@@ -73,7 +73,7 @@ gulp.task('images', function(done) {
   // Square crop
   gulp.src('images/**/*{.jpg,.png,.gif}')
     .pipe(resizer({
-      format: "png",
+      // format: "png",
       width: 400,
       height: 400
     }))
@@ -83,7 +83,7 @@ gulp.task('images', function(done) {
   gulp.src('./images/**/*{.jpg,.png,.gif}')
     .pipe(resizer({
       verbose: true,
-      format: "png",
+      // format: "png",
       width: 900,
       height: 600
     }))
