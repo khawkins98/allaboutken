@@ -155,11 +155,14 @@ gulp.task('watch', function(){
 });
 
 // runner tasks
-gulp.task('default', gulp.series('dev'));
 gulp.task('dev', gulp.series('init', 'static', 'panini', gulp.parallel('browser-sync', 'watch')));
 
 gulp.task('clean', gulp.series('clean:build')); // purge ./build
 gulp.task('init', gulp.series('clean:build', 'images', 'static')); // empty ./build and then make images, add static asssets
+
+// build static assets for deployment
 gulp.task('build', function() {
   return gulp.series('init', 'static', 'panini', 'critical', 'renameRss', 'minify');
-}); // for travis
+}); 
+
+gulp.task('default', gulp.series('dev'));
