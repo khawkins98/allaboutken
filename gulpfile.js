@@ -144,8 +144,8 @@ gulp.task('init', gulp.series('clean:build', 'images', 'static')); // empty ./bu
 gulp.task('dev', gulp.series('init', 'static', 'panini', gulp.parallel('browser-sync', 'watch')));
 
 // build static assets for deployment
-gulp.task('build', function() {
-  return gulp.series('init', 'static', 'panini', 'critical', 'renameRss', 'minify');
-}); 
+gulp.task('build', 
+  gulp.series('init', 'static', 'panini', 'critical', 'renameRss', 'minify')
+); 
 
 gulp.task('default', gulp.series('dev'));
