@@ -155,12 +155,11 @@ gulp.task('watch', function(){
 });
 
 // runner tasks
-gulp.task('default', gulp.series('static', 'panini', gulp.parallel('browser-sync', 'watch')));
+gulp.task('default', gulp.series('dev'));
+gulp.task('dev', gulp.series('init', 'static', 'panini', gulp.parallel('browser-sync', 'watch')));
 
 gulp.task('clean', gulp.series('clean:build')); // purge ./build
 gulp.task('init', gulp.series('clean:build', 'images', 'static')); // empty ./build and then make images, add static asssets
-gulp.task('deploy', function() {
-  gulp.series('static', 'panini', 'critical', 'renameRss', 'minify')(function (err) {
-    if (err) console.log(err)
-  })
+gulp.task('build', function() {
+  return gulp.series('init', 'static', 'panini', 'critical', 'renameRss', 'minify');
 }); // for travis

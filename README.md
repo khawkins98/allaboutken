@@ -7,13 +7,8 @@ A semi-professional site
 ## Developing
 
 - Local development
-  - `gulp` build the content and serve locally via browserlab
+  - `gulp dev` build and serve locally via browserlab
   - `gulp init` build any image asssets
-- Prep for deployment
-  - `gulp clean`
-  - `gulp init`
-  - Commit
-  - Most content assets built by travis and sent to gh-pages branch (`gulp deploy`)
 - Troubleshooting
   - `gulp clean`
 

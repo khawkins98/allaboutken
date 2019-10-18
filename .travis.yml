@@ -9,7 +9,7 @@ install:
 before_script:
   - npm install -g gulp-cli
 
-script: gulp deploy
+script: gulp build
 
 deploy:
   provider: pages
