@@ -1,11 +1,11 @@
 const gulp = require('gulp');
-var minify = require('gulp-minifier');
+const minify = require('gulp-minifier');
 const panini = require('panini/gulp');
-var browserSync = require('browser-sync').create();
-var del = require('del');
-var imageResize = require('gulp-image-resize');
-var critical = require('critical');
-var rename = require('gulp-rename');
+const browserSync = require('browser-sync').create();
+const del = require('del');
+const critical = require('critical');
+const rename = require('gulp-rename');
+const resizer = require('gulp-images-resizer');
 
 gulp.task('panini', () => {
   return panini('src', {
@@ -63,31 +63,33 @@ gulp.task('browser-sync', function() {
   });
 });
 
-// process images, this is run on your local before pushing to git
-// if you need to install imagemagick
-//   brew install graphicsmagick
-gulp.task('images', function () {
-  gulp.src('./images/**/*')
+// process images
+gulp.task('images', function(done) {
+
+  // Copy of the original
+  gulp.src('images/**/*.*')
     .pipe(gulp.dest('build/images/original/'));
 
   // Square crop
-  gulp.src('./images/**/*{.jpg,.png,.gif}')
-    .pipe(imageResize({
-      width : 400,
-      height : 400,
-      crop : true,
-      upscale : false
+  gulp.src('images/**/*{.jpg,.png,.gif}')
+    .pipe(resizer({
+      format: "png",
+      width: 400,
+      height: 400
     }))
     .pipe(gulp.dest('build/images/crop-square/'));
+
   // Cinematic crop
   gulp.src('./images/**/*{.jpg,.png,.gif}')
-    .pipe(imageResize({
-      width : 900,
-      height : 600,
-      crop : true,
-      upscale : false
+    .pipe(resizer({
+      verbose: true,
+      format: "png",
+      width: 900,
+      height: 600
     }))
-    .pipe(gulp.dest('build/images/crop-cinema/'));
+    .pipe(gulp.dest('build/images/crop-cinema/'))
+    .on('end', done);
+
 });
 
 // empty out the build folder
