@@ -7,6 +7,7 @@ A semi-professional site
 ## Developing
 
 - Local development
+  - You'll need graphicsmagick to prep the images: `brew install graphicsmagick`
   - `gulp dev` build and serve locally via browserlab
   - `gulp init` build any image asssets
 - Troubleshooting

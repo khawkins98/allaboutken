@@ -1,13 +1,9 @@
 const gulp = require('gulp');
-// var pug = require('gulp-pug');
-// var less = require('gulp-less');
 var minify = require('gulp-minifier');
-// var minifyCSS = require('gulp-csso');
 const panini = require('panini/gulp');
 var browserSync = require('browser-sync').create();
 var del = require('del');
 var imageResize = require('gulp-image-resize');
-var gulpSequence = require('gulp-sequence').use(gulp);
 var critical = require('critical');
 var rename = require('gulp-rename');
 
@@ -42,19 +38,6 @@ gulp.task('critical', function() {
   });
 });
 
-// gulp.task('html', function(){
-  // return gulp.src('client/templates/*.pug')
-  //   .pipe(pug())
-  //   .pipe(gulp.dest('build/html'))
-// });
-
-// gulp.task('css', function(){
-//   return gulp.src('build/app.css')
-//     // .pipe(less())
-//     .pipe(minifyCSS())
-//     .pipe(gulp.dest('build'))
-// });
-
 gulp.task('minify', function() {
   return gulp.src('build/**/*').pipe(minify({
     minify: true,
@@ -68,7 +51,6 @@ gulp.task('minify', function() {
     }
   })).pipe(gulp.dest('build'));
 });
-
 
 gulp.task('browser-sync', function() {
   browserSync.init({
@@ -155,10 +137,9 @@ gulp.task('watch', function(){
 });
 
 // runner tasks
-gulp.task('dev', gulp.series('init', 'static', 'panini', gulp.parallel('browser-sync', 'watch')));
-
 gulp.task('clean', gulp.series('clean:build')); // purge ./build
 gulp.task('init', gulp.series('clean:build', 'images', 'static')); // empty ./build and then make images, add static asssets
+gulp.task('dev', gulp.series('init', 'static', 'panini', gulp.parallel('browser-sync', 'watch')));
 
 // build static assets for deployment
 gulp.task('build', function() {
