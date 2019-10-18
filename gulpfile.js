@@ -25,7 +25,7 @@ gulp.task('panini', () => {
 
 // https://github.com/addyosmani/critical
 gulp.task('critical', function() {
-  critical.generate({
+  return critical.generate({
     // inline: true,
     base: './',
     src: 'build/index.html',
@@ -133,32 +133,34 @@ gulp.task('renameRss', function () {
 });
 
 // refresh panini's helpers, templates
-gulp.task('refresh', function () {
+gulp.task('refresh', function (done) {
   // panini.refresh();
   panini.create();
+  done();
   // gulp.start('panini');
 });
 
-gulp.task('refreshBrowser', function () {
+gulp.task('refreshBrowser', function (done) {
   setTimeout(function() {
     browserSync.reload();
+    done();
   }, 500); // wait for the filesystem to write
 });
 
-// runner tasks
-gulp.task('default', ['static', 'panini', 'critical', 'browser-sync'], function() {
-  var watcher = gulp.watch(['./{src,static}/**/*'], function(event) {
-    console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
-    gulpSequence(['refresh', 'static'], 'panini', 'renameRss', 'refreshBrowser')(function (err) {
-      if (err) console.log(err)
-    })
-  });
+// watch task
+gulp.task('watch', function(){
+  gulp.watch(['./{src,static}/**/*'], 
+    gulp.series('refresh', 'static', 'panini', 'renameRss', 'refreshBrowser')
+  );
 });
 
-gulp.task('clean', ['clean:build']); // purge ./build
-gulp.task('init', ['clean:build', 'images', 'static']); // empty ./build and then make images, add static asssets
+// runner tasks
+gulp.task('default', gulp.series('static', 'panini', gulp.parallel('browser-sync', 'watch')));
+
+gulp.task('clean', gulp.series('clean:build')); // purge ./build
+gulp.task('init', gulp.series('clean:build', 'images', 'static')); // empty ./build and then make images, add static asssets
 gulp.task('deploy', function() {
-  gulpSequence('static', 'panini', 'renameRss', 'minify')(function (err) {
+  gulp.series('static', 'panini', 'critical', 'renameRss', 'minify')(function (err) {
     if (err) console.log(err)
   })
 }); // for travis

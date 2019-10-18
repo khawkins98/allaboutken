@@ -19,7 +19,7 @@
   "devDependencies": {
     "browser-sync": "^2.18.12",
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-image-resize": "^0.12.0",
     "gulp-minifier": "^0.2.2",
     "gulp-rename": "^1.2.2",
