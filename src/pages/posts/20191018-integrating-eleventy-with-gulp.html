@@ -40,13 +40,15 @@ We wanted to:
 
 There are methods to achieve part 1 but not with part 2 and 3. But we made a solution. 
 
-Read on.
+> #### tl;dr: I forked 11ty’s cmd.js to better integrate with gulp and other Node JS. I hope Eleventy’s maintainer’s can take some inspiration from this. I made [a demo at khawkins98/gulp-eleventy](https://github.com/khawkins98/gulp-eleventy).
 
+Still here? Great. Read on.
 
-> #### tl;dr: I forked 11ty’s cmd.js to better integrate with gulp and other Node JS. I hope Eleventy’s maintainer’s can take some inspiration from this. I made [a demo repository](https://github.com/khawkins98/gulp-eleventy).
+<br/>
 
+#### Scenario
 
-## Hi. I’m some data, please use me
+## I’m a parent process with some data, please use it
 
 Fractal’s component management creates a really useful JavaScript object that lists the component file structure and contents of components; an illustrative example:
 
@@ -98,7 +100,7 @@ Gulp can now ask Eleveny to be more of true child task
 
 Eleventy should write files and then Gulp can go on to the next task:
 
-```
+```js
 gulp.task('eleventy:build', function(done) {
   elev.write().then(function() {
     console.log('Done building 11ty');
@@ -109,7 +111,7 @@ gulp.task('eleventy:build', function(done) {
 
 Do a deep rebuild of Eleventy when a file outside of Eleventy’s scope changes or an event trigger is received: 
 
-```
+```js
 gulp.task('eleventy:reload', function(done) {
   elev.restart()
   elev.write()
