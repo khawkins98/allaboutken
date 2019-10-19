@@ -81,7 +81,7 @@ fractalComponents = {
 {% render '@myNavComponent', {passedParam: 'An Example'} %}
 ```
 
-Which is great as it allows us to npm-install components and not have to move/symlink the Nunjucks templates into Eleventy `src/` directory — and it keeps syntax consistent across environemnts.
+Which is great as it allows us to `npm install` components and not have to move/symlink the Nunjucks templates into Eleventy `src/` directory — and it keeps syntax consistent across environments.
 
 In principle we could get Eleventy to do the same tasks, scanning the file system and rendering our templates -- but we didn’t want to duplicate our build process -- especially considering that both Eleventy and Fractal were already running in Node JS. 
 
@@ -91,7 +91,7 @@ So, that means we've got some in-memory data we'd really like for Eleventy to re
 
 In our use case we're editing files locally and want a Task A (Fractal) to be able to see changes, updates its data and feed it to Task B (Eleventy). 
 
-Eleventy's current design is a non-issue for our production builds. There Fractal generates the data and just hands it off to Eleventy. (That said: I could envision a scenario where part of the build process the Eleventy proces might want to feed data to some Process C for dynamic rendering.)
+Eleventy's current design is a non-issue for our production builds. For production, Fractal generates the data and just hands it off to Eleventy. (That said: I could envision a scenario where part of the build process the Eleventy process might want to feed data to some Process C for dynamic rendering.)
 
 <br/>
 
@@ -99,52 +99,87 @@ Eleventy's current design is a non-issue for our production builds. There Fracta
 
 ## Designing our solution 
 
-As previously mentioined, Eleventy has a very nice feature supporting [JavaScript data files](https://www.11ty.io/docs/data-js/). And as with most `watch` command's Eleventy's [watch](https://www.11ty.io/docs/usage/#re-run-eleventy-when-you-save) observes only file-system changes — that means we need our upstream task (gulp) to be able to trigger an Eleventy rebuild for local development. 
+As previously mentioned, Eleventy has a very nice feature supporting [JavaScript data files](https://www.11ty.io/docs/data-js/). And as with most `watch` command's Eleventy's [watch](https://www.11ty.io/docs/usage/#re-run-eleventy-when-you-save) observes only file-system changes — that means we need our upstream task (gulp) to be able to trigger an Eleventy rebuild for local development. 
 
-So our desired scenario looks like this:
+So a conceptual example for our desired scenario looks like the below.
 
-1. Have an Eleventy a [data file](https://www.11ty.io/docs/data-js/) pull in a variable 
+1. Have some upstream data that we want to pass to Eleventy.
 
 ```js
-// ./src/site/_data/fractalComponents.js
-// Capture our components
+// Generate a sample list of all files in a scope outside of Eleventy
+gulp.task('file-list', function () {
+  global.fileList = []; // we could pass by not using a `global`, but this is the simplest for an example 
+  return gulp.src(['./somePath/**/*.{njk,html,js,md}'])
+    .pipe(through.obj(function (file, enc, cb) {
+      global.fileList.push(file.path);
+      cb(null);
+    }));
+});
+``` 
+<br/>
+
+2. Have an Eleventy [data file](https://www.11ty.io/docs/data-js/) pull in a variable.
+
+```js
+// ./src/site/_data/fileList.js
+// Capture the sample list of all files from gulp
+// for demonstration Gulp integration with Eleventy
 module.exports = {
-  components: upStreamFractalComponentObject
+  files: global.fileList
 };
-```
+``` 
+<br/>
 
-2. On a targeted change event, have Gulp invoke ask Eleventy to rebuilt
+3. On a targeted change event, have Gulp invoke ask Eleventy to rebuilt.
 
 ```js
-// For our case this is inside a gulp task, but it doesn't have to be
+// Watch something for changes
+gulp.task('watch', function() {
+  gulp.watch(['./src/**/*.{njk,html,js,md'], gulp.series('file-list', 'eleventy:reload'));
+});
+
+// Or another scenario with an `.on` event triggering a refresh
 let fractal = require(fractalConfig).initialize();
 fractal.components.on('updated', function() {
   elev.restart();
   elev.write();
 }
-```
 
-That means we want to do some local development, let a parent process update a variable and and then ask  Eleventy to trigger a rebuild, pulling in the new data by the Eleventy JS data file.
+// Refresh eleventy
+gulp.task('eleventy:reload', function(done) {
+  elev.restart()
+  elev.write()
+});
+```
+<br/>
+
+Recap: we want to do some local development, let a parent process update a variable and and then ask  Eleventy to trigger a rebuild, pulling in the new data by the Eleventy JS data file.
 
 <br/>
 
-#### Getting Eleventy to hear Fractal's updates
+#### Eleventy, can you hear me? 
 
-## Elventy, can you hear me? 
-
-
-Eleventy’s main execution lives in [`cmd.js`](https://github.com/11ty/eleventy/blob/master/cmd.js) and the `elev` variable we need access to lives inside a `try` statement with no exports.
+## Making it happen
 
 
-I forked 11ty’s cmd.js to better integrate with gulp. 
+Eleventy’s entry is [`cmd.js`](https://github.com/11ty/eleventy/blob/master/cmd.js) and we need access to `elev` — but that unfortunately is inside a `try` statement. 
 
-I hope the project takes some inspiration from this. 
+So I forked 11ty’s cmd.js in the local project. Those changes better integrate with external JS with a few minor changes but it's all about a key change: `module.exports = elev;`
 
-I have a demo repository: https://github.com/khawkins98/gulp-eleventy
+In this way Gulp, or any other Node process, can now use Eleventy as a child task.
 
-Gulp can now ask Eleveny to be more of true child task
+### How? Like this
 
-Eleventy should write files and then Gulp can go on to the next task:
+1. Set up Eleventy using our forked local command file.
+
+```js
+// Prepare eleventy
+process.argv.push('--config=eleventy.js'); // Eleventy config
+const elev = require('./eleventy-cmd.js');
+```
+<br/>
+
+2. We aks eleventy to do its initial build.
 
 ```js
 gulp.task('eleventy:build', function(done) {
@@ -154,8 +189,9 @@ gulp.task('eleventy:build', function(done) {
   });
 });
 ```
+<br/>
 
-Do a deep rebuild of Eleventy when a file outside of Eleventy’s scope changes or an event trigger is received: 
+3. Do a deep rebuild of Eleventy when a file outside of Eleventy’s scope changes or an event trigger is received.
 
 ```js
 gulp.task('eleventy:reload', function(done) {
@@ -166,14 +202,27 @@ gulp.task('eleventy:reload', function(done) {
 
 <br/>
 
+This change works well for us but we'll of course need to make sure our local `cmd.js` incorporates any upstream changes (we forked it from Eleventy 0.9.0)
+
+<br/>
+
+#### Enough talking
+
+## Try it out
+
+I made a demo repository that you can clone locally and `npm install`: [github.com/khawkins98/gulp-eleventy](https://github.com/khawkins98/gulp-eleventy)
+
+
+<br/><br/>
+
+<hr/>
+
 #### Appended
 
-## Child process won’t get us there <a name="child_process" />
+## A child process won’t get us there <a name="child_process" />
 ### Unless you like dumping memory to disk
 
-One method we initially considered was using Node’s [`child_process`](https://nodejs.org/api/child_process.html). This is quite clean and is used below by zellwk.com:
-
-From [`master/gulp/eleventy.js`](https://github.com/zellwk/zellwk.com/blob/master/gulp/eleventy.js)
+One method we initially considered for our need was to use Node’s [`child_process`](https://nodejs.org/api/child_process.html). This is quite clean and is used below by zellwk.com; from [`zellwk/zellwk.com/blob/master/gulp/eleventy.js`](https://github.com/zellwk/zellwk.com/blob/master/gulp/eleventy.js)
 
 ```js
 const exec = require('child_process').exec
@@ -188,18 +237,18 @@ const eleventy = cb => {
   })
 }
 ```
+<br/>
 
-Using this method you’re also able to run Eleventy with a nice callback on completion — the downside to this method is there’s no clean way to pass in-memory objects to the `child_process`, you’d need to stringify:
+Using this method you’re also able to run Eleventy with a nice callback on completion — the downside to this method is there’s no clean way to pass in-memory objects to the `child_process`, you’d need to stringify your variables:
 
 ```js
 require('child_process').fork('./child.js', [], { env: { FOO: 'bar' } });
 ```
 
-Far from impossible, but unpleasant. And you’d also need to re-invoke Eleventy every time during local development, losing Eleventy’s `watch` command.
+For us there are two deal breakers with this method:
 
-What we want to do is get Eleventy playing in the same process as our other Node JS. 
-
-
+- The object we want to pass is quite large and we'd rather not risk issues with stringification. 
+- We'd also need to destroy and re-invoke Eleventy every time during local development, losing access to `elev.restart()` and `elev.write()`
 
 <!--
 <div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
