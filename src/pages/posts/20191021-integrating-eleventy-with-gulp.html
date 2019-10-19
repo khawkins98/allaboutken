@@ -4,7 +4,7 @@ layout: default
 teaser: "Eleventy <a href='https://www.11ty.io/docs'>notes that</a> it, \"works great with data — use both front matter and external data files\" but the static site generator stops short of working well with upstream in-memory data objects for local development."
 image: "/blog/dripping-faucet.jpg"
 date: 2019-10-21
-url: /posts/20191018-integrating-eleventy-with-gulp.html
+url: /posts/20191021-integrating-eleventy-with-gulp.html
 active_path: blog
 topics:
   - gulp, Eleventy, EMBL
@@ -75,15 +75,13 @@ fractalComponents = {
      }
      … and so on
 ```
-<br/>Fractal also enables component Nunjucks templates can be invoked like:
+<br/>Also, Fractal enables component Nunjucks templates can be invoked like:
 
-```
-{% render '@myNavComponent', {passedParam: 'An Example'} %}
-```
+`{% render '@myNavComponent', {passedParam: 'An Example'} %}`
 
 Which is great as it allows us to `npm install` components and not have to move/symlink the Nunjucks templates into Eleventy `src/` directory — and it keeps syntax consistent across environments.
 
-In principle we could get Eleventy to do the same tasks, scanning the file system and rendering our templates -- but we didn’t want to duplicate our build process -- especially considering that both Eleventy and Fractal were already running in Node JS. 
+In principle we could get Eleventy to do the same tasks, scanning the file system and rendering our templates — but we didn’t want to duplicate our build process — especially considering that both Eleventy and Fractal were already running in Node JS. 
 
 So, that means we've got some in-memory data we'd really like for Eleventy to receive, and receive updates to if a component is added or edited. 
 
