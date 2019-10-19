@@ -32,8 +32,8 @@ gulp.task('critical', function() {
       height: 200,
       width: 500
     }, {
-        height: 900,
-        width: 1200
+      height: 900,
+      width: 1200
     }]
   });
 });
@@ -46,8 +46,8 @@ gulp.task('minify', function() {
     minifyJS: false,
     minifyCSS: true,
     getKeptComment: function (content, filePath) {
-        var m = content.match(/\/\*![\s\S]*?\*\//img);
-        return m && m.join('\n') + '\n' || '';
+      var m = content.match(/\/\*![\s\S]*?\*\//img);
+      return m && m.join('\n') + '\n' || '';
     }
   })).pipe(gulp.dest('build'));
 });
