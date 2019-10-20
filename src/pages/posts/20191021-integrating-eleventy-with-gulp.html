@@ -30,11 +30,11 @@ topics:
 
 <p class="lead">{{{teaser}}}</p>
 
-This post is prompted by a project for a highly-modular design system as part of my work for [EMBL](https://www.embl.de) — a leading laboratory for the life sciences. We're using Eleventy with gulp (for task running and building) and [Fractal](https://fractal.build) (for design components). 
+This post is prompted by a project for a highly-modular design system as part of my work for [EMBL](https://www.embl.de) — a leading laboratory for the life sciences. We're [using](https://github.com/visual-framework/vf-eleventy) Eleventy with gulp (for task running and building) and [Fractal](https://fractal.build) (for design components). 
 
 We wanted to:
 
-1. Have gulp to trigger a build of Eleventy
+1. Have gulp trigger builds of Eleventy
 1. Utilise Eleventy’s watch/refresh commands for local development
 1. Send variables to Eleventy’s JavaScript data files from gulp (or other Node JS tasks)
 
@@ -153,6 +153,56 @@ gulp.task('eleventy:reload', function(done) {
 
 Recap: we want to do some local development, let a parent process update a variable and and then ask  Eleventy to trigger a rebuild, pulling in the new data by the Eleventy JS data file.
 
+{{/markdown}}
+
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <div class="large-1 medium-2 cell"></div>
+  <figure class="large-10 medium-8 cell">
+  <hr/>
+{{#markdown}}
+
+#### Aside
+
+## A child process won’t get us there <a name="child_process" />
+### Unless you like dumping memory to disk
+
+One method we initially considered for our need was to use Node’s [`child_process`](https://nodejs.org/api/child_process.html). This is quite clean and is used below by zellwk.com; from [`zellwk/zellwk.com/blob/master/gulp/eleventy.js`](https://github.com/zellwk/zellwk.com/blob/master/gulp/eleventy.js)
+
+```js
+const exec = require('child_process').exec
+
+const eleventy = cb => {
+  const command = 'eleventy'
+
+  exec(command, function (err, stdout, stderr) {
+    console.log(stdout)
+    console.log(stderr)
+    cb(err)
+  })
+}
+```
+<br/>
+
+Using this method you’re also able to run Eleventy with a nice callback on completion — the downside to this method is there’s no clean way to pass in-memory objects to the `child_process`, you’d need to stringify your variables:
+
+```js
+require('child_process').fork('./child.js', [], { env: { FOO: 'bar' } });
+```
+
+For us there are two deal breakers with this method:
+
+- The object we want to pass is quite large and we'd rather not risk issues with stringification. 
+- We'd also need to destroy and re-invoke Eleventy every time during local development, losing access to `elev.restart()` and `elev.write()`
+{{/markdown}}
+  <hr/>
+  </figure>
+</div>
+
+<br/>
+
+{{#markdown}}
+
+
 <br/>
 
 #### Eleventy, can you hear me? 
@@ -206,47 +256,20 @@ This change works well for us but we'll of course need to make sure our local `c
 
 #### Enough talking
 
-## Try it out
+## Here's some code to try
 
-I made a demo repository that you can clone locally and `npm install`: [github.com/khawkins98/gulp-eleventy](https://github.com/khawkins98/gulp-eleventy)
+I made a demo repository using this approach that you can clone locally and `npm install`: [github.com/khawkins98/gulp-eleventy](https://github.com/khawkins98/gulp-eleventy)
+
+If you have feedback, I'd love to hear it. Either [as an issue](https://github.com/khawkins98/gulp-eleventy/issues) or on [Twitter @khawkins98](https://twitter.com/khawkins98)
+
+### What's next
+
+- I'll likely make an issue on Eleventy about supporting this
+- If that doesn't get support (or I feel inspired) I may also make an npm `gulp-eleventy` package
 
 
-<br/><br/>
+{{/markdown}}
 
-<hr/>
-
-#### Appended
-
-## A child process won’t get us there <a name="child_process" />
-### Unless you like dumping memory to disk
-
-One method we initially considered for our need was to use Node’s [`child_process`](https://nodejs.org/api/child_process.html). This is quite clean and is used below by zellwk.com; from [`zellwk/zellwk.com/blob/master/gulp/eleventy.js`](https://github.com/zellwk/zellwk.com/blob/master/gulp/eleventy.js)
-
-```js
-const exec = require('child_process').exec
-
-const eleventy = cb => {
-  const command = 'eleventy'
-
-  exec(command, function (err, stdout, stderr) {
-    console.log(stdout)
-    console.log(stderr)
-    cb(err)
-  })
-}
-```
-<br/>
-
-Using this method you’re also able to run Eleventy with a nice callback on completion — the downside to this method is there’s no clean way to pass in-memory objects to the `child_process`, you’d need to stringify your variables:
-
-```js
-require('child_process').fork('./child.js', [], { env: { FOO: 'bar' } });
-```
-
-For us there are two deal breakers with this method:
-
-- The object we want to pass is quite large and we'd rather not risk issues with stringification. 
-- We'd also need to destroy and re-invoke Eleventy every time during local development, losing access to `elev.restart()` and `elev.write()`
 
 <!--
 <div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
@@ -258,7 +281,6 @@ For us there are two deal breakers with this method:
 </div>
 -->
 
-{{/markdown}}
 </div>
 
 {{> footer}}
