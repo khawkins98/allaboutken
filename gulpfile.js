@@ -44,6 +44,10 @@ gulp.task('minify', function() {
     collapseWhitespace: true,
     conservativeCollapse: true,
     minifyJS: false,
+    minifyHTML: {
+      collapseWhitespace: true,
+      conservativeCollapse: true,
+    },
     minifyCSS: true,
     getKeptComment: function (content, filePath) {
       var m = content.match(/\/\*![\s\S]*?\*\//img);
@@ -134,14 +138,14 @@ gulp.task('refreshBrowser', function (done) {
 // watch task
 gulp.task('watch', function(){
   gulp.watch(['./{src,static}/**/*'], 
-    gulp.series('refresh', 'static', 'panini', 'renameRss', 'refreshBrowser')
+    gulp.series('refresh', 'static', 'panini', 'renameRss', 'minify', 'refreshBrowser')
   );
 });
 
 // runner tasks
 gulp.task('clean', gulp.series('clean:build')); // purge ./build
 gulp.task('init', gulp.series('clean:build', 'images', 'static')); // empty ./build and then make images, add static asssets
-gulp.task('dev', gulp.series('init', 'static', 'panini', gulp.parallel('browser-sync', 'watch')));
+gulp.task('dev', gulp.series('init', 'static', 'panini', 'minify', gulp.parallel('browser-sync', 'watch')));
 
 // build static assets for deployment
 gulp.task('build', 
