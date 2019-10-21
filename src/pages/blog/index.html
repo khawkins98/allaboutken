@@ -17,7 +17,7 @@ url: /blog
 </div>
 <div class="small-8 medium-9 large-10 cell">
 <h3>{{this.[2].title}}</h3>
-<p>{{this.[2].teaser}}</p>
+<p>{{sanitize this.[2].teaser}}</p>
 <small>{{moment this.[2].date format="YYYY MMM DD"}}</small>
 <small class="">&nbsp; | &nbsp; Topics:</small>
 {{#each this.[2].topics}}
