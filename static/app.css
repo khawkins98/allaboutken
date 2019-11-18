@@ -1,9 +1,9 @@
 /* to be moved to framework */
-li + li {
+.main-content-area li + li {
   margin-top: .25rem;
 }
 
-li > p {
+.main-content-area li > p {
   margin-top: 1rem;
 }
 
