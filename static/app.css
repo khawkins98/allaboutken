@@ -6,3 +6,7 @@ li + li {
 li > p {
   margin-top: 1rem;
 }
+
+.main-content-area h2 {
+  margin-top: 4rem;
+}
