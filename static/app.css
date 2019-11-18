@@ -10,3 +10,9 @@ li > p {
 .main-content-area h2 {
   margin-top: 4rem;
 }
+.main-content-area h3 + h2 {
+  margin-top:0rem;
+}
+.main-content-area h3 {
+  margin-top:4rem;
+}
