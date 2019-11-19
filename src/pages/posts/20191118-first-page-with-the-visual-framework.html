@@ -119,7 +119,7 @@ With that in mind, we’ll carry on and focus on the CSS.
 
 There are a few principles to understand when working with Visual Framework:
 
-1. **HTML nesting matters for layout** 
+1. **The grid and HTML nesting** 
 
    The VF makes use of [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) which is quite clever and you should have some basic understanding of how it works, but here are some common tips.
 
@@ -163,12 +163,10 @@ There are a few principles to understand when working with Visual Framework:
 
 .vf-grid { margin-bottom: 1rem }</pre>
 </div>
-<figcaption>Note the &lt;h2> is irrelevant for the Visual Framework; using &lt;span> works equally well (if semantically a bit daft).</figcaption>
+<figcaption></figcaption>
 </figure>
 {{#markdown}}
 
-
-   - You can specify a set number of columns `vf-grid | vf-grid__col-3`
 
 {{/markdown}}
 <figure class="cell callout">
@@ -196,16 +194,15 @@ There are a few principles to understand when working with Visual Framework:
 
 .vf-grid { margin-bottom: 1rem }</pre>
 </div>
-<figcaption>Yoxxxxu may need to use the "zoom" feature to see the layout.</figcaption>
+<figcaption>You can specify a set number of columns `vf-grid | vf-grid__col-3`.</figcaption>
 </figure>
 {{#markdown}}
 
-   - If you want to make a custom centred layout
+   - If you want to make a custom layout
      ```html
-     <div class="vf-grid vf-grid__col-4">
-       <div><!--Empty column--></div>
-       <div class="vf-grid__col--span-2">my centred stuff</div>
-       <div><!--Empty column--></div>
+     <div class="vf-grid vf-grid__col-3"> 
+       <div>I cover 1 of 3</div>
+       <div class="vf-grid__col--span-2">I cover 2 of 3 columns</div>
      </div>
      ```
 
@@ -221,10 +218,9 @@ There are a few principles to understand when working with Visual Framework:
   data-theme-id="1"
   data-default-tab="result" 
 >
-<pre data-lang="html">&lt;div class="vf-grid vf-grid__col-4">
-  &lt;div>&lt;!--Empty column-->&lt;/div>
-  &lt;div class="vf-grid__col--span-2">my centred stuff&lt;/div>
-  &lt;div>&lt;!--Empty column-->&lt;/div>
+<pre data-lang="html">&lt;div class="vf-grid vf-grid__col-3">
+  &lt;div>I cover 1 of 3&lt;/div>
+  &lt;div class="vf-grid__col--span-2">I cover 2 of 3 columns&lt;/div>
 &lt;/div>
 
 &lt;link rel="stylesheet" href="https://dev.assets.emblstatic.net/vf/v2.0.0-beta.6/css/styles.css"></pre>
@@ -232,11 +228,11 @@ There are a few principles to understand when working with Visual Framework:
 
 .vf-grid { margin-bottom: 1rem }</pre>
 </div>
-<figcaption>You may need to use the "zoom" feature to see the layout.</figcaption>
+<figcaption></figcaption>
 </figure>
 {{#markdown}}
 
-  - The grid layout often expects child elements. If something doesn't look write, you're probably missing a `<div></div>`.
+  The grid layout often expects child elements. If something doesn't look write, you're probably missing a `<div></div>`.
 
 2. **What dashes and underscores mean**
 
@@ -250,7 +246,7 @@ There are a few principles to understand when working with Visual Framework:
 
 3. **Pipes, mixes and chaining CSS classes**
 
-   You may find that a component contains classes from another. This is “[BEM mix](http://getbem.com/faq/#why-the-modifier-classes-are-prefixed)”, it might look like:
+   You may find that a component contains classes from another. This is a “[BEM mix](http://getbem.com/faq/#why-the-modifier-classes-are-prefixed)”, it might look like:
    
    ```html
    <header class="vf-page-header">
