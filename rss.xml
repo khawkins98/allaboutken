@@ -1,0 +1,2049 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+<title>All About Ken RSS feed</title>
+<description>The feed for All about Ken.</description>
+<link rel="self" type="application/rss+xml">https://work.allaboutken.com/rss.xml</link>
+<atom:link href="https://work.allaboutken.com/rss.xml" rel="self" type="application/rss+xml" />
+<language>en-us</language>
+<managingEditor>khawkins98@gmail.com (Ken Hawkins)</managingEditor>
+<webMaster>khawkins98@gmail.com (Ken Hawkins)</webMaster>
+<item>
+  <title>Publishing since the 2000s</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <figure class="large-10 medium-8 cell callout"><img class="padding-bottom-medium" alt="Tightly pairing Fractal and Eleventy can be done" src="../images/original/blog/20years-ibook-g4.jpg" />
+    <figcaption>Thanks to the Wayback Machine miracle, we can enjoy <a href="https://web.archive.org/web/20020120145620/http://envmedia.com/">this snapshot</a> of one of my more serious early websites: made for the video company Environmental Media, it had search, Flash video clips and an online shop with a shopping basket and checkout, way back in 2001! Quite a feat for a young me. &mdash; I really liked that little laptop. Background image of that iBook G4 <a href="https://www.flickr.com/photos/adrians/60475676/in/photolist-6kXj5-6kXju-vLsWz-4vP5r-6kXiE-8XfChT-3nMs4M-8tW8x-4vP4p-3HbLZ-4vP4R-39rR4-tgYum-JFXpj-2WpK-sNPvX-3G1TX-4kYng-avNgY-3G1Ya-5yBD6-3G1ZW-22W9V-4pEAaE-4dFecP-8MtD4L-cjrci-92fzYP-92iGn7-5CTN5t-36qRks-3HbHh-95nW-2E7io-4MHkbU-3HbGM-3G22i-2vrNs1-2UJcTG-3HbLd-8DfTn-3HbPf-3G1Wa-3G1WY-68JV5-7RbA7t-36Szh-3HbMx-3G1Vk-3HbKv">by Adriam MB</a>.</figcaption>
+  </figure>
+</div>
+<p>   <span class="label">Filed in: career, reflection</span></p>
+<div class="grid-x">
+<div class="large-11 medium-12 cell">
+<h1>Publishing since the 2000s</h1>
+</div>
+</div>
+<div class="grid-x">
+<div class="large-9 medium-12 cell">
+<p class="lead">In a career of 20 years, the more things change the more they stay the same.</p>
+<p>Last weekend I stumbled upon a folder of clips from my newspaper work, bringing the realisation it's been 20 years since my first newspaper gig in January 2000.</p>
+<!--I will resist reciting my career (for that [you can visit my CV page](https://work.allaboutken.com/cv/)), but I'll indulge in a little bit of reflection.-->
+<p>How different things seem now.</p>
+<p>It's hard to not notice the change in technology and speed. Partly that’s from moving from infographics for print-focused newspapers (<a href="../images/original/blog/20years-house-move.pdf">example</a>) to digital publishing.</p>
+<p>But in print publishing and online, technology changes have been tremendous — so much so you’d think it was <em>the</em> change.</p>
+<figure class="callout">
+  <img class="padding-bottom-medium" alt="Tightly pairing Fractal and Eleventy can be done" src="../images/original/blog/20years-rebuilding-quark.gif" />
+    <figcaption>A fabricated bit of Mac OS 7 and Quark nostalgia &mdash; just like the good ol' days.</figcaption>
+</figure>
+<p>My daily software in 2000 was Quark 4 on Mac OS 7. I don’t think there's anything about that duo to be nostalgic for, other than for a fragile software environment encouraged you to focus. Or you could use <a href="https://en.wikipedia.org/wiki/MultiFinder">&quot;cooperative&quot; multitasking</a> that would eat away at your dozens of MBs of RAM and likely bring a reboot.</p>
+<style>
+@media print, screen and (min-width: 75em) {
+  .sidebar-figure {
+    max-width: 500px;
+    float: right;
+    margin-right: -8rem;
+    margin-left: 1.5rem;
+  }
+}
+</style>
+<p>You were always one bad PostScript ad placement away from a system lock and losing 30 minutes of work.</p>
+<!-- For those who didn’t use it or have forgotten, it looked like: 
+<div class="grid-x">
+<figure class="large-10 medium-8 cell callout"><img class="padding-bottom-medium" alt="Tightly pairing Fractal and Eleventy can be done" src="../images/original/blog/20years-quark.jpg" />
+  <figcaption>I don’t think there's anything about QuarkXPress 4 on Mac OS 7 to be nostalgic for, other than the lack of real multi-tasking and fragility of the environment meant that you stayed focused on the task. No switching out for a bit of quick website reading, unless you wanted the whole system to reboot. <a href="http://main.system7today.com/software/quark/screenshot.html">Source: System7Today</a></figcaption>
+</figure>
+</div>
+-->
+<p>Fancier things like Quark 5 and Adobe's InDesign were already shaking things up (did I ever want that optical kerning), but they were too new and simply weren’t trusted for our daily production needs and printing and waxing.</p>
+<p>From a <a href="https://www.macworld.com/article/1013910/quarkvsindesign.html">MacWorld column</a> in January 1999:</p>
+<blockquote>
+<p>InDesign is that it runs relatively briskly, particularly with long documents on G3 or better machines. Still, I'm the first to admit that InDesign's recommended system requirements — the list includes a G3 processor, OS 8.5 or later, and 128MB of RAM — are excessive. (Quark recommends that XPress users have 10MB of RAM.) I would be a bald-faced liar if I didn't admit that XPress fares better on slower systems.</p>
+<p>But the topic is typesetting, not performance.</p>
+</blockquote>
+<p>And there were still very analogue parts of the workflow, like lifting and pasting ads and copy.</p>
+<div class="grid-x">
+<figure class="large-10 medium-8 cell callout">
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/CwrePe4-ID4?start=144' frameborder='0' allowfullscreen></iframe></div>
+  <figcaption>Waxing nostalgic for the tactile processes: advertisements were physically lifted and pasted across editions and typos from final proofs were cut and arranged away before being sent to the press cameras. Highly nostalgic, but I don't know that I'd go back.</figcaption>
+</figure>
+</div>
+<p>Improving technology brought faster iteration cycles. Particularly in 2008 when I switched from working for newspapers to an online-only publication.</p>
+<p>Speed and features were everything we needed, at least it felt that way.</p>
+<h2><a name="part1" href="#part1">The siren call of the early web tools</a></h2>
+<p>Although my years in print publishing until 2008 were filled machine-locking system errors and lifting and re-waxing ads from yesterday’s edition, the web had its own horrors waiting behind a veneer of instant publishing.</p>
+<p>The acronym WYSIWYG still haunts web publishing in 2020.</p>
+<figure class="sidebar-figure callout">
+  <img class="padding-bottom-medium" alt="Dreamweaver 4 circa 2000 as it scanned a website's files" src="../images/original/blog/20years-dreamweaver-2.jpg" />
+  <figcaption>Dreamweaver allowed you to build websites as though they were QuarkXPress documents. A fine idea if the web were a book. For a decade that thought stunted my understanding of the potential of the web.</figcaption>
+</figure>
+<p>If you designed print documents you know the importance of using your document styles to manage text properties and images, however it was a concept that didn't really exist for the web until CSS arrived in 1996 and it took CSS some time to go from managing styling to empowering layout. Internet Explorer would dominate and we would have to wait until mid-2000s for meaningful CSS innovations to arrive.</p>
+<p>It was a rough time.</p>
+<p>Fortunately, I won’t have to retell it all, with serendipitous timing, developer Evelyn Woods has written <a href="https://eev.ee/blog/2020/02/01/old-css-new-css/">a retrospective on the CSS and the web dating from a similar time period</a>, in part:</p>
+<blockquote>
+<p>I’ve been taking for granted that <em>most</em> folks doing web stuff still remember those days, or at least the decade that followed, but I think that assumption might be a wee bit out of date.  Some time ago I encountered a <a href="https://twitter.com/keinegurke_/status/1162309192855822339">tweet</a> marvelling at what we had to do without <code>border-radius</code>.</p>
+<p>I’m here to tell <em>all</em> of you to get off my lawn.  Here’s a history of <span class="caps">CSS</span> and web design, as I remember it.</p>
+</blockquote>
+<p>New and incredible features were coming all the time (oh how <a href="https://getfirebug.com/">Firebug</a> was magical), but there were so few established best practices and fewer people to get good advice from. And software didn't always point you in the best direction.</p>
+<p>Why use code templating and partials? Use Dreamweaver's library and export hundreds of pages in Word-like interface! ... It will only be error prone and ridiculously slow.</p>
+<figure class="callout">
+  <img class="" alt="Dreamweaver was not a speed champ. One update and you had to re-render hundreds of files." src="../images/original/blog/20years-rebuilding-envmedia.gif" />
+  <figcaption>Dreamweaver was a (slow) static site generator before they were the hotness, but it was also a WYSIWYG, FTP client and pretty much everything else. A real <A href="https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none">jack of all trades</a>. </figcaption>
+</figure>
+<p>The tools and their developers did their best to fill the gaps, but if I never have to upload a site by FTP again, it will be too soon.</p>
+<p>I have nostalgia for the process of print publishing, I don’t have that for websites of the same period. Sure, there was the novelty of your first few small websites — but beyond a few pages, the horrors of WYSIWYG, cgi-bin, proprietary browser features and more lay in wait.</p>
+<p>Digital was chaos of new-ness, at least print had far more years of processes to learn from.</p>
+<h2><a name="part2" href="#part2">How do we do better?</a></h2>
+<p>From the early-mid 2000s the tools are vastly better. They amplify our ability to produce far more <em>stuff</em> in 24 hours, but they don't help us ensure we're going in the right direction.</p>
+<p>Producing the <em>right stuff</em> is no easier than it was for the web in 2004 or for print.</p>
+<!-- Twice as much of the wrong answer doesn't help anyone.  -->
+<!--The web still has issues but tools are mature and generally reliable and delivery is fast.-->
+<!--To do good work, the real problem remains very human: agreeing on goals, setting expectations, motivating teams.--> 
+<!--From the start of my career I've focused on technical ability, but I view that with increasingly less interest. Better to have slower production of the right answer.-->
+<p>Thanks to better tools we can take our time savings and refocus on the fundamental and universal hard problem: what are we trying to achieve here?</p>
+<!-- I still don’t know how to describe what I do, web and information acrobat is probably the closest I’ve come. I bet recruitment systems will love that. -->
+<hr>
+<div class="grid-x">
+<figure class="large-10 large-push-1 medium-8 cell">
+<h3><a name="aside1" href="#aside1">Addendum: it's not just publishing's problem</a></h3>
+<p>The increasing capability of technology has often been helpful and sometimes quite un-helpful.</p>
+<p>As CDs (and later DVDs) became common they made it easy for software sizes to grow and grow.</p>
+<p>Dreamweaver 4 was roughly 15 MB in size, while its successor came on a CD and needed 140 MB. From a distribution perspective it's a reasonable thing to do, but bigger installs meant more space occupied on your computer's hard drive and more data to be read off a spinning hard drive.</p>
+<p>Often the convenience of the developer was a slowdown for users.</p>
+<p>Web publishing saw similarly with the arrival of faster internet speeds, allowing us website makers to spend less time optimising imagery and assets.</p>
+<p>The point?</p>
+<p>Increased technical ability allows us to do more, but it also allows a deemphasis on optimisation. Users pay with computers that seem slower and less capable. It costs users by making an internet connection and CPU upgrade feel more critical. And it costs real money on metered data plans.</p>
+<p>It's a feeling echoed by the recent re-launch of a famous real-time strategy game, Warcraft 3.</p>
+<p>I enjoyed playing the other games in the series in the '90s and Warcraft III launched in 2002 with new 3D graphics, a feature I had often avoided in games as early 3D games suffered from issues around camera positioning and poor performance and unpolished graphics. However Warcraft III was implemented well and had a compelling story. It opened me to more 3D games.</p>
+<p>Fast forward to 2020 and Warcraft III was relaunched in a remastered edition: Warcraft III Reforged. With two decades of improving performance and lessons learned about gaming interfaces, there were many opportunities for a fantastic remaster.</p>
+<p>But much like the Star Wars prequel trilogy, more technology does not always mean better. Keyboard and mouse controls were not improved and felt more dated as keyboard layouts changed in the passing years, 3D visuals were un-improved looking flat and muddy, popular features removed, and the install size ballooned from 1.3 GB to 23 GB; <a href="https://arstechnica.com/gaming/2020/01/warcraft-iii-reforged-not-the-flavor-of-chaos-we-were-hoping-for/">Ars Technica notes</a>:</p>
+<blockquote>
+<p>It's all but impossible to compare individual 3D models between the old and new versions and state that the older ones are superior. Rather, the issue boils down to how all of these new assets come together on the battlefield.</p>
+<p>Color saturation sees the terrain's soup of green and blue blur together, without any recognizable boost to unit or terrain clarity offered by details such as individual blades of grass. The lower-poly version at least made its roads, cobblestone paths, and other game-world clutter more discrete for the sake of instantly recognizable paths and obstacles.</p>
+</blockquote>
+<p>And <a href="https://www.polygon.com/reviews/2020/2/4/21116683/warcraft-3-reforged-review-pc-mac-issues-cutscenes-remastered-glitches-complaints">Polygon also notes</a>:</p>
+<blockquote>
+<p>Hitting the Esc key doesn’t bring up the main settings menu. Instead, I had to hunt for it for a couple of seconds — it’s mapped to F10. This isn’t a big deal, but it’s a sign of how the game doesn’t seem to have been tested and improved for a modern user experience.</p>
+</blockquote>
+<p>As with the web, it's easy to make software look better while ignoring its technical performance and if we're actually making something better and solving the right problems.</p>
+<p>Left unquestioned, technically better can be a distraction from really better.</p>
+</figure></div>
+<hr>
+</div>
+</div>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20200208-its-been-20-years.html</link>
+  <guid>https://work.allaboutken.com/posts/20200208-its-been-20-years.html</guid>
+  <pubDate>Sat Feb 08 2020 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>Building your first page with the Visual Framework 2.0</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <figure class="large-10 medium-8 cell callout"><img class="padding-bottom-medium" alt="Tightly pairing Fractal and Eleventy can be done" src="../images/original/blog/visual-framework-code-example.jpg" />
+    <figcaption>It's not hard, it's just a matter of getting started.</figcaption>
+  </figure>
+</div>
+<p>   <span class="label">Filed in: gulp, Eleventy, EMBL, Fractal, Visual Framework</span></p>
+<div class="grid-x">
+<div class="large-11 medium-12 cell">
+<h1>Building your first page with the Visual Framework 2.0</h1>
+</div>
+</div>
+<p class="lead">A quick start on how to work with <a href='https://visual-framework.github.io/vf-welcome/'>Visual Framework 2.0</a> CSS, JS and structure your HTML — and lots of links to learn more.</p>
+<p>The Visual Framework (VF) is designed to help <a href="https://blogs.embl.org/communications/2018/09/12/faster-scientific-websites-through-reusability">build life science websites and services</a>, this post is a kick-start to building sites with VF CSS, JS and HTML concepts.</p>
+<p>You’ll learn:</p>
+<ul>
+<li>Part 1: <a href="#part1">Where to find VF documentation</a></li>
+<li>Part 2: <a href="#part2">Basic methodologies of VF CSS and JS</a></li>
+<li>Part 3: <a href="#part3">How to structure your HTML and CSS classes</a></li>
+<li>Part 4: <a href="#part4">Assorted tips and differences from other major frameworks (like Bootstrap)</a></li>
+</ul>
+<p>This post assumes:</p>
+<ul>
+<li>You are familiar with HTML, CSS and JS</li>
+<li>You have probably used Bootstrap or Foundation</li>
+<li>It is helpful to have knowledge of Sass and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/--*">CSS Custom properties</a></li>
+<li>You want to use already-built CSS and JS<br>
+(To build VF components from their Sass and JS modules <a href="https://visual-framework.github.io/vf-welcome/building/">see this guide</a>)</li>
+<li>You may or may not have used the <a href="https://www.ebi.ac.uk/style-lab/websites/">EMBL-EBI Visual Framework 1.0</a></li>
+</ul>
+<h3>Part 1</h3>
+<h2><a name="part1" href="#part1">Where to find VF documentation</a></h2>
+<p>To see demonstrations of each component and the HTML and CSS syntax of all “core” Visual Framework components, go to the “<a href="https://visual-framework.github.io/vf-core/#components">VF 2.0 Component library</a>”.</p>
+<p>Important: your organisation or project may have added custom components or removed some default components, if so you should ask the maintainers of your design system or component library.</p>
+<p>You can always see which components (and which version) are enabled by viewing the CSS source; from <a href="https://dev.assets.emblstatic.net/vf/develop/css/styles.css">the VF demo component library</a>:</p>
+<pre><code class="language-css">/*! 
+ * Component: @visual-framework/vf-badge 
+ * Version: 1.0.0-beta.8
+ * Location: components/vf-badge
+</code></pre>
+<p>The default VF build will maintain these comments even in the minified CSS build. For higher level information, <a href="https://visual-framework.github.io/vf-welcome/">see the Visual Framework Welcome site</a>.</p>
+<h3>Part 2</h3>
+<h2><a name="part2" href="#part2">CSS and JS methodologies</a></h2>
+<p>To optimise compatibility and flexibility, the Visual Framework does not target HTML elements like <code>&lt;body&gt;</code> <code>&lt;div&gt;</code> or <code>&lt;button&gt;</code> and instead relies only on CSS classes.</p>
+<p>Below is an example for a &quot;large heading&quot;.</p>
+<figure class="cell callout">
+<div 
+  class="codepen" 
+  data-prefill 
+  data-theme-id="dark" 
+  data-height="200" 
+  data-user="khawkins98" 
+  data-prefill='{"title":"Demo: vf-text","tags":[],"stylesheets":[],"scripts":[]}'
+  data-theme-id="1"
+  data-default-tab="html,result" 
+>
+<pre data-lang="html">
+&lt;h2 class="vf-text vf-text-heading--3">This heading size is large&lt;/h2>
+<p>&lt;span class=&quot;vf-text vf-text-heading--3&quot;&gt;This heading size is large&lt;/span&gt;</p>
+<p>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://dev.assets.emblstatic.net/vf/v2.0.0-beta.6/css/styles.css&quot;&gt;</p>
+</pre>
+</div>
+<figcaption>Note the &lt;h2> is irrelevant for the Visual Framework; using &lt;span> works equally well (if semantically a bit daft).</figcaption>
+</figure>
+<p><span class="emoji">👉</span> Tip: This approach is similar to <a href="https://css-tricks.com/css-modules-part-1-need/">CSS Modules</a>.</p>
+<p>The VF is primarily focused on display and structure and therefore <a href="https://visual-framework.github.io/vf-welcome/developing/guidelines/javascript/">has minimal JS</a>. This also helps if you’d like to use, say, Bootstrap for tab behaviour but use the VF look.</p>
+<p>Similar to our CSS approach, the VF JS never targets HTML elements or even CSS classes and instead uses <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes#JavaScript_access">JS data attributes</a>; for example a partial look at <a href="https://visual-framework.github.io/vf-core/components/detail/vf-tabs.html"><code>vf-tabs</code></a>:</p>
+<pre><code class="language-html">&lt;div class=&quot;vf-tabs-content&quot; data-vf-js-tabs-content&gt;
+    &lt;section class=&quot;vf-tabs__section&quot; id=&quot;vf-tabs__section--1&quot;&gt;
+        &lt;h2&gt;Section 1&lt;/h2&gt;
+</code></pre>
+<p>The Visual Framework uses <code>class=&quot;vf-tabs-content&quot;</code> for the visual styling and <code>data-vf-js-tabs-content</code> for the JS — exclusively. Use the VF JS where it’s helpful, if you don’t need it, don’t add the <code>data-*</code> and use your own JS.</p>
+<p>With that in mind, we’ll carry on and focus on the CSS.</p>
+<h3>Part 3</h3>
+<h2><a name="part3" href="#part3">The structure of HTML, CSS classes</a></h2>
+<p>There are a few principles to understand when working with Visual Framework:</p>
+<ol>
+<li><p><strong>The grid and HTML nesting</strong></p>
+<p>The VF makes use of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout">CSS Grid Layout</a> which is quite clever and you should have some basic understanding of how it works, but here are some common tips.</p>
+<ul>
+<li><p>By default  <a href="https://visual-framework.github.io/vf-core/components/detail/vf-grid.html"><code>vf-grid</code></a> will try to put your content into columns, if you only want one column:</p>
+<pre><code class="language-html">&lt;div class=&quot;vf-grid&quot;&gt;
+  &lt;div&gt;All child content here&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;vf-grid&quot;&gt;
+  &lt;div&gt;This layout&lt;/div&gt;
+  &lt;div&gt;Makes two columns&lt;/div&gt;
+&lt;/div&gt;
+</code></pre></li>
+</ul></li>
+</ol>
+<figure class="cell callout">
+<div 
+  class="codepen" 
+  data-prefill 
+  data-theme-id="dark" 
+  data-height="200" 
+  data-user="khawkins98" 
+  data-prefill='{"title":"Demo: vf-text","tags":[],"stylesheets":[],"scripts":[]}'
+  data-theme-id="1"
+  data-default-tab="result" 
+>
+<pre data-lang="html">&lt;div class="vf-grid">
+  &lt;div>All child content here&lt;/div>
+&lt;/div>
+<p>&lt;div class=&quot;vf-grid&quot;&gt;<br>
+&lt;div&gt;This layout&lt;/div&gt;<br>
+&lt;div&gt;Makes two columns&lt;/div&gt;<br>
+&lt;/div&gt;</p>
+<p>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://dev.assets.emblstatic.net/vf/v2.0.0-beta.6/css/styles.css&quot;&gt;</pre></p>
+<pre data-lang="css" >.vf-grid > * { border:1px solid; }
+<p>.vf-grid { margin-bottom: 1rem }</pre></p>
+</div>
+<figcaption></figcaption>
+</figure>
+<figure class="cell callout">
+<div 
+  class="codepen" 
+  data-prefill 
+  data-theme-id="dark" 
+  data-height="200" 
+  data-user="khawkins98" 
+  data-prefill='{"title":"Demo: vf-text","tags":[],"stylesheets":[],"scripts":[]}'
+  data-theme-id="1"
+  data-default-tab="result" 
+>
+<pre data-lang="html">&lt;div class="vf-grid vf-grid__col-3">
+  &lt;p>1&lt;/p>
+  &lt;p>1&lt;/p>
+  &lt;p>1&lt;/p>
+  &lt;p>1&lt;/p>
+  &lt;p>1&lt;/p>
+  &lt;p>1&lt;/p>
+&lt;/div>
+<p>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://dev.assets.emblstatic.net/vf/v2.0.0-beta.6/css/styles.css&quot;&gt;</pre></p>
+<pre data-lang="css" >.vf-grid > * { border:1px solid; }
+<p>.vf-grid { margin-bottom: 1rem }</pre></p>
+</div>
+<figcaption>You can specify a set number of columns `vf-grid | vf-grid__col-3`.</figcaption>
+</figure>
+<ul>
+<li>If you want to make a custom layout
+<pre><code class="language-html">&lt;div class=&quot;vf-grid vf-grid__col-3&quot;&gt; 
+  &lt;div&gt;I cover 1 of 3&lt;/div&gt;
+  &lt;div class=&quot;vf-grid__col--span-2&quot;&gt;I cover 2 of 3 columns&lt;/div&gt;
+&lt;/div&gt;
+</code></pre></li>
+</ul>
+<figure class="cell callout">
+<div 
+  class="codepen" 
+  data-prefill 
+  data-theme-id="dark" 
+  data-height="200" 
+  data-user="khawkins98" 
+  data-prefill='{"title":"Demo: vf-text","tags":[],"stylesheets":[],"scripts":[]}'
+  data-theme-id="1"
+  data-default-tab="result" 
+>
+<pre data-lang="html">&lt;div class="vf-grid vf-grid__col-3">
+  &lt;div>I cover 1 of 3&lt;/div>
+  &lt;div class="vf-grid__col--span-2">I cover 2 of 3 columns&lt;/div>
+&lt;/div>
+<p>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://dev.assets.emblstatic.net/vf/v2.0.0-beta.6/css/styles.css&quot;&gt;</pre></p>
+<pre data-lang="css" >.vf-grid > * { border:1px solid; }
+<p>.vf-grid { margin-bottom: 1rem }</pre></p>
+</div>
+<figcaption></figcaption>
+</figure>
+<p>The grid layout often expects child elements. If something doesn't look write, you're probably missing a <code>&lt;div&gt;&lt;/div&gt;</code>.</p>
+<ol start="2">
+<li><p><strong>What dashes and underscores mean</strong></p>
+<p>We namespace all universal components. For Visual Framework core components it is a prefix of <code>vf-</code>. This ensures that the component will not break an existing codebase.</p>
+<p>Components in the Visual Framework follow the <a href="http://getbem.com/naming/">BEM naming convention</a>:</p>
+<ul>
+<li><code>.vf-component {}</code></li>
+<li><code>.vf-component__item {}</code></li>
+<li><code>.vf-component--alternative {}</code></li>
+</ul></li>
+<li><p><strong>Pipes, mixes and chaining CSS classes</strong></p>
+<p>You may find that a component contains classes from another. This is a “<a href="http://getbem.com/faq/#why-the-modifier-classes-are-prefixed">BEM mix</a>”, it might look like:</p>
+<pre><code class="language-html">&lt;header class=&quot;vf-page-header&quot;&gt;
+  &lt;h1 class=&quot;vf-page-header__heading | vf-text vf-text--heading-l&quot;&gt;Page title&lt;/h1&gt;
+&lt;/header&gt;
+</code></pre>
+<p>Here the <code>vf-page-header</code> is utilising styling from the <code>vf-text</code> component.</p>
+<p>When mixing classes you’ll see the pipe <code>|</code> character as a divider, it has no functional difference but improves the readability.</p>
+<p>For more, <a href="https://visual-framework.github.io/vf-welcome/developing/guidelines/css/">see the guidance on mixes</a>.</p></li>
+<li><p><strong>Fake it until you make it</strong></p>
+<p>If you’ve structured your component correctly but it doesn’t quite achieve what you need (and you can’t make your own local component) make use of the utility classes; for example:</p>
+<ul>
+<li><code>.vf-u-type__text-body--1</code></li>
+<li><code>.vf-u-display-none</code></li>
+<li><code>.vf-u-background-color--red</code></li>
+</ul>
+<p><a href="https://visual-framework.github.io/vf-core/components/detail/vf-utility-classes.html">See all the utility classes</a>.</p></li>
+</ol>
+<figure class="cell callout">
+<div 
+  class="codepen" 
+  data-prefill 
+  data-theme-id="dark" 
+  data-height="200" 
+  data-user="khawkins98" 
+  data-prefill='{"title":"Demo: vf-text","tags":[],"stylesheets":[],"scripts":[]}'
+  data-theme-id="1"
+  data-default-tab="html,result" 
+>
+<pre data-lang="html">
+&lt;div class="vf-button | vf-u-background-color--red">I'm red&lt;/div>
+<p>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://dev.assets.emblstatic.net/vf/v2.0.0-beta.6/css/styles.css&quot;&gt;</pre></p>
+</div>
+</figure>
+<ol start="5">
+<li><p><strong>Use <code>vf-content</code> for content</strong></p>
+<p>Most projects will have larger areas of text where it is either not technically possible or practical to add many classes.</p>
+<p>For those situations, wrap the content in a <a href="https://visual-framework.github.io/vf-core/components/detail/vf-content.html">parent element with <code>.vf-content</code></a></p>
+<pre><code class="language-html">&lt;section class=&quot;vf-content&quot;&gt;
+  &lt;h1&gt;My WYSIWYG-made text&lt;/h1&gt;
+  &lt;p&gt;I'm some user-made content with &lt;a href=&quot;#&quot;&gt;a link&lt;/a&gt;.&lt;/p&gt;
+&lt;/section&gt;
+</code></pre></li>
+</ol>
+<figure class="cell callout">
+<div 
+  class="codepen" 
+  data-prefill 
+  data-theme-id="dark" 
+  data-height="300" 
+  data-user="khawkins98" 
+  data-theme-id="1"
+  data-default-tab="html,result" 
+>
+<pre data-lang="html">
+&lt;section class="vf-content">
+    &lt;h1>My WYSIWYG-made text&lt;/h1>
+    &lt;p>I'm some user-made content with &lt;a href="#">a link&lt;/a> and I'm not using any element-level VF classes.&lt;/p>
+  &lt;/section>
+&lt;link rel="stylesheet" href="https://dev.assets.emblstatic.net/vf/v2.0.0-beta.6/css/styles.css"></pre>
+</div>
+</figure>
+<h3>Part 4</h3>
+<h2><a name="part4" href="#part4">Assorted tips, differences from other frameworks</a></h2>
+<p>A grab-bag of important things that you might not expect.</p>
+<ol>
+<li><p><strong>Visual Framework defers to your other CSS</strong></p>
+<p>If you have a <code>&lt;section class=&quot;my-local-style vf-tabs&quot;&gt;</code> the VF CSS is designed to defer to any CSS you have for <code>section {}</code> and <code>.my-local-style</code>.</p></li>
+</ol>
+<figure class="cell callout">
+<div 
+  class="codepen" 
+  data-prefill 
+  data-theme-id="dark" 
+  data-height="250" 
+  data-user="khawkins98" 
+  data-theme-id="1"
+  data-default-tab="result" 
+>
+<pre data-lang="html">
+<p>&lt;ul class=&quot;nav nav-tabs&quot;&gt;<br>
+&lt;li class=&quot;nav-item&quot;&gt;<br>
+&lt;a class=&quot;nav-link active&quot; href=&quot;#&quot;&gt;Active&lt;/a&gt;<br>
+&lt;/li&gt;<br>
+&lt;li class=&quot;nav-item&quot;&gt;<br>
+&lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Bootstrap tabs&lt;/a&gt;<br>
+&lt;/li&gt;<br>
+&lt;/ul&gt;</p>
+<p>&lt;br/&gt;</p>
+<p>&lt;div classs=&quot;vf-tabs&quot;&gt;<br>
+&lt;ul class=&quot;vf-tabs__list&quot;&gt;<br>
+&lt;li class=&quot;vf-tabs__item&quot;&gt;<br>
+&lt;a class=&quot;vf-tabs__link is-active&quot; href=&quot;#&quot;&gt;Active&lt;/a&gt;<br>
+&lt;/li&gt;<br>
+&lt;li class=&quot;vf-tabs__item&quot;&gt;<br>
+&lt;a class=&quot;vf-tabs__link&quot; href=&quot;#&quot;&gt;VF Tabs&lt;/a&gt;<br>
+&lt;/li&gt;<br>
+&lt;/ul&gt;<br>
+&lt;/div&gt;</p>
+<p>&lt;link href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;<br>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://dev.assets.emblstatic.net/vf/v2.0.0-beta.6/css/styles.css&quot;&gt;</pre></p>
+</div>
+<figcaption>The <a href="https://visual-framework.github.io/vf-core/components/detail/vf-tabs.html">VF tabs</a> have been "contaminated" by Bootstrap, but the VF has not impacted <a href="https://getbootstrap.com/docs/4.0/components/navs/#tabs">Bootstrap tabs</a>. This is by design to avoid breaking existing designs.</figcaption>
+</figure>
+<ul>
+<li><strong><em>Tip</em></strong>: loading the VF CSS after your other CSS can affect this, latter-loaded CSS is favoured by the browser.</li>
+</ul>
+<ol start="2">
+<li><p><strong>Low specificity</strong></p>
+<p>We avoid CSS specificity to target styling of elements. This improves flexibility of HTML structure and allows simpler chaining of classes.</p>
+<p>That is:</p>
+<ul>
+<li>We do: <code>.vf-tabs-content {}</code></li>
+<li>We don’t: <code>.vf-tabs .vf-tabs-content {}</code></li>
+</ul></li>
+<li><p><strong>Highly modular</strong></p>
+<p>Like most Frameworks, the Visual Framework can be overridden or components can be selectively used. However, the Visual Framework takes this to the next level, allowing selective installation of components and a broad mix of component versions.</p>
+<p>For your organisation, the Visual Framework core documentation will likely not be the best source of truth on a component’s HTML, CSS and JS.</p>
+<p>So in addition to reading guidance like this, you’ll want to consult the maintainer of your CSS and design systems about which versions of Visual Framework components they’re using and the best place for documentation on your systems.</p>
+<p>If you’re lost, <a href="https://join.slack.com/t/visual-framework/shared_invite/enQtNDAxNzY0NDg4NTY0LWFhMjEwNGY3ZTk3NWYxNWVjOWQ1ZWE4YjViZmY1YjBkMDQxMTNlNjQ0N2ZiMTQ1ZTZiMGM4NjU5Y2E0MjM3ZGQ">you can always as the Slack group for help</a>.</p></li>
+<li><p><strong>Atomic Design-like</strong></p>
+<p>The Visual Framework makes use of <a href="http://atomicdesign.bradfrost.com/chapter-2/">Atomic Design</a>-style concepts to define components. Instead of using Atoms, Molecules, Organisms the Visual Framework uses the terms Elements, Blocks, and Containers.</p>
+<p>For more on blocks, elements and containers, <a href="https://visual-framework.github.io/vf-welcome/developing/guidelines/css/">see the CSS guidelines</a></p></li>
+</ol>
+<h3>Bonus</h3>
+<h2><a name="bonus" href="#bonus">Just give me a starter template</a></h2>
+<p><span class="emoji">📑</span> <a href="https://codepen.io/khawkins98/pen/QWWzBNP?editors=1000">Here’s a simple boilerplate</a> so you can see a simple page in action.</p>
+<h2>Stuck?</h2>
+<p><span class="emoji">🎈</span> <a href="https://join.slack.com/t/visual-framework/shared_invite/enQtNDAxNzY0NDg4NTY0LWFhMjEwNGY3ZTk3NWYxNWVjOWQ1ZWE4YjViZmY1YjBkMDQxMTNlNjQ0N2ZiMTQ1ZTZiMGM4NjU5Y2E0MjM3ZGQ">Ask the Slack group</a>.</p>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20191118-first-page-with-the-visual-framework.html</link>
+  <guid>https://work.allaboutken.com/posts/20191118-first-page-with-the-visual-framework.html</guid>
+  <pubDate>Mon Nov 18 2019 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>Fractal and Eleventy: Getting static sites closer to the design system</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <figure class="large-10 medium-8 cell callout"><img class="padding-bottom-medium" alt="Tightly pairing Fractal and Eleventy can be done" src="../images/original/blog/fractal-eleventy.jpg" />
+    <figcaption>What you get out of the box when you use the Visual Framework's boilerplate for Eleventy: static site development with a Fractal component library running in the same process. When you update a Fractal component, so does the Eleventy build.</figcaption>
+  </figure>
+</div>
+<p>   <span class="label">Filed in: gulp, Eleventy, EMBL, Fractal, Visual Framework</span></p>
+<div class="grid-x">
+<div class="large-11 medium-12 cell">
+<h1>Fractal and Eleventy: Getting static sites closer to the design system</h1>
+</div>
+</div>
+<p class="lead">For the <a href='https://visual-framework.github.io/vf-welcome/'>Visual Framework 2.0</a> component system we recommend <a href='https://www.11ty.io'>Eleventy</a> for static sites: Eleventy sites get direct access to component templates with associated metadata and a focused component library.</p>
+<p>This combo eases site building by giving developers visibility on Fractal templates and documentation in their particular install. The integration also allows project-level <a href="https://fractal.build/">Fractal</a> components that can extend core Sass and re-use component templates, with full access to Fractal <code>{% render %}</code> tags, context data, and other component metadata.</p>
+<p>Features:</p>
+<ul>
+<li>Eleventy static sites</li>
+<li>Fractal components can be <code>npm install</code>-ed</li>
+<li>Fractal Nunjucks templates and component data</li>
+<li>Local project-level components and templates can be added, and run in the same Fractal environment</li>
+<li>Fractal web UI with local instance components, documentation</li>
+</ul>
+<p>Heard enough? <a href="https://github.com/visual-framework/vf-eleventy">Try it out at visual-framework/vf-eleventy</a>.</p>
+<p>The two tools don't work like this by default, but I'll share how we've made it happen.</p>
+<h2>How it feels</h2>
+<p><img src="../images/original/blog/fractal-elventy-gulp-cycle.gif" alt="animated-GIF that shows how the Fractal components and Eleventy content are united"></p>
+<p><em>A 16-second animated-GIF that shows how the Fractal components and Eleventy content are united.</em></p>
+<p>Here's what's happening:</p>
+<ol>
+<li>Unified templating: Add a Fractal Nunjucks template to an Eleventy page</li>
+<li>A unified Eleventy-Fractal watch process: Update a Fractal Nunjucks template and Eleventy rebuilds</li>
+<li>Assets are also integrated: Update a component's Sass and gulp asks Eleventy to rebuild</li>
+</ol>
+<h2>How it works</h2>
+<p>For component management of the <a href="https://github.com/visual-framework/vf-core">Visual Framework 2.0</a>, we’ve used the Node JS-based <a href="https://fractal.build/">Fractal</a> — it ticks a lot of boxes for what we needed, including support for <a href="https://mozilla.github.io/nunjucks/">Nunjucks templating</a>. That templating allows the Visual Framework component system to stay relatively agnostic of technology.</p>
+<p><a href="https://github.com/visual-framework/vf-eleventy">Eleventy</a> is also Node JS-based and can use Nunjucks templating.</p>
+<p>We were really excited by this in initial discussions as we can use similar build environments and templates across our component library and static-site generator.</p>
+<p>Here's a high-level diagram:</p>
+<p><img src="../images/original/blog/fractal-vf-eleventy-architecture.svg" alt="Diagram of how Eleventy and Fractal talk"></p>
+<p><em>When the developer runs <code>gulp dev</code> it allows Fractal and Eleventy to run as child process of gulp, sharing a Nunjucks environment.</em></p>
+<p>There were a couple of <em>gotchas</em> that we had to work around, if you're interested in how we got there, read on, otherwise <a href="https://github.com/visual-framework/vf-eleventy">I suggest you just try out the <code>vf-eleventy</code> boilerplate</a>.</p>
+<h2>Making it happen</h2>
+<h3>All the same, but not</h3>
+<p>When attempting to achieve our flow, we quickly found issues as we weren't able to directly use our <code>npm install</code>-ed components in Eleventy for two reasons:</p>
+<ol>
+<li><p>Eleventy <a href="https://www.11ty.io/docs/languages/nunjucks/">wants to look</a> in a single place for our templates and we want to individually install components from <code>npm</code> a la: <code>yarn add --dev @visual-framework/vf-button</code></p>
+<p>We could work around this by some fancy copy-and-paste task that scans <code>node_modules</code> and copies <code>**/*.njk</code> to the directory used by Eleventy. Unpleasant, but possible.</p></li>
+<li><p>The Nunjucks template syntax isn’t exactly the same between the Fractal and Eleventy. The <a href="https://designsystem.digital.gov/documentation/developers/">United States Web Design System</a> also uses Fractal and <a href="https://github.com/uswds/uswds#template-compatibility">notes</a>:</p>
+<blockquote>
+<p>Components that reference other components use a Fractal-specific <code>{% render %}</code> tag that will either need to be implemented in other environments or replaced with the appropriate <code>{% include %}</code> tags.</p>
+</blockquote>
+<p>Which means using nested container-level templates — like using a <code>logo</code> component inside a <code>page-header</code> template — is out, unless you have one set of templates for Fractal and one for &quot;generic&quot; Nunjucks environments. While replacing <code>render</code> with <code>include</code> might seem trivial at first, there are issues around path lookups and other whack-a-mole issues with other Njk tags.</p></li>
+</ol>
+<p>Maintaining two sets of templates adds significant overhead and a large risk for typos and tests, it would also prevent us from being able to <code>yarn add</code> components.</p>
+<p>But there's a way to sidestep both of these issues.</p>
+<h3>Playing nice</h3>
+<p>We can avoid both of these by resolving Eleventy's expectation to run in a separate Node process.</p>
+<p>Fractal has already prepared a list of all the components (Issue 1) and made available the custom Nunjucks templates (Issue 2), if we can get Eleventy to use (and extend) the same Node process as  Fractal's Nunjucks environment we'll get all the benefits outlined above.</p>
+<p>To do this we’ve had to make a couple tweaks to how Eleventy executes; here's a summary:</p>
+<ol>
+<li>We forked Eleventy's <code>cmd.js</code> to so we can use it as a child task (i.e. <code>elev.write().then</code>)</li>
+<li>Gulp triggers the build of Fractal and then Eleventy</li>
+<li>Utilise Eleventy’s watch and refresh commands for local development</li>
+<li>Send variables to Eleventy’s JavaScript data files from Gulp (or other Node JS tasks)</li>
+</ol>
+<p>I took <a href="https://work.allaboutken.com/posts/20191021-integrating-eleventy-with-gulp.html">a deeper look at this approach in a separate blog post</a>.</p>
+<h2>Links</h2>
+<ul>
+<li><a href="https://github.com/visual-framework/vf-eleventy">Try this out with visual-framework/vf-eleventy</a></li>
+<li><a href="https://work.allaboutken.com/posts/20191021-integrating-eleventy-with-gulp.html">How we connect Eleventy with Gulp</a></li>
+<li><a href="https://github.com/visual-framework/vf-core#the-visual-framework-core-vf-core">How we use fractal with <code>vf-core</code></a></li>
+<li><a href="https://visual-framework.github.io/vf-welcome/">About the Visual Framework 2.0</a></li>
+</ul>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20191112-extendeing-fractal-components-eleventy-static-sites.html</link>
+  <guid>https://work.allaboutken.com/posts/20191112-extendeing-fractal-components-eleventy-static-sites.html</guid>
+  <pubDate>Tue Nov 12 2019 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>Integrating Eleventy with gulp, upstream JS</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <figure class="large-10 medium-8 cell callout"><img class="padding-bottom-medium" src="../images/original/blog/dripping-faucet.jpg" />
+    <cite class="text-right">Thanks to Flickr user Paul B for the image [<a href="https://www.flickr.com/photos/eastbeach/24818842988/in/photolist-DPa4m1-4eQ9W-4bPwdN-APyyy-eXwGJg-4JZhcq-6wASuN-6wwH86-6wASy7-7zwzso-wGnk7F-8HPAJt-66a7wt-4fPSa-tzkuC-tMM3hb-5njkrD-5C83sD-tzkqk-5oynfL-4pnkBU-6ZfA9m-6iZaMo-7ECykH-9sAPMe-TcFhPs-6zJcWE-4eQ9Y-5styJG-9Tshp1-nu54P-6iUT2t-xZYcY-7DbDxo-6aVvan-gsyhW8-95sAwV-gsyhHn-2cL3sdx-unNuB-gxE7Hm-3fArXA-xxCk6-6iUYaX-gsxDY2-unNiy-67GWCn-xxCsQ-gsy2m3-4Cnf2b">CC License</a>]</cite>
+    <figcaption>Drip. Drop. Drip. Opening the tap of of upstream data objects for Eleventy.</figcaption>
+  </figure>
+</div>
+<p>   <span class="label">Filed in: gulp, Eleventy, EMBL</span></p>
+<div class="grid-x">
+<div class="large-11 medium-12 cell">
+<h1>Integrating Eleventy with gulp, upstream JS</h1>
+</div>
+</div>
+<p class="lead">Eleventy <a href='https://www.11ty.io/docs'>notes that</a> it, "works great with data — use both front matter and external data files" but the static site generator stops short of working well with upstream in-memory data objects for local development.</p>
+<p>This post is prompted by a project for a highly-modular design system as part of my work for <a href="https://www.embl.de">EMBL</a> — a leading laboratory for the life sciences. We're <a href="https://github.com/visual-framework/vf-eleventy">using</a> Eleventy with gulp (for task running and building) and <a href="https://fractal.build">Fractal</a> (for design components).</p>
+<p>We wanted to:</p>
+<ol>
+<li>Have gulp trigger builds of Eleventy</li>
+<li>Utilise Eleventy’s watch/refresh commands for local development</li>
+<li>Send variables to Eleventy’s JavaScript data files from gulp (or other Node JS tasks)</li>
+</ol>
+<p>There are methods to achieve part 1 but not with part 2 and 3. But we made a solution.</p>
+<blockquote>
+<h4>tl;dr</h4>
+<ul>
+<li>We forked 11ty’s cmd.js to better integrate with gulp and other Node JS.</li>
+<li>I made <a href="https://github.com/khawkins98/gulp-eleventy-example">a demo at khawkins98/gulp-eleventy-example</a>.</li>
+<li>I hope Eleventy’s maintainers can take some inspiration from this. <br/><br/></li>
+</ul>
+</blockquote>
+<p>Still here? Great. Read on.</p>
+<p><br/></p>
+<h4>Scenario</h4>
+<h2>Here's some really useful data, please use it</h2>
+<p>Fractal creates a really useful JavaScript object that lists component file structure, the contents of those files and compiles nested templates.</p>
+<p>An illustrative example of the file structure:</p>
+<pre><code class="language-js">fractalComponents = {
+  component: “myComponent”,
+  files: {
+    “myComponent.css”: {
+       “Contents of the CSS”
+     },
+    “myComponent.njk”: {
+       “Contents of the NJK template”
+     },
+    “CHANGELOG.md”: {
+       “Contents of the changelog”
+     },
+    “README.md”: {
+       “Contents of the readme”
+     }
+     … and so on
+</code></pre>
+<p><br/>Also, Fractal enables component Nunjucks templates can be invoked like:</p>
+<p><code>{% render '@myNavComponent', {passedParam: 'An Example'} %}</code></p>
+<p>Which is great as it allows us to <code>npm install</code> components and not have to move/symlink the Nunjucks templates into Eleventy <code>src/</code> directory — and it keeps syntax consistent across environments.</p>
+<p>In principle we could get Eleventy to do the same tasks, scanning the file system and rendering our templates — but we didn’t want to duplicate our build process — especially considering that both Eleventy and Fractal were already running in Node JS.</p>
+<p>So, that means we've got some in-memory data we'd really like for Eleventy to receive, and receive updates to if a component is added or edited.</p>
+<h3>This is important for local development</h3>
+<p>In our use case we're editing files locally and want a Task A (Fractal) to be able to see changes, updates its data and feed it to Task B (Eleventy).</p>
+<p>Eleventy's current design is a non-issue for our production builds. For production, Fractal generates the data and just hands it off to Eleventy. (That said: I could envision a scenario where part of the build process the Eleventy process might want to feed data to some Process C for dynamic rendering.)</p>
+<p><br/></p>
+<h4>So what are you asking for?</h4>
+<h2>Designing our solution</h2>
+<p>As previously mentioned, Eleventy has a very nice feature supporting <a href="https://www.11ty.io/docs/data-js/">JavaScript data files</a>. And as with most <code>watch</code> command's Eleventy's <a href="https://www.11ty.io/docs/usage/#re-run-eleventy-when-you-save">watch</a> observes only file-system changes — that means we need our upstream task (gulp) to be able to trigger an Eleventy rebuild for local development.</p>
+<p>So a conceptual example for our desired scenario looks like the below.</p>
+<ol>
+<li>Have some upstream data that we want to pass to Eleventy.</li>
+</ol>
+<pre><code class="language-js">// Generate a sample list of all files in a scope outside of Eleventy
+gulp.task('file-list', function () {
+  global.fileList = []; // we could pass by not using a `global`, but this is the simplest for an example 
+  return gulp.src(['./somePath/**/*.{njk,html,js,md}'])
+    .pipe(through.obj(function (file, enc, cb) {
+      global.fileList.push(file.path);
+      cb(null);
+    }));
+});
+</code></pre>
+<p><br/></p>
+<ol start="2">
+<li>Have an Eleventy <a href="https://www.11ty.io/docs/data-js/">data file</a> pull in a variable.</li>
+</ol>
+<pre><code class="language-js">// ./src/site/_data/fileList.js
+// Capture the sample list of all files from gulp
+// for demonstration Gulp integration with Eleventy
+module.exports = {
+  files: global.fileList
+};
+</code></pre>
+<p><br/></p>
+<ol start="3">
+<li>On a targeted change event, have Gulp invoke ask Eleventy to rebuilt.</li>
+</ol>
+<pre><code class="language-js">// Watch something for changes
+gulp.task('watch', function() {
+  gulp.watch(['./src/**/*.{njk,html,js,md'], gulp.series('file-list', 'eleventy:reload'));
+});
+
+// Or another scenario with an `.on` event triggering a refresh
+let fractal = require(fractalConfig).initialize();
+fractal.components.on('updated', function() {
+  elev.restart();
+  elev.write();
+}
+
+// Refresh eleventy
+gulp.task('eleventy:reload', function(done) {
+  elev.restart()
+  elev.write()
+});
+</code></pre>
+<p><br/></p>
+<p>Recap: we want to do some local development, let a parent process update a variable and and then ask  Eleventy to trigger a rebuild, pulling in the new data by the Eleventy JS data file.</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <div class="large-1 medium-2 cell"></div>
+  <figure class="large-10 medium-8 cell">
+  <hr/>
+<h4>Aside</h4>
+<h2>A child process won’t get us there <a name="child_process" /></h2>
+<h3>Unless you like dumping memory to disk</h3>
+<p>One method we initially considered for our need was to use Node’s <a href="https://nodejs.org/api/child_process.html"><code>child_process</code></a>. This is quite clean and is used below by zellwk.com; from <a href="https://github.com/zellwk/zellwk.com/blob/master/gulp/eleventy.js"><code>zellwk/zellwk.com/blob/master/gulp/eleventy.js</code></a></p>
+<pre><code class="language-js">const exec = require('child_process').exec
+
+const eleventy = cb =&gt; {
+  const command = 'eleventy'
+
+  exec(command, function (err, stdout, stderr) {
+    console.log(stdout)
+    console.log(stderr)
+    cb(err)
+  })
+}
+</code></pre>
+<p><br/></p>
+<p>Using this method you’re also able to run Eleventy with a nice callback on completion — the downside to this method is there’s no clean way to pass in-memory objects to the <code>child_process</code>, you’d need to stringify your variables:</p>
+<pre><code class="language-js">require('child_process').fork('./child.js', [], { env: { FOO: 'bar' } });
+</code></pre>
+<p>For us there are two deal breakers with this method:</p>
+<ul>
+<li><p>The object we want to pass is quite large and we'd rather not risk issues with stringification.</p></li>
+<li><p>We'd also need to destroy and re-invoke Eleventy every time during local development, losing access to <code>elev.restart()</code> and <code>elev.write()</code></p>
+  <hr/>
+  </figure>
+</div>
+</li>
+</ul>
+<p><br/></p>
+<p><br/></p>
+<h4>Eleventy, can you hear me?</h4>
+<h2>Making it happen</h2>
+<p>Eleventy’s entry is <a href="https://github.com/11ty/eleventy/blob/master/cmd.js"><code>cmd.js</code></a> and we need access to <code>elev</code> — but that unfortunately is inside a <code>try</code> statement.</p>
+<p>So I forked 11ty’s cmd.js in the local project. Those changes better integrate with external JS with a few minor changes but it's all about a key change: <code>module.exports = elev;</code></p>
+<p>In this way Gulp, or any other Node process, can now use Eleventy as a child task.</p>
+<h3>How? Like this</h3>
+<ol>
+<li>Set up Eleventy using our forked local command file.</li>
+</ol>
+<pre><code class="language-js">// Prepare eleventy
+process.argv.push('--config=eleventy.js'); // Eleventy config
+const elev = require('./eleventy-cmd.js');
+</code></pre>
+<p><br/></p>
+<ol start="2">
+<li>We aks eleventy to do its initial build.</li>
+</ol>
+<pre><code class="language-js">gulp.task('eleventy:build', function(done) {
+  elev.write().then(function() {
+    console.log('Done building 11ty');
+    done();
+  });
+});
+</code></pre>
+<p><br/></p>
+<ol start="3">
+<li>Do a deep rebuild of Eleventy when a file outside of Eleventy’s scope changes or an event trigger is received.</li>
+</ol>
+<pre><code class="language-js">gulp.task('eleventy:reload', function(done) {
+  elev.restart()
+  elev.write()
+});
+</code></pre>
+<p><br/></p>
+<p>This change works well for us but we'll of course need to make sure our local <code>cmd.js</code> incorporates any upstream changes (we forked it from Eleventy 0.9.0)</p>
+<p><br/></p>
+<h4>Enough talking</h4>
+<h2>Here's some code to try</h2>
+<p>I made a demo repository using this approach that you can:</p>
+<ul>
+<li><code>git clone https://github.com/khawkins98/gulp-eleventy-example.git</code> and</li>
+<li><code>npm install</code>, or just:</li>
+<li><a href="https://github.com/khawkins98/gulp-eleventy-example" class="">Browse <span class="emoji">🔎</span> the demo at github.com/khawkins98/gulp-eleventy-example</a></li>
+<li>If you have feedback <span class="emoji">💬</span>, I'd love to hear it. Either <a href="https://github.com/khawkins98/gulp-eleventy-example/issues">as an issue</a> or on <a href="https://twitter.com/khawkins98">Twitter @khawkins98</a></li>
+</ul>
+<h3>What's next</h3>
+<ul>
+<li>I'll likely make an issue on Eleventy about supporting this</li>
+<li>If that doesn't get support (or I feel inspired) I may also make an npm <code>gulp-eleventy-example</code> package</li>
+</ul>
+<!--
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<figure class="callout large-12 cell">
+<img src="../images/original/blog/xxxx.jpg" />
+<figcaption><strong>Figure 1.</strong> Caption.
+</figcaption>
+</figure>
+</div>
+-->
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20191021-integrating-eleventy-with-gulp.html</link>
+  <guid>https://work.allaboutken.com/posts/20191021-integrating-eleventy-with-gulp.html</guid>
+  <pubDate>Mon Oct 21 2019 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>Inside the Content-Action Model</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <figure class="large-10 medium-8 cell callout"><img class="padding-bottom-medium" src="../images/original/blog/cam-model-terraced-farming.jpg" />
+    <cite class="text-right">Thanks to Flickr user David Wormley for the image [<a href="https://www.flickr.com/photos/sleepingseasons/26604658090/">CC License</a>]</cite>
+    <figcaption>Terraced rice farming: through sculpting and definition of an organic environment, we make better use of a resource. There's an parallel with interactive content.</figcaption>
+  </figure>
+</div>
+<p>   <span class="label">Filed in: CAM for Web Systems, ontology</span></p>
+<div class="grid-x">
+<div class="large-11 medium-12 cell">
+<h1>Inside the Content-Action Model</h1>
+</div>
+</div>
+<p class="lead">An ontology to document, plan, define and implement CAM magic.</p>
+<p>I've <a href="../posts/20180122-content-action-model.html">previously stated how the Content-Action Model for Web Systems</a> better unites strategy, user actions and content over time — that's a bold claim that's possible through <a href="https://en.wikipedia.org/wiki/Semantic_triple">triples</a> of content, users and goals.</p>
+<p>This post details the first steps from theory to action.</p>
+<blockquote>
+<p class="lead">By placing our content, goals, users into an ontology we can derive logical queries of relationships, placement and <em>success</em>. — me, just now.</p>
+</blockquote>
+<p>Below (in Figure 1) is a <a href="http://vowl.visualdataweb.org/webvowl.html">WebVOWL visualisation</a> of an early draft (v.002).</p>
+<p>The takeaway I intend to show: <code>CAM Records</code> are the parent in the ontology with <code>CAM Goals</code> as the central hub. Pages, content units, and users play a strong supporting role.</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<figure class="callout large-12 cell">
+<img src="../images/original/blog/cam-model-ontology.jpg" />
+<figcaption><strong>Figure 1.</strong> The ontology framework for the CAM model.
+</figcaption>
+</figure>
+</div>
+<p>Want a closer look? <a class="" href="https://work.allaboutken.com/images/original/blog/cam-model-v002.owl"> Download a copy of the ontology (v.002)</a>.</p>
+<h2><a name="sample" href="#sample">What's the point of doing this? A sample</a></h2>
+<p>Below (in Figure 2), I've illustrated a connection in the &quot;Jobs&quot; and &quot;Front page&quot; systems (<code>Records</code>). Here they have a join in through the goal of &quot;Informing and understanding&quot;, however we can see the systems use different content to achieve this. Knowing this provide's a chance for sympathetic design between pages and ask if we're doing enough to re-use existing content.</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<figure class="callout large-10 small-12 cell">
+<img src="../images/original/blog/cam-model-ontology-inferences.png" style="border: 1px solid #EEE" />
+<figcaption><strong>Figure 2.</strong> A sample view of inferences between <a href="../posts/20180122-content-action-model.html#in-a-record">CAM Records</a>.
+</figcaption>
+</figure>
+</div>
+<p>This is one way that triples allow us to programatically &quot;understand&quot; content and make new observations; in a similar fashion to the above we can query for:</p>
+<ul>
+<li>absence of <code>Content</code> supporting <code>Goals</code>;</li>
+<li>users missing <code>Content</code> to support their needs;</li>
+<li><code>Records</code> with strong relationships or potential redundancies;</li>
+<li>amongst others.</li>
+</ul>
+<h2><a name="using" href="#using">Enabling use across the organisation</a></h2>
+<p>A risk of using an ontology <a href="https://en.wikipedia.org/wiki/Information_architecture">information architecture</a> is creating a barrier of &quot;IA speak&quot; that only allows our most experienced content professionals to understand the system — and that's contrary to our aim of websites more responsive to needs of users and organisations.</p>
+<p>So our ontology functions as a reference and guide, and not the working implementation.</p>
+<h3><a name="gathering-knowledge" href="#gathering-knowledge">Collecting knowledge</a></h3>
+<p>Instead of an overly formalised front end, we will collect information for this ontology in a conversational and flexible survey-style document and manage it in a human-approachable web application.</p>
+<p>Below (in Figure 3), three screenshots: first collecting the knowledge, managing and displaying inferences.</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<figure class="callout large-12 cell">
+<img src="../images/original/blog/cam-model-ontology-collecting.png" />
+<figcaption><strong>Figure 3.</strong> Prototypes from left to right: loosely structured documents to collect information, user-accesible editing forms, processed and cross-referenced displays of information. The ontology will function below the surface and only be visible to users indirectly.
+</figcaption>
+</figure>
+</div>
+<p>Use of a web application also allows us a path to future goals; including:</p>
+<ul>
+<li>templating inferences; and</li>
+<li>draw in third-party information, such as from web analytics.</li>
+</ul>
+<p>Interested in the ontology, CAM, or the application layer?<br>
+<span class="emoji">👉</span> Get in touch: <span class="emoji">🐦</span> <a href="https://twitter.com/khawkins98">@khawkins98</a> or <span class="emoji">✉️</span> <a href="mailto:khawkins98@gmail.com">khawkins98@gmail.com</a></p>
+<h2><a name="next" href="#next">Building the CAM, what's next?</a></h2>
+<p>The <a href="../posts/20180122-content-action-model.html">Content-Action Model for Web Systems</a> is an emerging methodology that I'm blogging about throughout 2018.</p>
+<ul>
+<li><a href="../blog">You can see previous posts here</a>.</li>
+<li>Next I'll write about the user-facing implementation of the ontology as a web application. That will allow us to better capture truth, derive observations and query metrics of success from our analytics.</li>
+</ul>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20180329-cam-content-action-goal-ontology.html</link>
+  <guid>https://work.allaboutken.com/posts/20180329-cam-content-action-goal-ontology.html</guid>
+  <pubDate>Thu Mar 29 2018 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>What if: A web font for data</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div class="">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <figure class="large-10 medium-8 cell callout"><img class="padding-bottom-medium" src="../images/original/blog/blog_font_for_data_image.png" />
+    <figcaption>
+      <cite class="text-right">Sources: <a href="https://wwwdev.ebi.ac.uk/gxa/genes/ENSMUSG00000030507?bs=%7B%22mus%20musculus%22%3A%5B%22ORGANISM_PART%22%5D%7D&amp;ds=%7B%22kingdom%22%3A%5B%22animals%22%5D%7D#information">1</a> <a href="http://www.ebi.ac.uk/interpro/entry/IPR004433">2</a> <a href="https://www.ebi.ac.uk/QuickGO/annotations?goUsage=descendants&amp;goUsageRelationships=is_a,part_of,occurs_in&amp;goId=GO:0006915">3</a></cite>
+      GO:9X09234: enolpyruvyl-6-text-like-this-is-fit-to-drive-you-batty-3-cyclohexene.
+    </figcaption>
+  </figure>
+</div>
+<p>   </p>
+<div class="grid-x">
+<div class="large-11 medium-12 cell">
+<h1>What if: A web font for data</h1>
+</div>
+</div>
+<p class="lead">Alphanumeric data works well for programmatic query, but less so for direct human consumption. What if a font was designed specifically with <a href="https://www.ebi.ac.uk/about/news/press-releases/life-science-data-global-responsibility-2017">life sciences data</a> in mind?</p>
+<p>As EMBL-EBI’s web design architect, I help foster community standards for how services enable user tasks with consistently and predictably.</p>
+<p>Within the standards is a mix: things found on most websites — menus, accordions, layout, messaging, branding — plus application interactivity and data visualisation standards. It’s a hugely broad undertaking with complex technical implications.</p>
+<p>But, one of the biggest challenges is also the simplest: text readability.</p>
+<p>EMBL-EBI helps <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5570174/">enable</a> free access to massive amounts of data from life science experiments. This allows users to access lots and lots of tables with data identifiers that look like:</p>
+<ul>
+<li><code>ENSMUST00000032717 ENSMUSG00000030507</code>, and</li>
+<li><code>A_51_P156144, 4532657, 10563797, 129205_at, 4947113, 4910838, 1457012_at, 4962225, 5549684, 5020471, 4460390</code></li>
+</ul>
+<p>Making these strings more understandable is partly a classic design problem of when, where and how these strings are presented.</p>
+<p>But it’s also a question of <strong>what</strong> is displayed.</p>
+<h2><a name="problems" href="#problems">Problems to address</a></h2>
+<p>Here’s a starting list (ideas? comment? <span class="emoji">🐦</span> <a href="https://twitter.com/khawkins98">@khawkins98</a>):</p>
+<ul>
+<li>Multiple sequential numbers: it’s not uncommon to have 7 zeros <code>20000001</code> in a row. Oh wait, that was only 6 zeros.</li>
+<li>Readability:
+<ul>
+<li><code>Distracing_under_scores</code></li>
+<li><code>BuMpy caPitiLiSation</code></li>
+<li>Dropping descenders in letters like these: <code>jJlpP</code></li>
+<li>Small openings (<a href="https://en.wikipedia.org/wiki/Counter_(typography)">counters</a>) in numbers at small sizes</li>
+</ul></li>
+<li>Wide widths of monospacing: monospaced fonts are often not used as they can take up more room (particularly with spaces between words) and folks want to pack as much data as they can into one screen.
+<ul>
+<li>Monospaced = false</li>
+<li><span class="monospaced">Monospaced = true</span></li>
+</ul></li>
+</ul>
+<h2><a name="code-fonts" href="#code-fonts">A parallel in code fonts</a></h2>
+<p>Take computer code: monospaced fonts are an <a href="https://en.wikipedia.org/wiki/Monospaced_font">immense help</a>. Uniform character alignment makes it easier to navigate and compare parallel rows of commands.</p>
+<p>It’s much akin to how spreadsheets are good for lining up grids of numbers.</p>
+<p>Monospace fonts typically have sharp, angular edges. This helps prevents mixups of a lowercase <code>l</code> and a pipe <code>|</code> or a number one <code>1</code>. Likewise for an uppercase <code>O</code> and numeric zero <code>0</code>.</p>
+<p>You might call some of these monospace fonts “code” fonts.</p>
+<div class="grid-x align-right padding-bottom-small">
+  <figure class="medium-10 cell callout">
+    <figcaption>
+      <span class="label black-background">Aside</span> There are also <a href="https://ia.net/topics/in-search-of-the-perfect-writing-font/">“duospace” fonts</a> that combine the discernibility of mono fonts, but with flexibility for letters like <span class="monospaced-ligatrues">w</span> and <span class="monospaced-ligatrues">m</span>
+    </figcaption>
+  </figure>
+</div>
+<h3><a name="code-2" href="#code-2">Code fonts 2.0</a></h3>
+<p>Further illustrating the potential of modern font usage across the desktop and web, the concept of <a href="link">ligatures</a> has emerged for monospaced code fonts.</p>
+<p>Take the font <a href="https://github.com/tonsky/FiraCode">Fria Code</a>, it improves the readability of common code expressions and strings:</p>
+<ul>
+<li><span class="monospaced">!=  </span> <span class="monospaced-ligatrues">-&gt; !=</span></li>
+<li><span class="monospaced">www </span> <span class="monospaced-ligatrues">-&gt; www</span></li>
+<li><span class="monospaced">*** </span> <span class="monospaced-ligatrues">-&gt; ***</span></li>
+<li><span class="monospaced">?=  </span> <span class="monospaced-ligatrues">-&gt; ?=</span></li>
+</ul>
+<p>These ligatures help with visual smoothness, readability and discernments of repetitive characters (i.e. <span class="monospaced-ligatrues"><code>**</code></span> vs <span class="monospaced-ligatrues"><code>***</code></span>)</p>
+<p>There is some controversy about how adding ligatures can dilute truth when syntax is gospel but, in general, the trend of code ligatures shows potential. It’s still fairly new, first appearing in earnest <a href="https://medium.com/larsenwork-andreas-larsen/ligatures-coding-fonts-5375ab47ef8e">in 2015</a> and you can now <a href="https://github.com/ToxicFrog/Ligaturizer">easily graft programming ligatures onto many monospaced fonts</a>.</p>
+<div class="grid-x align-right padding-bottom-small">
+  <figure class="medium-10 cell callout">
+    <figcaption>
+      <span class="label black-background">Aside</span> There are also <a href="https://www.sharelatex.com/learn/Mathematical_fonts">math fonts</a>, but those are designed to facilitate characters that aren’t easy to represent in ASCII, which is a different problem than the one we’re looking to address here (as most of the data we’re dealing with has ASCII representations)
+    </figcaption>
+  </figure>
+</div>
+<h2><a name="why" href="#why">Why code fonts matter for life science data</a></h2>
+<p>I’ve been talking about possible solutions to programming issues. It doesn’t fully map to the issues in data design, much less Life Science data but we can still draw inspiration from the solutions being worked on in the programming space.</p>
+<p>To venn:</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<figure class="callout medium-8 large-6 small-10 cell">
+<img src="../images/original/blog/blog_font_for_data_venn.svg" />
+<figcaption>Something like that, anyways.</figcaption>
+</figure>
+</div>
+<h2><a name="tools" href="#tools">11 Tools and approaches we could use</a></h2>
+<p>A non-exclusive list, but some good places to look along with a few illustrative examples. I'm not saying all of these are <strong>good</strong> ideas, but they're possibilities that address some issue and this is my my way of airing everything. Oh, these are <strong>not</strong> technical demonstrations, only illustrations.</p>
+<h3><a name="1" href="#1">1. Monospace fonts</a></h3>
+<p>Just using monospace could be a big win. With the extra readability of the letter forms we could save space by reducing the font size ever so slightly.</p>
+<p data-height="105" data-theme-id="light" data-slug-hash="RMKwLm" data-default-tab="result" data-user="khawkins98" data-embed-version="2" data-pen-title="A data font: Monospace fonts" class="codepen">See the Pen <a href="https://codepen.io/khawkins98/pen/RMKwLm/">A data font: Monospace fonts</a> by Ken Hawkins (<a href="https://codepen.io/khawkins98">@khawkins98</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<!-- <script async src="https://static.codepen.io/assets/embed/ei.js"></script> -->
+<p>&nbsp;</p>
+<h3><a name="2" href="#2">2. Duospace fonts</a></h3>
+<p>Here I've used <a href="https://ia.net/topics/in-search-of-the-perfect-writing-font">iA Writer Duospace</a> to illustrate how we can bend the rules of monospaced fonts for better readability.</p>
+<p data-height="110" data-theme-id="light" data-slug-hash="mxOgoM" data-default-tab="result" data-user="khawkins98" data-embed-version="2" data-pen-title="A data font: duospace" class="codepen">See the Pen <a href="https://codepen.io/khawkins98/pen/mxOgoM/">A data font: duospace</a> by Ken Hawkins (<a href="https://codepen.io/khawkins98">@khawkins98</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<!-- <script async src="https://static.codepen.io/assets/embed/ei.js"></script> -->
+<p>&nbsp;</p>
+<h3><a name="3" href="#3">3. Ligatures</a></h3>
+<p>Particularly for grouping repeating numbers ever so slightly in the manner of <span class="monospaced">www</span> vs <span class="monospaced-ligatrues">www</span>. This one currently makes me nauseous.</p>
+<p data-height="165" data-theme-id="light" data-slug-hash="pLNmGj" data-default-tab="result" data-user="khawkins98" data-embed-version="2" data-pen-title="A data font: ligatures" class="codepen">See the Pen <a href="https://codepen.io/khawkins98/pen/pLNmGj/">A data font: ligatures</a> by Ken Hawkins (<a href="https://codepen.io/khawkins98">@khawkins98</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<!-- <script async src="https://static.codepen.io/assets/embed/ei.js"></script> -->
+<p>&nbsp;</p>
+<h3><a name="4" href="#4">4. Ink traps</a></h3>
+<p>Bringing <a href="http://nicksherman.com/articles/bellCentennial.html">ink traps</a> to the digital world could help <a href="https://www.wired.com/2016/10/typographic-trickery-shifts-font-paper-pixels/">for small text on HiDPI (retina) screens</a>.</p>
+<p data-height="120" data-theme-id="light" data-slug-hash="OvWPZx" data-default-tab="result" data-user="khawkins98" data-embed-version="2" data-pen-title="A data font: Ink traps" class="codepen">See the Pen <a href="https://codepen.io/khawkins98/pen/OvWPZx/">A data font: Ink traps</a> by Ken Hawkins (<a href="https://codepen.io/khawkins98">@khawkins98</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<p>Second line is <a href="https://frerejones.com/families/retina">Retina MicroPlus</a> and shown as SVG for licensing reasons.</p>
+<p>&nbsp;</p>
+<h3><a name="5" href="#55">5. Avoid descenders</a></h3>
+<p>We could avoid descenders for <code>j</code> and similar. This is a similar readability case as <a href="https://www.chronicle.com/blogs/linguafranca/2012/03/14/old-style-versus-lining-figures/">lining vs old style figures</a>.</p>
+<p data-height="265" data-theme-id="light" data-slug-hash="BrpBJv" data-default-tab="result" data-user="khawkins98" data-embed-version="2" data-pen-title="A data font: small descenders" class="codepen">See the Pen <a href="https://codepen.io/khawkins98/pen/BrpBJv/">A data font: small descenders</a> by Ken Hawkins (<a href="https://codepen.io/khawkins98">@khawkins98</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<!-- <script async src="https://static.codepen.io/assets/embed/ei.js"></script> -->
+<p>&nbsp;</p>
+<h3><a name="6" href="#6">6. Being width conscious</a></h3>
+<p>With a narrow monospace font <a href="http://www.myfonts.com/fonts/martinlallier/kg-stuttgart-1930/">1</a> <a href="https://fontlibrary.org/en/font/anka-coder-condensed">2</a> <a href="https://github.com/fitojb/anka-coder-fonts">3</a>; or follow the lead of duospace fonts and narrow the width of the space between words by 50%</p>
+<p data-height="120" data-theme-id="light" data-slug-hash="pLRoaP" data-default-tab="result" data-user="khawkins98" data-embed-version="2" data-pen-title="A data font: Width conscious" class="codepen">See the Pen <a href="https://codepen.io/khawkins98/pen/pLRoaP/">A data font: Width conscious</a> by Ken Hawkins (<a href="https://codepen.io/khawkins98">@khawkins98</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<!-- <script async src="https://static.codepen.io/assets/embed/ei.js"></script> -->
+<p>&nbsp;</p>
+<h3><a name="7" href="#7">7. A mild-serif monospace for legibility</a></h3>
+<p>It's hard to be enthusiastic about this idea, but serifs on a monospaced font at small sizes might help readability on HiDPI screens. There are a few options <a href="https://www.fontsquirrel.com/fonts/verily-serif-mono">1</a> <a href="http://www.tug.dk/FontCatalogue/luximono/">2</a> <a href="https://fonts.google.com/specimen/Cutive+Mono">3</a></p>
+<p data-height="165" data-theme-id="light" data-slug-hash="bvgGdG" data-default-tab="result" data-user="khawkins98" data-embed-version="2" data-pen-title="A data font: serif monospaced font" class="codepen">See the Pen <a href="https://codepen.io/khawkins98/pen/bvgGdG/">A data font: serif monospaced font</a> by Ken Hawkins (<a href="https://codepen.io/khawkins98">@khawkins98</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<!-- <script async src="https://static.codepen.io/assets/embed/ei.js"></script> -->
+<p>&nbsp;</p>
+<h3><a name="8" href="#8">8. Ordinal position highlighting</a></h3>
+<p>We could highlight every Nth character in a sequence.</p>
+<p data-height="120" data-theme-id="light" data-slug-hash="XEpWEE" data-default-tab="result" data-user="khawkins98" data-embed-version="2" data-pen-title="A data font: Ordinal highlighting" class="codepen">See the Pen <a href="https://codepen.io/khawkins98/pen/XEpWEE/">A data font: Ordinal highlighting</a> by Ken Hawkins (<a href="https://codepen.io/khawkins98">@khawkins98</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<!-- <script async src="https://static.codepen.io/assets/embed/ei.js"></script> -->
+<p>Unfortunately there <a href="https://www.bram.us/2012/04/13/css-nth-letter/">still</a> is no <code>:nth-letter</code> pseudo selector in CSS and workarounds (<a href="https://codepen.io/FWeinb/pen/djuIx">1</a> <a href="https://github.com/FWeinb/nthEverything">2</a>) require JS.</p>
+<p>&nbsp;</p>
+<h3><a name="9" href="#9">9. Utilise CSS support for OpenType features</a></h3>
+<p>Is you font too tightly kerned for numbers? That letter &quot;g&quot; not working?</p>
+<p>In addition to ligatures, contemporary CSS and browsers <a href="https://helpx.adobe.com/typekit/using/open-type-syntax.html">support other advanced OpenType features</a> including <a href="https://helpx.adobe.com/typekit/using/open-type-syntax.html">tabular figures (tnum)</a> and <a href="https://helpx.adobe.com/typekit/using/open-type-syntax.html#ss##">Stylistic sets (ss##)</a>.</p>
+<p data-height="165" data-theme-id="light" data-slug-hash="RMKwYb" data-default-tab="result" data-user="khawkins98" data-embed-version="2" data-pen-title="A data font: Stylistic alternates, tabular numbers" class="codepen">See the Pen <a href="https://codepen.io/khawkins98/pen/RMKwYb/">A data font: Stylistic alternates, tabular numbers</a> by Ken Hawkins (<a href="https://codepen.io/khawkins98">@khawkins98</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<!-- <script async src="https://static.codepen.io/assets/embed/ei.js"></script> -->
+<p>&nbsp;</p>
+<h3><a name="10" href="#10">10. Use a legible base font</a></h3>
+<p>Obvious but important:</p>
+<p data-height="265" data-theme-id="light" data-slug-hash="BrWLWL" data-default-tab="result" data-user="khawkins98" data-embed-version="2" data-pen-title="A data font: A legible base font" class="codepen">See the Pen <a href="https://codepen.io/khawkins98/pen/BrWLWL/">A data font: A legible base font</a> by Ken Hawkins (<a href="https://codepen.io/khawkins98">@khawkins98</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<!-- <script async src="https://static.codepen.io/assets/embed/ei.js"></script> -->
+<p>&nbsp;</p>
+<h3><a name="11" href="#11">Bonus number 11: Do the basics well</a></h3>
+<p>In addition to No. 10, we shouldn't forget just how much <a href="http://alistapart.com/article/web-typography-tables">we can achieve through good design of tables</a>.</p>
+<p>&nbsp;</p>
+<h2><a name="next" href="#next">What’s next</a></h2>
+<p>Addressing these issues is on our backlog — if you’re also interested in the problem space or have comments, please get in touch: <span class="emoji">🐦</span> <a href="https://twitter.com/khawkins98">@khawkins98</a> or <span class="emoji">✉️</span> <a href="mailto:khawkins98@gmail.com">khawkins98@gmail.com</a></p>
+</div>
+</div>
+<p><link rel="stylesheet" href="https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css"></p>
+<style type="text/css">
+.monospaced {
+  font-family: ibm-plex-code,Courier,monospace;
+}
+.monospaced-ligatrues {
+  font-family: "Fira Code",Courier,monospace;
+}
+<p>.monospaced-ligatrues.small {<br>
+font-size: .85rem;<br>
+}</p>
+</style>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20180319-data-font-for-life-sciences.html</link>
+  <guid>https://work.allaboutken.com/posts/20180319-data-font-for-life-sciences.html</guid>
+  <pubDate>Mon Mar 19 2018 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>Migrating to Zurb Panini 2.0</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div class="">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <figure class="large-10 medium-8 cell callout"><img class="padding-bottom-medium" src="../images/original/blog/panini.jpg" />
+    <cite class="text-right">Thanks to Flickr user Stephanie Vacher for the image [<a href="https://www.flickr.com/photos/trufflepig/4647966991/">CC License</a>]</cite>
+    <figcaption>2.0 Paninis. Or is it just 2.0 Panini? Paninodes?</figcaption>
+  </figure>
+</div>
+<p>   </p>
+<div class="grid-x">
+<div class="large-11 medium-12 cell">
+<h1>Migrating to Zurb Panini 2.0</h1>
+</div>
+</div>
+<p class="lead">Not yet stable yet, but has some compelling features.</p>
+<h2>Why upgrade to 2.0?</h2>
+<p>I've been using <a href="https://foundation.zurb.com/sites/docs/panini.html">Zurb's Panini</a> static site generating template to power this site. On the whole I've generally found it quite good, but there's been a couple rough edges that continued to paper cut when creating content (even though I realise Panini wasn't made with blogging in mind).</p>
+<p>One thorny limitation is there's no seamless way to generate a blog index or RSS feed. So in versions 1.X, I had to create and manually maintain a YML file with each blog entry.</p>
+<p>Not the end of the world, but it's a copy paste job that would occasionally lead to mistakes and was tedious; an excerpt of my old manually rolled <a href="https://github.com/khawkins98/allaboutken/commit/4c49c644018c2639248a97f7e0d27bacbc8f2852#diff-1dfd1f9032506bbbc9e863db26d9e115L1"><code>data/blog.yml</code></a> file:</p>
+<pre><code>- title: &quot;Actioning web strategy &amp; IA: The Content-Action Method for Web Systems&quot;
+  layout: default
+  teaser: &quot;A method to distill content and user, organisational goals into an interconnected, holistic practice.&quot;
+  image: &quot;/blog/drill-bits.jpg&quot;
+  date: 2018-01-22
+  url: /posts/20180122-content-action-model.html
+</code></pre>
+<p><br/>And beyond being tedious to create and maintain (copy-pasting each page's meta data), the method only gave me access to <a href="https://github.com/khawkins98/allaboutken/commit/e0b010fcc664f61d32cce6f705ffa7d2fc760fec#diff-6a302f810e1ad4a49d70ada8954bfae1L12">what's in the YML file</a> — so that meant my RSS feed couldn't have the full blog posts:</p>
+<pre><code>{{#each blog}}
+&lt;item&gt;
+  &lt;title&gt;{{this.title}}&lt;/title&gt;
+  &lt;description&gt;{{this.teaser}}&lt;/description&gt;
+  &lt;link&gt;{{root}}{{this.url}}&lt;/link&gt;
+  &lt;pubDate&gt;{{this.date}}&lt;/pubDate&gt;
+&lt;/item&gt;
+{{/each blog}}
+</code></pre>
+<p><br/>But, lo! In version 2.0, a new <a href="https://github.com/zurb/panini/wiki/Panini-2.0-Preview#pages"><code>{{pages}}</code></a> variable.</p>
+<pre><code>{{#each-reverse pages}}
+  {{#ifequal this.[2].active_path &quot;blog&quot;}}
+&lt;item&gt;
+  &lt;title&gt;{{this.[2].title}}&lt;/title&gt;
+  &lt;description&gt;
+&lt;![CDATA[
+\
+{{#compileBlogPostForRSS this}}{{{ ../this }}}{{/compileBlogPostForRSS}}
+\
+]]&gt;
+  &lt;/description&gt;
+  &lt;link&gt;{{root}}{{this.[2].url}}&lt;/link&gt;
+  &lt;guid&gt;{{root}}{{this.[2].url}}&lt;/guid&gt;
+  &lt;pubDate&gt;{{this.[2].date}}&lt;/pubDate&gt;
+&lt;/item&gt;
+  {{/ifequal}}
+{{/each-reverse}}
+</code></pre>
+<p><br/>The magic happens in my custom <a href="https://github.com/khawkins98/allaboutken/blob/master/src/helpers/compileBlogPostForRSS.js"><code>{{#compileBlogPostForRSS}</code> helper</a>, where I pass in the full body of each post and render it as a Handlebars template. Here's <a href="https://github.com/khawkins98/allaboutken/tree/master/src/helpers">a link to that helper</a>.</p>
+<p>The approach is slightly messy as I must reach into the second <code>[2]</code> spot of each page array, but it does the job. (n.b. This is meant to get better by <a href="https://github.com/zurb/panini/issues/155">changing from an arraay to named object</a>.)</p>
+<p>I now use the same approach <a href="https://github.com/khawkins98/allaboutken/commit/4c49c644018c2639248a97f7e0d27bacbc8f2852#diff-3b336176286e237cdce7379d8db9442bL8">to build this site's Blog index</a>.</p>
+<h2>Upgrading from 1.x to 2.0</h2>
+<p class="lead">It's not so bad.</p>
+<p>Remember <a href="https://github.com/zurb/panini/tree/v2.0#panini">Panini 2.0</a> isn't finalised yet, but as Zurb <a href="https://github.com/zurb/panini/tree/v2.0#panini">points out</a>:</p>
+<blockquote>
+<p>It's pretty stable, and if you want to give it a try, we'd love some feedback or bug reports on anything you run into.</p>
+</blockquote>
+<p>Panini 1.X defaulted to use Gulp, and it was what worked best for me. So this guide is from gulp to gulp.</p>
+<ol>
+<li>Change your <code>packages.json</code> to use 2.0: <code>&quot;panini&quot;: &quot;^2.0.0-alpha.2&quot;</code> (Previously I was using Panini 1.5.1)</li>
+<li>In your <code>gulpfile.js</code> drop <code>var panini = require('panini');</code> and add <code>const panini = require('panini/gulp');</code></li>
+<li>Panini now has default expectations about the naming of layouts, partials, etc. So my Gulp Panini task is now just (<a href="https://github.com/khawkins98/allaboutken/commit/ebed803a7b33dedc217f5989614884b318c07596#diff-b9e12334e9eafd8341a6107dd98510c9L13">diff</a>):
+<pre><code>gulp.task('panini', () =&gt; {
+  return panini('src', {
+    // builtins: false,
+    })
+    .pipe(gulp.dest('build'));
+});
+</code></pre></li>
+<li>If you're using browserlab, <code>panini.refresh();</code> is a bit <a href="https://github.com/zurb/panini/issues/143#issuecomment-336227418">harder to use</a> and is <a href="https://github.com/zurb/panini/issues/151#issuecomment-361343532">going away</a>. Instead my <code>gulp.watch</code> task now invokes <code>panini.create();</code>. That may not be the most efficient way, but it works.</li>
+<li><code>#ifequal</code> is no longer a built in helper, <a href="https://github.com/zurb/panini/wiki/Panini-2.0-Preview#breaking-changes">instead it's <code>eq</code></a>. But I didn't want to find-replace, so I just <a href="https://github.com/khawkins98/allaboutken/commit/ebed803a7b33dedc217f5989614884b318c07596#diff-49044946986f4680452733de81822145">added the ifequal helper back</a>.
+<ul>
+<li>Apparently <code>#ifPage</code> is also out, but it still seems to be working.</li>
+<li><a href="https://github.com/zurb/panini/wiki/Panini-2.0-Preview#breaking-changes">Here's a short list of documented breaking changes</a>.</li>
+</ul></li>
+</ol>
+<h3>Misc changes</h3>
+<p>I had to do a few other things that were unique to my setup.</p>
+<ol>
+<li>I was generating my critical path CSS as a partial called <code>critical.min.css.html</code> (<span class="emoji">🚨</span>hack alert). It doesn't seem naming with dots are allowed in partials anymore, so I've called the file <code>criticalmincss.html</code>
+<ul>
+<li>I also had a page called <code>rss.xml</code> that was ignored by Panini. So I named it <code>rss.html</code> and move the output to <code>rss.xml</code>. THis is meant be changing with <a href="https://github.com/zurb/panini/issues/156">the addition of a <code>/static</code> build source</a>.</li>
+</ul></li>
+<li>Previously I didn't have my <code>layouts,partials,data,pages</code> under a directory. I moved them to <code>./src</code>.</li>
+</ol>
+<p>Here's <a href="https://github.com/khawkins98/allaboutken/commit/ebed803a7b33dedc217f5989614884b318c07596">the commit from my upgrade to 2.0</a>.</p>
+<h2>Other neat things</h2>
+<p>I've not yet used these yet, but they look like they'll really extend how long I can use Panini:</p>
+<ul>
+<li><a href="https://github.com/zurb/panini/tree/v2.0#localization">Localisation and translation</a></li>
+<li><a href="https://github.com/zurb/panini/tree/v2.0#content-blocks">Inject content into blocks</a> A bit like inverse partials, you can inject from a local page back into the parent template.</li>
+<li>The <a href="https://github.com/helpers/handlebars-helpers">Handlebars Helpers</a> project <a href="https://github.com/zurb/panini/issues/154">is now included</a>, and it brings many helpful ways of sorting and conditionallys showing data, and <a href="https://momentjs.com/">Moment.js</a> style date handling: <code>{{moment this.date format=&quot;YYYY MMM DD&quot;}}</code>.</li>
+</ul>
+<p>Panini still feels like a bit of unusual static templating engine. It's less feature complete than some, yet it also feels more light and tool-like than others. But I've enjoyed using it and it's been helpful, so thanks <a href="https://github.com/zurb/panini/graphs/contributors">Zurb and contributors</a>!</p>
+<p><a href="https://github.com/zurb/panini/tree/v2.0#panini" class="readmore">Check out Panini 2.0 here</a></p>
+<p>N.b. I don't think there's an existing Panini sample/quick-start blog project, if there's interest I could convert this site into a &quot;Panini blog boilerplate&quot;.</p>
+</div>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20180210-zurb-panini-2-migration.html</link>
+  <guid>https://work.allaboutken.com/posts/20180210-zurb-panini-2-migration.html</guid>
+  <pubDate>Sat Feb 10 2018 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>UX Discovery, UX Analysis + the CAM</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div class="">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <figure class="large-10 medium-8 cell callout"><img class="padding-bottom-medium" src="../images/original/blog/doors.jpg" />
+    <cite class="text-right">Thanks to Flickr user isa for the image [<a href="https://www.flickr.com/photos/58231478@N00/7739966376/">CC License</a>]</cite>
+    <figcaption>Three options, but which does a user want? Maybe they don't want any of the three.</figcaption>
+  </figure>
+</div>
+<p>   </p>
+<div class="grid-x">
+<div class="large-11 medium-12 cell">
+<h1>UX Discovery, UX Analysis + the CAM</h1>
+</div>
+</div>
+<p class="lead">What does it mean to &#x27;do UX&#x27; with our Content Action Model? Beyond the buzz.</p>
+<p>In January I <a href="../posts/20180122-content-action-model.html">wrote about the Content-Action Model for Web Systems</a>, a method I've been working on to better unite strategy, user actions, content and change over time. This post will look at the Content-Action Model (CAM) and it's relation to and participation of UX.</p>
+<p>UX is key to the CAM process, it challenges assumptions and fuels new idea creation — that said, of course UX is vital. If you're doing anything online and not paying attention to <a href="https://en.wikipedia.org/wiki/User_experience_design">user experience design</a>, you're doing things poorly.</p>
+<p>But what does it mean to generically &quot;do&quot; something as broad as UX?</p>
+<p>In my <a href="../posts/20180122-content-action-model.html">intro post on the CAM</a> I sighted only some passive UX &quot;diagnostic&quot; tools of user surveys, feedback and analytics.</p>
+<p>But, you shouldn't only be doing passive UX research, and the CAM helps us distill component beliefs — so we can dig deeper than passive forms of UX.</p>
+<h2>Getting to good UX: An example</h2>
+<p>With the CAM the importance is both in the process and capturing specific hypothesis, clearly stating our user types, goals — and the relation between these.</p>
+<figure class="">
+<figcaption><h3 style="color:#fff;">Making records to be challenged</h3></figcaption>
+<div class="grid-x grid-padding-x small-up-1 medium-up-3">
+  <div class="cell"><div class="card"><div class="card-section">
+    <span class="h5"><span class="emoji">👤</span> New customers</span>
+  </div></div></div>
+  <div class=""><div class=""><div class="card-section">
+    <span class="h5">want <span class="emoji">➡️</span></span>
+  </div></div></div>
+  <div class="cell"><div class="card"><div class="card-section">
+    <span class="h5"><span class="emoji">⭐️</span> to buy subscriptions</span>
+  </div></div></div>
+</div>
+</figure>
+<p>Our CAM is composed of implied relationships like these, which we can:</p>
+<ol>
+<li><strong>Challenge the relationship:</strong> do new customers really want to buy subscriptions? What evidence do we have?</li>
+<li><strong>Examine the components:</strong> who are new customers? It's a pretty broad segment with perhaps many personas or sub-groups.</li>
+</ol>
+<figure class="">
+<figcaption><h3 style="color:#fff;">Investigating implied relationships and individuals</h3></figcaption>
+<div class="grid-x grid-padding-x small-up-1 medium-up-3">
+  <div class="cell"><div class="card"><div class="card-section">
+    <span class="h5"><span class="emoji">👤</span> New customers</span>
+    <div class="callout small">
+      Who specifically are these people? Is it only one type? Let's investigate a sample of visitors.
+    </div>
+  </div></div></div>
+  <div class=""><div class=""><div class="card-section">
+    <span class="h5">want <span class="emoji">➡️</span></span>
+    <div class="callout small">
+      Do they?
+    </div>
+  </div></div></div>
+  <div class="cell"><div class="card"><div class="card-section">
+    <span class="h5"><span class="emoji">⭐️</span> to buy subscriptions</span>
+    <div class="callout small">
+      Talk to and observe the people we identify.
+    </div>
+  </div></div></div>
+</div>
+<p>The CAM is designed to distill and challenge these hypothesis as we complete an iteration of a CAM record:</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<figure class="callout large-12 cell">
+<img src="../images/original/blog/cam-process.svg" />
+<figcaption><strong>Figure 1.</strong> What CAM for Web Systems looks like in motion. Stages 1, 2 and 3 represent one iteration and version of a CAM record.
+</figcaption>
+</figure>
+</div>
+<p>When these deeper questions are posed we're exiting the measure cycle and re-entering our divergence phase. It's a good and logical time to use more time-intensive and open-ended processes like in-person interviews.</p>
+<style>ol ol { list-style-type: lower-alpha; } #main-content-area li { margin-bottom: .5rem; } p, li { max-width: 800px; } .card {color: #555; }</style>
+<h2>Building the CAM, what's next?</h2>
+<p>The Content-Action Model for Web Systems is an emerging methodology and I'll be blogging about it throughout 2018 as the system matures and distills.</p>
+<p>Next I'll likely be working to establish a formal ontology for the CAM, and to make a &quot;Getting started&quot; post.</p>
+<p>Until then, if you've not already read about the CAM, <a href="../posts/20180122-content-action-model.html">check out the original post here</a>.</p>
+</div>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20180207-discovery-and-analysis.html</link>
+  <guid>https://work.allaboutken.com/posts/20180207-discovery-and-analysis.html</guid>
+  <pubDate>Wed Feb 07 2018 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>Introducing the Content-Action Model for Web Systems</title>
+  <description>
+<![CDATA[
+<style>ol ol { list-style-type: lower-alpha; } #main-content-area li { margin-bottom: .5rem; } p, li { max-width: 800px; } .card {color: #555; }</style>
+<div class="medium-12 cell padding-top-large">
+<div class="">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <figure class="large-10 medium-8 cell callout"><img class="padding-bottom-medium" src="../images/original/blog/drill-bits.jpg" />
+    <cite class="text-right">Thanks to Ian D. Keating for the Image of drill bits [<a href="https://www.flickr.com/photos/ian-arlett/16451711088">CC License</a>]</cite>
+    <figcaption>Content, IA and UX professionals are spoiled for choice when it comes to tooling. But we need to be clear about which ones are right for the job — and that means distilling our intentions.</figcaption>
+  </figure>
+</div>
+<p>   </p>
+<div class="grid-x">
+<div class="large-11 medium-12 cell">
+<h1>Introducing the Content-Action Model for Web Systems</h1>
+</div>
+</div>
+<p class="lead">Wiring ‘ugly truth’ UX diagnostics for better web strategy &amp; IA.</p>
+<!-- - Content goals: connecting the dots
+- Better layouts: using the right components
+- Redundancies: annoying, yet useful
+- Answers: To what questions?
+ -->
+<p>Gleaning truth about what should be done — and undone — on our websites is the central quest of website strategy. There are many roads to the destination, and an arsenal of tools to make the journey smoother:</p>
+<figure class="">
+<figcaption><h3 style="color:#fff;">Our diagnostic tools</h3></figcaption>
+<div class="grid-x grid-padding-x small-up-2 medium-up-3">
+  <div class="cell"><div class="card"><div class="card-section">
+    Surveys
+  </div></div></div>
+  <div class="cell"><div class="card"><div class="card-section">
+    anecdotal feedback
+  </div></div></div>
+  <div class="cell"><div class="card"><div class="card-section">
+    user journeys
+  </div></div></div>
+  <div class="cell"><div class="card"><div class="card-section">
+    metrics (i.e. Google Analytics)
+  </div></div></div>
+  <div class="cell"><div class="card"><div class="card-section">
+    you get the idea …
+  </div></div></div>
+</div>
+</figure>
+<p>Our diagnostic tools are all-important methods towards achieving implementations, and optimising them. But just as you don’t start a quest by buying shoes, you need to take a step back before jumping into your Big Website Fix. Strategy — motivation, destination, and intent — is a much better place to begin a journey of discovery.</p>
+<figure class="">
+<figcaption><h3 style="color:#fff;">Building a better journey</h3></figcaption>
+<div class="grid-x grid-padding-x small-up-1 medium-up-3">
+  <div class="cell"><div class="card"><div class="card-section">
+    <span class="h5">Strategy <span class="emoji">➡️</span></span>
+    <ul class="padding-top-large">
+      <li>Organisational direction</li>
+      <li>in-person interviews</li>
+      <li>big ideas&#8482;</li>
+      <li>…</li>
+    </ul>
+  </div></div></div>
+  <div class="cell"><div class="card"><div class="card-section">
+    <span class="h5">Diagnotic tools <span class="emoji">➡️</span></span>
+    <ul class="padding-top-large">
+      <li>Surveys</li>
+      <li>anecdotal feedback</li>
+      <li>metrics</li>
+      <li>…</li>
+    </ul>
+  </div></div></div>
+  <div class="cell"><div class="card"><div class="card-section">
+    <span class="h5">Evaluation <span class="emoji">↩</span></span>
+  </div></div></div>
+</div>
+</figure>
+<p>This journey to better IA to in turn better the user experience must be built on a clear strategy, otherwise we risk losing our way. To enrich the wider strategy, and make the journey go well, we need to know when to use which diagnostic tools.</p>
+<!-- We know a bit about our diagnostic tools, but what's happening in those strategy and evaluation boxes? -->
+<h2>Let’s go.</h2>
+<p>I’m the Web Design Architect for the European Bioinformatics Institute (<a href="https://www.ebi.ac.uk/">EMBL-EBI</a>). This is a not-for-profit institute that serves data to all of the world’s life-science research communities, so it has a lot of different goals.</p>
+<p>Building consensus on the direction and evolution of the core website is not a one-off thing. It is a long-term, complex relationship amongst people with different priorities and perspectives, and demands communication tools that are fit for purpose.</p>
+<p>The main tool I’ve been working on to achieve this is our “Content-Action Method for Web Systems”. It helps decision-making on all levels, from layout adjustment to microsite building. (In the Web Development team we call it just the D.A.M. for Web Systems, or CAM for short, because shortening things is our culture, for better or worse.)</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<div class="callout cell medium-6 small-10">
+<h2>Origin story?</h2>
+<p>This method began after using Core Content Model methods — those were great, but not quite what we needed. For more about how the CAM method relates and doesn’t relate, check out the aside post: “<a href="20180122-content-action-model-origin-story.html">Beyond the Core Content Model</a>”.</p>
+</div>
+</div>
+<h2>How we use CAM for Web Systems</h2>
+<p>We use CAM for Web Systems to clearly model:</p>
+<ol>
+<li><strong>Needs:</strong> The organisation’s and our target users’</li>
+<li><strong>Content:</strong> What it is, and what it isn’t</li>
+<li><strong>Users:</strong> Who is visiting us now, and who we would like to join the party</li>
+<li><strong>Connections, paths, actions:</strong> Wherever they are needed</li>
+<li><strong>Meta stuff:</strong> Various contextual information about a model that helps us understand the affordances in motion</li>
+</ol>
+<p>We isolate each component as an individual item, then tie and untie them in the same conversation.<br>
+At EMBL-EBI we use the CAM for Web Systems to compare peer concerns. This goes a long way to helping people understand one another, and the sometimes conflicting frustrations/desires/priorities of user communities. In other words, this is a discussion tool to reach agreement.</p>
+<p>We then record our shared understanding for future discussions and development work. Distilling our intentions in the CAM for Web Systems allows us to build our analytics appropriately, capturing metrics that are truly useful for understanding user journeys. Even documenting disagreements shows our reasoning clearly.</p>
+<p>Once we isolate ‘purpose’ (n.b. this is harder than it looks), we can test, evaluate, and iterate.</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<figure class="callout large-12 cell">
+<img src="../images/original/blog/cam-process.svg" />
+<figcaption><strong>Figure 1.</strong> What CAM for Web Systems looks like in my brain: a riff on the <a href="https://www.designcouncil.org.uk/news-opinion/design-process-what-double-diamond">Double Diamond</a>.
+</figcaption>
+</figure>
+</div>
+<h2><a name="collect" href="#collect">What we collect in the CAM Record, and why</a></h2>
+<h3><a name="in-a-record" href="#in-a-record">CAM for Web Systems contents</a></h3>
+<ol>
+<li><strong>Organisational documentation:</strong> a firm organisational record about the agreed purpose of a portion of a website (such as an /about section)</li>
+<li><strong>Itemisation of components and actions:</strong> specific components for each section; including:</li>
+<li><strong>Overall purpose:</strong> informed by organisational priorities and UX research
+<ol>
+<li>URLs</li>
+<li>Goals (user and organisation)</li>
+<li>User types (prioritised)</li>
+<li>Content (and who will make it)</li>
+<li>Preceding and following actions (what pages and actions)</li>
+<li>Organisational placement (which parts of the organisation are surfaced)</li>
+<li>Organisation purpose (how does the content map to overall mission purposes in tone or external focus)</li>
+<li>Content owner (who is “responsible” for the content overall)</li>
+</ol></li>
+<li><strong>Relations between components:</strong> which user types are seeking this goal, and which content supports it?</li>
+<li><strong>Relations across CAM Records:</strong> how this content relates to the content, goals or users in other parts of the website (e.g. jobs page). This exposes areas that may need new CAM for Web Systems record.</li>
+<li><strong>Record of change and knowledge transfer:</strong> to avoid repeating previous missteps, and enable knowledge handover. The importance of capturing this cannot be overstated.</li>
+<li><strong>Truth through perspectives:</strong> by asking the same question from many different perspectives, expose gaps/missed opportunities (e.g. website content, external content) or prioritise areas for improvement (e.g. page components that are surplus to requirements).</li>
+</ol>
+<h3><a name="comparing" href="#comparing">Comparing CAM records</a></h3>
+<p>By collecting information consistently, we give ourselves — and our successors — clarity on how things have taken shape, what problems have been solved and what is in the pipeline (where the bodies are buried, essentially).</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<figure class="callout large-12 cell">
+<img src="../images/original/blog/cam-logic-model.svg" />
+<figcaption><strong>Figure 2.</strong> Logic model: Comparing different CAM records.
+</figcaption>
+</figure>
+</div>
+<h3><a name="example" href="#example">Example: Components of a ‘Contact us’ system</a></h3>
+<p>Creating a network of CAM Records can pay dividends, as it reveals fragment goals, content and user types. A common diagnostic evaluation:</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<figure class="callout large-12 cell">
+<img src="../images/original/blog/cam-flow.svg" />
+<figcaption><strong>Figure 3.</strong> Output of a CAM Record’s content, goals and users for a “Contact us” system.
+</figcaption>
+</figure>
+</div>
+<p>In this simplified “Contact us” page for a shop, you can see clearly that the Twitter feed content needs looking at.</p>
+<p>This CAM Record shows:</p>
+<ul>
+<li>the Twitter feed is superfluous to perceived requirements</li>
+<li>we’ve missed a goal or user type</li>
+</ul>
+<p>So we can prioritise looking at the Twitter feed to see if people are using it. Then we can either strike it, or delve into which of our customers are utilising it, and why.</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<figure class="callout large-12 cell">
+<img src="../images/original/blog/cam-flow-addition.svg" />
+<figcaption><strong>Figure 4.</strong> A content fragment often allows us to clearly identify a missed use case.
+</figcaption>
+</figure>
+</div>
+<h2><a name="using" href="#using">Where and when to use</a></h2>
+<p class="lead">By modelling our systems consistently, we routinely surface and resolve logic issues.</p>
+<p>The CAM method allows us to develop hypotheses more clearly, and expose important knowledge gaps. This allows us to construct a shared narrative with legitimacy within the organisation, allowing us to cooperate as a group and avoid internal nitpicking.</p>
+<p>In the ‘Contact us’ example, looking closely at how people used the Twitter feed (which seemed superfluous) allowed us to add a new, validated goal: “Get info on sales and last-minute updates”. Very handy. But is that a genuine need of our two user types?</p>
+<p>Our framework allows us to see and prioritise areas we need to investigate. It helps us articulate our questions, and select the right tools to investigate and test our hypotheses.</p>
+<p>Importantly, we can share our findings easily with one another, and feed them back into iterations of the model. By doing so, we are continually improving the model and making it easier to <strong>make decisions based on evidence</strong>.</p>
+<h2>What’s next for the CAM for Web Systems?</h2>
+<p class="lead">This is the first of what I hope will be many posts exploring this new approach.</p>
+<p>Depending on feedback on this post, and developments in our many digital communications fora, I’ll be writing about:</p>
+<ul>
+<li><strong>CAM in Action:</strong> A how-to on getting started with this methodology.</li>
+<li><strong>Visualising insights:</strong> A dashboard to give knowledgeable stakeholders a ‘forest from the trees’ view on our strategy, interconnected content and user activity;</li>
+<li><strong>Goal-driven metrics:</strong> Looking beyond page views, and using our CAM for Web Systems to capture metrics of success and failure that relate directly to our objectives;</li>
+<li><strong>Programmatic solutions:</strong> Going beyond paper, manipulating our data in lightweight databases like <a href="https://coda.io/">Coda</a> and surfacing in-context through <a href="http://gavin.carothers.name/2009/08/13/trying-to-understand-microdata-rdfa/">RDFa in our website HTML markup</a>;</li>
+<li><strong>Specialising:</strong> How we take the general model and adapt it to bespoke use cases, such as EMBL-EBI’s free-to-use <a href="https://www.ebi.ac.uk/services">scientific data services</a>;</li>
+<li><strong>UX + the CAM:</strong> What does it mean to 'do UX' with our Content Action Model? Beyond the buzz.
+<ul>
+<li><strong>Published</strong>: <a href="20180207-discovery-and-analysis.html">read it here</a>.</li>
+</ul></li>
+</ul>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<figure class="callout large-12 cell">
+<img src="https://lh3.googleusercontent.com/KlmXDvhCSpJZMslp4aimbVVe1IPSeSSAOqTvx1D_OcTMbYQcIBxJqeYKk4uuIuGk4LdsNwfU-mf5kt63GVk_PiNjV_o6Jx9UjqrNU_XXRiL2IJ7-2-cdYX07lAe57995wJ_04JJ1" />
+<figcaption><strong>Figure 5.</strong> The goal: clearly see and show connections to power dashboards and gather new insights.</figcaption>
+</figure>
+</div>
+<h2><a name="kudos" href="#kudos">Kudos in particular to this post</a></h2>
+<p>For the growth of this CAM method, I owe thanks to many for inspiration, support and indulgence. But to the writing of this article, I'd like to pass on some specific thanks:</p>
+<ul>
+<li><strong>Mary Todd-Bergman</strong> (<a href="https://twitter.com/themarytodd"><span class="emoji">🐦</span> @themarytodd</a>): For editing this, sure, but also for on-going support, testing and sounding-out of this approach.</li>
+<li><strong>Ivan Labra</strong> (<a href="https://twitter.com/ilabra"><span class="emoji">🐦</span> @ilabra</a>): For bouncing ideas about what I’m really getting at here and getting my speak out of the organisational bubble.</li>
+</ul>
+<p>If you're also interested in chatting about this evolving model or improving it: <a href="https://twitter.com/khawkins98"><span class="emoji">🐦</span> @khawkins98</a></p>
+</div>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20180122-content-action-model.html</link>
+  <guid>https://work.allaboutken.com/posts/20180122-content-action-model.html</guid>
+  <pubDate>Mon Jan 22 2018 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>The Content-Action Model origin story</title>
+  <description>
+<![CDATA[
+<style>ol ol { list-style-type: lower-alpha; } #main-content-area li { margin-bottom: .5rem; } p, li { max-width: 800px; }</style>
+<div class="medium-12 cell padding-top-large">
+<div class="">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <figure class="large-10 medium-8 cell callout"><img class="padding-bottom-medium" src="../images/original/blog/terra-incognita.jpg" />
+    <cite class="text-right">Gutiérrez, Diego, Active, Hieronymus Cock, and Lessing J. Rosenwald Collection. Americae Sive Qvartae Orbis Partis Nova Et Exactissima Descriptio. [<a href="https://www.loc.gov/item/map49000970/">Library of Congress</a>].</cite>
+    <figcaption>Gutiérrez and Cock 1562 map of the Americas "vlterius hec terra incognita permansit": we're trying to explore connected, but new spaces.</figcaption>
+  </figure>
+</div>
+<p>  |   An aside to the <a href="20180122-content-action-model.html">Content-Action Method for Web Systems</a> post</p>
+<h1>The Content-Action Model origin story</h1>
+<p class="lead">Beyond the Core Content Model and into organisations, actions.</p>
+<p>I started to use Core Content Model methods (first <a href="https://alistapart.com/article/the-core-model-designing-inside-out-for-better-results">enshrined by Ida Aalen</a>), and found them to be incredibly useful—but not quite right. The <a href="20180122-content-action-model.html">Content-Action Method for Web Systems</a> took shape when I started to radically adjust the format and scope to suit the needs of our organisation and its diverse users and—wait for it—our strategy.</p>
+<h2>How is the CAM for Web Systems different?</h2>
+<p>The CAM for Web Systems was originally based on the Core Content Model idea (see Figure 1).</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<figure class="callout large-12 cell cell">
+<img src="../images/original/blog/cam-vs-core-content-model.svg" />
+<figcaption><strong>Figure.</strong> Venn diagram showing where the Affordance Method overlaps with the Core Content Model, and where they both sit on the spectrum of ‘system management’ vs ‘new concept exploration’. I’ve marked where goal measurement, identification and exploration sit most comfortably.
+</figcaption>
+</figure>
+</div>
+<p>The CAM for Web Systems (in our experience) has proven very effective when workshopping new websites. (We also use the HEART Framework for new, more creative thinking.) The CAM for Web Systems has worked better for on-going maintenance, consensus building, evaluation and improvement of existing sites.</p>
+<h2>Advantages of the CAM</h2>
+<p>There are a few reasons why our CAM for Web Systems (built on the Model) works well for evolving existing sites:</p>
+<ol>
+<li><strong>Database friendly:</strong> The CAM for Web Systems uses a less free-thinking format (i.e. a text and/or database record), so the information is richer for comparing with other records (and much easier to use forensically). The format lends itself particularly well to internal communication and arbitration.</li>
+<li><strong>Interlinking:</strong> The framework is designed for internal cross-referencing, both within a CAM Record and across many of them.</li>
+<li><strong>Wider focus:</strong> The CAM for Web Systems closes the loop on:</li>
+</ol>
+<ul>
+<li>evaluating success</li>
+<li>change over time</li>
+<li>user types</li>
+<li>organisational placement.</li>
+</ul>
+<h2>More on the CAM?</h2>
+<p>This post only discusses how the CAM compares to the Core Content Model method, for more about the CAM: <a href="20180122-content-action-model.html" class="readmore">read the overview of the Content-Action Method for Web Systems</a></p>
+</div>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20180122-content-action-model-origin-story.html</link>
+  <guid>https://work.allaboutken.com/posts/20180122-content-action-model-origin-story.html</guid>
+  <pubDate>Mon Jan 22 2018 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>Comparing IBM Plex and Fira Sans</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div class="">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <div class="large-10 medium-8 cell"><img class="callout" src="../images/original/blog/plex-art.jpg" />
+  </div>
+  <div class="large-10 medium-12 cell">
+  <small><span class="emoji">ℹ️</span> At the time of publishing this post was set in Plex — I'm trying to get my hands a little dirty.</small>
+  </div>
+</div>
+<p>   </p>
+<h1>Comparing IBM Plex and Fira Sans</h1>
+<p class="lead">I won't dwell on it, but Helvetica and Helvetica Neue are not ideal fonts for the web for technical, brand and usability purposes, particularly when you're showing a lot of scientific data tables, <a href="https://github.com/ebiwd/EBI-Icon-fonts/issues/8">as we do at EMBL-EBI</a>.</p>
+<p>Small note: Within <a href="https://www.ebi.ac.uk">EMBL-EBI</a> we've used Helvetica Neue as our &quot;corporate&quot; font both in print and online for many years, now we're considering a change. The below blog post is shaped by that discussion, but the thoughts here are my own.</p>
+<p>After a lengthy <a href="https://github.com/ebiwd/EBI-Icon-fonts/issues/8">discussion</a> and <a href="https://blogs.embl.org/communications/2017/07/17/selecting-a-new-typeface-for-embl-fira/">consultation</a> we're currently analysing Fira Sans as our likely next font for both corporate and data uses. For those that don't recall, Fira is an Erik Spiekermann typeface that <a href="https://en.wikipedia.org/wiki/Fira_Sans">was developed</a> for Mozilla's now defunct Firefox OS.</p>
+<p>We're working through the best way to utilise Fira Sans (and the great <a href="https://github.com/tonsky/FiraCode">Fira Code</a>). A major concern are fonts when it <a href="https://github.com/ebiwd/EBI-Icon-fonts/issues/8#issuecomment-343096004">comes to data tables</a>.</p>
+<h2>On with it, already</h2>
+<p>But what I want to chat about is what IBM has been up to: unveiling their new Plex font family <a href="https://www.boldmonday.com/custom/ibm/">made by Bold Monday</a>.</p>
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+<div class="callout large-8 medium-10 cell">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xcs9snQnkJs" frameborder="0" gesture="media" allowfullscreen></iframe>
+<cite>IBM discusses their change in typeface.</code>
+</div>
+</div>
+<p>The typeface is impressive stuff that captures my interest for a few reasons:</p>
+<ol>
+<li>IBM is looking to solve many of the same issues that we are at EMBL: Helvetica is an imperfect and bland go-to choice.</li>
+<li>Plex has a nice bit of personality in its letter forms</li>
+<li>Plex is a full family with many weights (8) and a serif, sans and mono style (it's also due to land on Google Fonts)</li>
+<li>Plex has an open licence</li>
+<li>Plex has a wide international character support</li>
+<li>It has an active development community</li>
+</ol>
+<p>With the exception of the serif style (and perhaps the development community), Fira has many of the same advantages. I also noticed that Fira and Plex share quite a bit in style, so I wanted to take a quick look at some of the letterforms.</p>
+<p>Here's a quick comparison between, Plex, Helvetica, Fira and a couple of other stand-ins — these are SVGs, if you want to download and compare glyphs without having to install fonts.</p>
+<div class="callout">
+<img src="../images/original/blog/plex.svg" />
+</div>
+<p>Like Fira, Plex seems to play well where Helvetica was once used and both Fira and Plex fix a number of long-standing issues around the lowercase &quot;L&quot; and overly tight &quot;c&quot; and &quot;e&quot;.</p>
+<div class="callout">
+<img src="../images/original/blog/plex-letters.svg" />
+</div>
+<p>Fira  and Plex have personality in the letterforms. Plex might be a bit more conservative than Fira, and the uppercase &quot;i&quot; is a clear win for environments where you don't want to confuse a vertical pipe &quot;|&quot; and lowercase &quot;l&quot;. The uppercase &quot;E&quot; has also been shortened less than Fira.</p>
+<div class="callout">
+<img src="../images/original/blog/plex-numbers.svg" />
+</div>
+<p>The wide width of Plex's numbers is notable. Again, this may be a concession for data environments, particularly the styling of the number &quot;1&quot;.</p>
+<div class="callout">
+<img src="../images/original/blog/fira-italic.svg" />
+</div>
+<p>The Plex <em>italics</em> also add <a href="https://twitter.com/ThunderNixon/status/929043150383075329">a big flair</a>. Especially in the mono style (where both Fira Code and Mono lack a true italic). However my main interest at the moment is data compatibility — but personality in italics could be quite nice.</p>
+<div class="callout">
+<img src="../images/original/blog/plex-notching.svg" />
+</div>
+<p>On the style side, there are two major differences:</p>
+<ul>
+<li>Plex has distinct narrowing on some of the lowercase letters that are reminiscent of &quot;<a href="http://nicksherman.com/articles/bellCentennial.html">ink traps</a>&quot;</li>
+<li>Fira has a slightly whimsy feel with the top and lower cap on some letters (look at the ascenders of the b, h and h, and the q's descender).</li>
+</ul>
+<p>Also note Plex's very square &quot;t&quot;, it feels like a mono style.</p>
+<h2>That's all for now</h2>
+<p class="lead">On the whole, Plex seems a bit more conservative, practical and airier than Fira.</p>
+<p>I'm sure we'll hear much more about Plex in the coming months (I'll also be very interested in  the nice <a href="https://github.com/ibm/type-checker">tooling</a> around their design system), but I did want to compare and contrast Plex and Fira specifically -- or, at least a little bit of them.</p>
+<p>If you want to have a play with Fira or Plex on your desktop, here are links (they're open licensed):<br>
+<span class="emoji">🔡</span>  <a href="https://github.com/mozilla/Fira/archive/master.zip">Fira desktop fonts</a><br>
+<span class="emoji">🔡</span>  <a href="https://github.com/IBM/type/archive/master.zip">Plex desktop fonts</a></p>
+<p>If you're also interested in using Plex in a data-heavy environment, I'd be curious to know how you get on with it: <a href="https://twitter.com/khawkins98"><span class="emoji">🐦</span> @khawkins98</a></p>
+</div>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20171112-ibm-plex-font-and-fira.html</link>
+  <guid>https://work.allaboutken.com/posts/20171112-ibm-plex-font-and-fira.html</guid>
+  <pubDate>Sun Nov 12 2017 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>8 Video conferencing tips, dos, don’ts</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div class="">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <div class="large-8 medium-6 cell"><img class="callout" src="../images/original/blog/webcam.jpg" />
+  </div>
+  <div class="large-10 medium-12 cell">
+  <small>Small things make a big difference, like this tiny and simple but well-made webcam.</small>
+  </div>
+</div>
+<p>    <small><span class="emoji">ℹ️</span> This post is cross-posted from the <a href="https://www.ebi.ac.uk/about/technology/2017/10/8-video-conferencing-tips-dos-donts/">EMBL-EBI TSC Blog</a>.</small></p>
+<h1>8 Video conferencing tips, dos, don’ts</h1>
+<p class="lead">Depending on your work, you may find yourself needing to video conference with a few or many people. While most any video platform and kit can work great for one-to-one video calls, I'd like to share lessons learnt in my previous roles and during my time in EMBL-EBI's [Web Development team](https://www.ebi.ac.uk/about/people/jonathan-hickford).</p>
+<h2>1. Mute when you don't plan to speak</h2>
+<p>This tip is extra important when you're using your computer's built-in microphone and speakers. It's tough enough chatting over video but it's even worse when a viewer's microphone picks up the speakers voice and echoes it back in.<br>
+If you don't expect to speak up in the 30 seconds, mute your microphone. It'll save a few KB/s of bandwidth and make the audio much clearer.</p>
+<h2>2. Close those extra tabs and applications</h2>
+<p>Bandwidth can often be the cause of slow and jerky video conferencing, but a CPU that's churning away some badly behaving web advertisement will make it far worse and you'll be stu-t-t-t-t-tttering away.</p>
+<p>If you're dialing in from home, you might also want to be sure no one else is updating their OS or torrenting Game of Thrones.</p>
+<h2>3. Don the headset of geekery</h2>
+<div class="float-right columns small-3 medium-2 small">
+<img class="" src="https://www.ebi.ac.uk/about/technology/wp-content/uploads/2017/10/h390-gallery-300x258.png" alt="" width="300" height="258" />
+<br/><small>The &#8220;Logitech H390 USB Headset&#8221;, Studmuffin edition.</small></div>
+<p>Even you mom wouldn't say you look good in a call centre-style headset, but you'd hear her better when she says you look like a disgrace. And mum would hear your crying crystal clear.</p>
+<p>When you're dialing in solo, a headset really helps with audio quality and can even help you cheat on needing to mute every few seconds. Even a pair of iPhone earbuds will make a huge difference.</p>
+<p>We've found the Logitech H390 headset to work well, and it has a convenient mute button on the cable.</p>
+<p>You should be able to get it for less that £30.</p>
+<h2>4. Use a decent webcam</h2>
+<p>A good webcam not only gives you a better picture quality, but it allows you to:</p>
+<ol>
+<li>Change the viewpoint (unless you just like everyone seeing the bottom of your chin?); and&lt;</li>
+<li>Most have a wider field of view so your can fit in the person(s) sitting beside you.</li>
+</ol>
+<p>We've been using the “Logitech C920 HD Pro Webcam”. It does the above and has a better microphone than your laptop, great if you have a group on your end.<br>
+You should be able to get it for less that £70.</p>
+<h2>5. Big microphone for big groups</h2>
+<p>If you're calling from a big room, bring along a big microphone. Not only will it have a bigger microphone, some will allow you to capture audio from 360º, or from a single direction — blocking out a noisy background.<br>
+<a href="http://www.bluemic.com/products/snowball/#capture-a-variety-of-sources">Blue's “snowball”</a> does this well for about £60.</p>
+<h2>6. Skype is easy, but it's not reliable</h2>
+<p>If you're dialing into on the VC rooms through Lifesize Cloud, you won't have much of a choice. But otherwise with video conferencing you really do get what you pay for, Skype, Google Hangouts and Slack are fantastic for the convenience, but quality can be vastly variable.<br>
+We've found <a href="https://zoom.us/pricing">Zoom</a> and <a href="https://www.join.me/en/pricing">Join.me</a> to be miles better in reliability.</p>
+<h2>7. Always improve</h2>
+<p>The technology involved in calling is always getting better, so it's worth re-evaluating your kit and platforms every 6 months to see if there's something better.</p>
+<h2>8. Consult the Desktop Team</h2>
+<p>The EMBL-EBI Desktop team has <a href="http://tsc.ebi.ac.uk/article/video-conferencing">guides on using the VC facilities</a> and <a href="http://tsc.ebi.ac.uk/article/portable-av-equipment">some nice kit to borrow</a>.</p>
+<h2>Bonus: Don't foget about the culture of meetings</h2>
+<p>Further reading on the <a href="https://www.hanselman.com/blog/TragediesOfTheRemoteWorkerLooksLikeYoureTheOnlyOneOnTheCall.aspx">culture of video conferencing over at Scott Hanselman's blog</a>.</p>
+<h2>What say you?</h2>
+<p>This list is a work in progress and I certainly don't think we've solved the issues involved. What do you think of the above? Other tips? khawkins@ebi.ac.uk or <a href="https://twitter.com/khawkins98">@khawkins98</a> or <a href="https://twitter.com/ebi_web_ux">@ebi_web_ux</a></p>
+</div>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20171027-video-conferencing-tips-dos-donts.html</link>
+  <guid>https://work.allaboutken.com/posts/20171027-video-conferencing-tips-dos-donts.html</guid>
+  <pubDate>Fri Oct 27 2017 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>Five highlights from EuroIA 2017</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div class="">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <div class="large-8 medium-6 cell"><img class="callout" src="../images/original/blog/euro-ia.jpg" />
+  </div>
+  <div class="large-10 medium-12 cell">
+  <small>300 professionals from 30 countries attended the 13th summit.</small>
+  </div>
+</div>
+<h1>Five highlights from EuroIA 2017</h1>
+<p class="lead">This year's installment of Europe's best information architecture gathering was my second visit. I was happy to have a similar takeaway: [EuroIA](http://euroia.org/) has been a great way to check my perspectives, infuse them with the views of others and step back, dwell on the point of all this.</p>
+<p>I was fortunate enough to be one of three staffers from EMBL-EBI — and one of two with the Web Development team — to attend this year's Euro IA conference in Stockholm, and aside from the general fantastic food, views and culture of Sweden and Stockholm, here's a sprinkling of personal highlights from EuroIA.</p>
+<p>Colouring my notes is that this year was also an opportunity to dwell on ideas <a href="https://blogs.embl.org/communications/tag/design">we</a>'ve been discussing <a href="https://blogs.embl.org/communications/tag/design/">in the EMBL Corporate Design Sprints</a>, particularly those around a pan-organisation IA. At any rate, onto my highlights:</p>
+<h2>1. Keep it flexible, be an enabler</h2>
+<div class="text-center">
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The <a href="https://twitter.com/euroia?ref_src=twsrc%5Etfw">@euroia</a> keynote reaffirms work on <a href="https://twitter.com/embl?ref_src=twsrc%5Etfw">@embl</a> &#39;s information structure: enabling possibilities, flexibility, iteration <a href="https://twitter.com/hashtag/euroia17?src=hash&amp;ref_src=twsrc%5Etfw">#euroia17</a> <a href="https://t.co/Qhel2yFyKQ">pic.twitter.com/Qhel2yFyKQ</a></p>&mdash; Ken Hawkins (@khawkins98) <a href="https://twitter.com/khawkins98/status/913383556033937408?ref_src=twsrc%5Etfw">September 28, 2017</a></blockquote>
+</div>
+<p>This feeling was most evident in ​Stephanie Akkaoui-Hughes' <a href="http://euroia.org/sessions/stephanie-akkaoui-hughes-keynote">Thursday keynote</a> that focused on &quot;Architecting Interactions&quot;.</p>
+<p>Key points, highlights:</p>
+<ul>
+<li>Don't design an interaction, design context for an interaction. That is, don't force a user to push the button to open doors, create an environment where pushing a button seems how you should open a door.</li>
+<li>Stay organic, flexible and holistic: &quot;Incomplete, impermanent, imperfect&quot;</li>
+<li>Don't push change through dictation, pull change through facilitation</li>
+</ul>
+<p>Her slides don't appear to be online, but you can <a href="https://www.youtube.com/watch?v=jbT_RJD94bc">see a video from a similar earlier presentation here</a>.</p>
+<h2>2. Don't be an exclusionary force</h2>
+<div class="text-center">
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Domain driven design talk at <a href="https://twitter.com/hashtag/EuroIA17?src=hash&amp;ref_src=twsrc%5Etfw">#EuroIA17</a> <a href="https://t.co/eII4dGKoj8">pic.twitter.com/eII4dGKoj8</a></p>&mdash; Mark Foley (@folomarco) <a href="https://twitter.com/folomarco/status/913390773344915456?ref_src=twsrc%5Etfw">September 28, 2017</a></blockquote>
+</div>
+<p>Reviewing work to rein in some 50 different domains, Anya Somerville, Silver Oliver and Michael Smethurst presented on <a href="http://euroia.org/sessions/domain-driven-design-at-uk-parliament">Domain Driven Design at UK Parliament</a>.</p>
+<p>To discover what is closest to the truth, they noted the importance of talk therapy to get stakeholders relaxed and open. Often this revealed the important things which no one had previously thought to mention.</p>
+<p>Also of importance was to keep the <a href="https://en.wikipedia.org/wiki/Domain-driven_design">rather complex concept domain driven design</a> as an inclusive and facilitating process — avoiding past incidents where those who could not master IA-speak were simply forced out.</p>
+<div class="callout">
+<h3>Observation: To vertically integrate or be web-wide?</h3>
+<p>A point of interest when contrasting with work to unite EMBL's IA, where Parliament has been able to pursue a unifying IA, it also sees an opportunity to unite <a href="https://github.com/ukparliament/parliament.uk-prototype">its implementation stack</a>.</p>
+<p>This is in contrast to our work at EMBL, while we are also working to formulate a global IA we are unable (for better or worse) to recommend a single technical stack. This complicates things, but provides interest in that our IA should — in theory — be largely technology agnostic.</p>
+</div>
+<h2>3. You're only as good as your proof is understood</h2>
+<div class="text-center">
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Loving this mistake list by <a href="https://twitter.com/AlisanAtvur?ref_src=twsrc%5Etfw">@AlisanAtvur</a> about user research <a href="https://twitter.com/euroia?ref_src=twsrc%5Etfw">@euroia</a> <a href="https://twitter.com/hashtag/euroia17?src=hash&amp;ref_src=twsrc%5Etfw">#euroia17</a> <a href="https://t.co/CODnZgiakt">pic.twitter.com/CODnZgiakt</a></p>&mdash; Raffaella Roviglioni (@Raffiro) <a href="https://twitter.com/Raffiro/status/914115390288093184?ref_src=twsrc%5Etfw">September 30, 2017</a></blockquote>
+</div>
+<p>Reminding me I should take an extra five minutes in preparing everything I do, Alisan Atvur presented on &quot;<a href="http://www.euroia.org/sessions/why-insights-die">Why Insights Die</a>&quot; and I see a key fulcrum: convert research into action by placing evidence on a logical path to conclusion.</p>
+<p>Maybe ears aren't deaf, maybe you're just haven't localised your dialect.</p>
+<h2>4. Where is this all headed?</h2>
+<div class="text-center">
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/tKrZsGbHz9GH0O?startSlide=103" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+</div>
+<p>Sandwiching in the conference, IA celeb Lou Rosenfeld presented on &quot;<a href="https://www.slideshare.net/lrosenfeld/beyond-user-research">Beyond User Research</a>&quot;.</p>
+<p>One can't say if it was fully the intent of Rosenfeld, but the message I heard tied in well to the theme of many talks: what we do doesn't matter if nothing changes.</p>
+<h2>5. Create change</h2>
+<p>There's plenty more <a href="https://twitter.com/hashtag/euroia17?src=hash">to be and said said for EuroIA 2017</a>, but I'll draw a focus: IA and UX have achieved a great success in getting institutional attention. The metaphorical metal is hot.</p>
+<p>The time is now and we should translate our methodologies into operations to enact change.</p>
+<p>Abstract concepts and data are the heat for our metal, our solutions are the forging, but we must not forget to help our colleagues temper these notions into working methods. Thereby we best resist entropy.</p>
+<p>We always aim to better the path to organisational and user success, to get there we work with and within our organisations to build reusable tooling and methods. We help discover the best series of actions, then we aim to make the best the default. Once you've done that, loop back and see what is now the best series of actions.</p>
+<p>It really all does <a href="https://twitter.com/markboulton/status/913743185075146753">come back to organisational change</a>, and we can best achieve that by improving the organisation's  tools.</p>
+<h2>More?</h2>
+<p>If you're itching for more, you can get <a href="https://medium.com/@euroia/overview-of-presentations-sketchnotes-euroia17-3660017b55be">many of the slide decks from EuroIA 2017 here</a>, or <a href="https://twitter.com/hashtag/euroia17?src=hash">get the highlights on Twitter</a> and don't forget the 2018 edition is <a href="http://euroia.org">coming in September to Dublin</a>.</p>
+<p>Go on, read a bit more. Those links are just a <a href="https://youtu.be/GxRnenQYG7I?t=5m0s">wafer thin mint</a>.</p>
+</div>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20171002-euroia-2017-takeaways.html</link>
+  <guid>https://work.allaboutken.com/posts/20171002-euroia-2017-takeaways.html</guid>
+  <pubDate>Fri Oct 06 2017 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>Fluid IA to enable user discovery, prepare for change</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div class="">
+<div class="grid-x padding-bottom-medium padding-top-large padding-bottom-large">
+  <div class="large-4 medium-6 cell"><img class="callout" src="../images/original/blog/ia-paths.svg" />
+    <a name="pyramid"></a>
+  </div>
+  <div class="large-10 medium-6 cell">
+  <small>A snapshot of the major IA facets utilised within EMBL. After engaging with content in one domain (green circle), we need to facilitate navigation paths within the Who, What, Where pyramid. <a href="http://localhost:3000/posts/20170723-corporate-design-through-ia.html">For more background read this</a>.</small>
+  </div>
+</div>
+<h1>Fluid IA to enable user discovery, prepare for change</h1>
+<h3>Subtitled: Resisting entropy and preparing for change by binding content to mission.</h3>
+<p>As Web Design Architect at EMBL (The European Molecular Biology Laboratory), <a href="https://embl-design-language.github.io/Springboard/information-architecture/">I've been helping</a> a team in its efforts to better understand the structure of the organisation and how we can utilise information architecture to facilitate interconnectivity and reusability of content. It's an issue that isn't unique to EMBL.</p>
+<p>Robust information architecture can help organisations ease content access and make their own internal structure more obvious. But exposing too much of the architecture's structure and facets can confuse non-expert users with information superfluous to their use case.</p>
+<div class="grid-x">
+<div class="medium-9 padding-left-xlarge cell margin-bottom-large"><img class="callout margin-bottom-small" src="../images/original/blog/corridor.jpg" />
+<a href="https://www.flickr.com/photos/thomashawk/415552741/in/photolist-CHPmr-cdEh6U-5vUaWt-Cu2JT-7EVjzq-4YzCwE-qGX8i4-87p7ru-7QdGA4-97P4wp-52uPwU-bWj3Q-8FiJoE-ckKcRU-5AA9uc-fEqUWy-48nMo7-PsrnH-fHFJfa-2JFYK-6ppduU-7P7e8D-q3tjzp-dRkdJt-9cvC4M-C1Ndcf-pk43WC-eg4Uzw-5L7Pcg-5kmrZL-63nogj-dYJvoD-4ioQoH-4MnVTv-hDYEsf-q9YJqB-ceAoAL-575hr-2kmTxP-4nHfg6-ddK5Fd-4tGXMr-4JEmpu-e15uFw-5Uy8qL-dD1sMJ-6jbebm-4qQedF-2PaBpP-6xsYLf"><small class="float-right">CC Credit: Thomas Hawk</small></a>
+<small>Organised, yes, but not useful to non-domain experts.</small>
+</div>
+</div>
+<p>Exposed complexity creates confusion, not complexity itself. We should strive for a rich system that gradually exposes functionality to be learned as a service is utilised.</p>
+<p>We see some lessons in the common kitchen knife: a knife has many ways it can be utilised but advanced functionality of the object is dependent on the skill of the user — advanced uses do not obstruct the most basic uses.</p>
+<h2>Passive enabling 'pro' features</h2>
+<p class="lead">If you're reading this blog, you've likely logged a few hundred hours on computers and have learned shortcuts like `⌘+s` and `ctrl+s`.</p>
+<div class="grid-x">
+<div class="large-6 medium-10 padding-left-xlarge cell"><img class="callout" src="../images/original/blog/passive-education.png" />
+<!-- <small>Organised, yes, but not useful to non-domain experts.</small> -->
+</div>
+</div>
+<p>Knowledge of these keyboard shortcuts to save a document is not required to use your Mac or Windows computer, but the shortcuts are passively, persistently and consistently indicated across the operating system menus, this allows it to be learned as a value add over time. It's an osmotic process that comes without reading a detailed operating manual.</p>
+<p>This architecture offers an easy and transparent learning curve, and one we can seek to echo in the exposing of IA in web interfaces.</p>
+<p>To be clear, this does not mean we should go about adding keyboard shortcuts to our web interfaces (though keyboard accessibility is very important), rather we should have a seemingly simple, low-friction interface that exposes tricks and tips passively the more we use it.</p>
+<h2>Shortcuts: Terribly useful but not required</h2>
+<p class="lead">You might not see it the first time, but when you discover these optional paths they offer new gateways of discovery.</p>
+<p>We've been <a href="https://blogs.embl.org/communications/tag/design/">working to better understand EMBL's architecture</a> and have seen evidence that users descend into content silos with fixed and limited contexts, muting other voices and personas of EMBL.</p>
+<p>For some users this is fine if they seek to discover an endpoint of information and once they have arrived at their destination they leave satisfied.</p>
+<p>But for repeat users — including staff — this view creates a siloed perspective of the organisation. The existing page structure and faceting exclusively looks inward into geographic-based facets, there's no ability to shift context upwards.</p>
+<p>For example this scenario is currently not possible through fewer than five clicks:</p>
+<blockquote>
+<p class="lead">I'm viewing a team in Rome about research, but instead wish to see a research team in Hamburg in the same research field.</p>
+</blockquote>
+<div class="grid-x padding-bottom-medium padding-top-large">
+  <div class="large-8 medium-10 cell"><img class="callout" src="../images/original/blog/ia-silos.svg" />
+  </div>
+  <div class="large-10 medium-6 cell">
+  <small>A siloed view of the of our content pyramid from [the top](#pyramid) of this article. If this was paths in a field, someone would traipse over lawn as a shortcut across these information silos. Fighting against these silos, a user's curiosity compells them to backtrack up an information channel and then descend a seperate silo. It's a doubly perilous situation when your staff already functions across six geographically distinct areas.</small>
+  </div>
+</div>
+<h4>Try it yourself</h4>
+<p>Find the best path to get from <a href="https://www.embl.it/research/unit/asari/index.html">EMBL Rome research group</a> to an <a href="https://www.embl.de/research/units/dev_biology/de_renzis/index.html">EMBL Heidelberg research group</a>.</p>
+<!-- Instead we're looking to add "menu facets" that casually blend as breadcrumbs, but enable powerful context shifting.
+<div class="grid-x padding-bottom-medium padding-top-large">
+  <div class="large-8 medium-10 cell"><img class="callout" src="../images/original/blog/ia-xxx.svg" />
+    [insert screengrab of menu facets]
+  </div>
+  <div class="large-10 medium-6 cell">
+  <small>Implementing context driven facet shortcuts.</small>
+  </div>
+</div> -->
+<h2>Build it with flexible facets</h2>
+<p>These facet shortcuts are driven by document metatags specified in <a href="posts/20170723-corporate-design-through-ia.html">our information architecture</a>, creating a more holistic discipline of structure relationships within documents.</p>
+<pre><code>
+  [site]:Homepage
+  &lt;meta name=&quot;ebi:facet-who&quot;   content=&quot;inactive&quot; data-tag=&quot;null&quot; /&gt;
+  &lt;meta name=&quot;ebi:facet-what&quot;  content=&quot;child&quot;    data-tag=&quot;*&quot; /&gt;
+  &lt;meta name=&quot;ebi:facet-where&quot; content=&quot;primary&quot;  data-tag=&quot;[site]&quot; /&gt;
+
+  EMBL.org:[Person]
+  &lt;meta name=&quot;ebi:facet-who&quot;   content=&quot;primary&quot; data-tag=&quot;[person]&quot; /&gt;
+  &lt;meta name=&quot;ebi:facet-what&quot;  content=&quot;child&quot;   data-tag=&quot;*&quot; /&gt;
+  &lt;meta name=&quot;ebi:facet-where&quot; content=&quot;child&quot;   data-tag=&quot;*&quot; /&gt;
+
+  EMBL.org:Research
+  &lt;meta name=&quot;ebi:facet-who&quot;   content=&quot;child&quot;   data-tag=&quot;*&quot; /&gt;
+  &lt;meta name=&quot;ebi:facet-what&quot;  content=&quot;primary&quot; data-tag=&quot;Research&quot; /&gt;
+  &lt;meta name=&quot;ebi:facet-where&quot; content=&quot;parent&quot;  data-tag=&quot;EMBL.org&quot; /&gt;
+
+  EMBL.org:Research:[group]
+  &lt;meta name=&quot;ebi:facet-who&quot;   content=&quot;primary&quot; data-tag=&quot;[group]&quot; /&gt;
+  &lt;meta name=&quot;ebi:facet-what&quot;  content=&quot;parent&quot;  data-tag=&quot;Research&quot; /&gt;
+  &lt;meta name=&quot;ebi:facet-where&quot; content=&quot;parent&quot;  data-tag=&quot;EMBL.org&quot; /&gt;
+
+</code></pre>
+<p><br/></p>
+<p>This metadata tethers content independent of placement, and affixes it to the organisation's core facets (who, what, where). A tether as firm as the organisation's mission. Our breadcumbs to the future.</p>
+<div class="">
+<h2><span class="emoji">📰</span> More soon</h2>
+<p>Check back on this blog around mid-November for more.<br/>You could also <a href="../rss.xml">get the RSS feed</a> or <a href="https://twitter.com/khawkins98">follow me on Twitter <span class="emoji">🐧</span>@khawkins98</a>.</p>
+</div>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20170913-fluid-information-architecture.html</link>
+  <guid>https://work.allaboutken.com/posts/20170913-fluid-information-architecture.html</guid>
+  <pubDate>Wed Sep 13 2017 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>A new site for little reason</title>
+  <description>
+<![CDATA[
+<div class="padding-top-xlarge"></div>
+<img class="callout" src="../images/crop-cinema/blog/13903560833_970f66b3c2_k.jpg" />
+<h1>A new site for little reason</h1>
+<p class="lead">As is apt for us web types, on <a href="https://web.archive.org/web/20170625193445/http://allaboutken.com/">25 July 2017</a> I gave a reboot to this website.</p>
+<p>Why? The content was slightly outdated and I was keen to move it from a Drupal-powered site to a Gulp powered site.</p>
+<p>Why move from Drupal to a static site when I'm just working with simple content? That's exactly why.</p>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20170725-site-update.html</link>
+  <guid>https://work.allaboutken.com/posts/20170725-site-update.html</guid>
+  <pubDate>Tue Jul 25 2017 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>Better corporate design through information architecture</title>
+  <description>
+<![CDATA[
+<div class="medium-12 cell padding-top-large">
+<div><img class="callout" src="../images/original/blog/triangle-key.png" /></div>
+</div>
+<div class="medium-10 cell">
+<h1>Better corporate design through information architecture</h1>
+<p class="lead">A leader in the lifesciences and advancing the skills of those in the field, EMBL (my current employer) is not only a fantastic place to work, but just plain impressive.</p>
+<p>The current projection of that brand does not measure up to EMBL's place in its community.</p>
+<p>Kicking off our recent &quot;Corportate Design Sprint 1&quot;, Tabea Rauscher (an EMBL colleague) <a href="https://blogs.embl.org/communications/2017/06/26/cd1-on-embls-brand/">wrote</a> about the entropy that was eating away at EMBL's perception:</p>
+<blockquote>
+<p>For example, services are part of the core mission of the organisation but currently they exist at the outer ‘disassociated’ layer of our brand map. The net effect of this is that many users of these services will be unaware that they are supported by EMBL (perhaps even what EMBL is), and will not know the full breadth of services on offer by EMBL.</p>
+</blockquote>
+<p>EMBL simply isn't coming through as a coherent idea amongst it's nearly 2,000 staff and six sites across Europe.</p>
+<p>That fragmentation was manifesting itself in visual design and writing, but the problem is rooted in a deeper perception of how EMBL self categorises its purpose.</p>
+<p>Simply put we fell victim to the classic problem of <a href="https://blogs.embl.org/communications/2017/07/05/name-it-for-what-it-does/">naming things around internal structure and not for what they are</a>.</p>
+<p>Having introduced the topic, here's where I hand you off to how we distilled the problem and have begun formulating a solution by architecting out what EMBL does, who is involved and where they are.</p>
+<h3>Part 1: Diagnosis</h3>
+<p><span class="grid-x grid-padding-x main-content-area padding-bottom-xlarge"><span class="cell small-9"></p>
+<blockquote>
+<p>With the ‘structure map’ we see EMBL’s intent more clearly:</p>
+<ul>
+<li>What: The magenta stickies about the activities EMBL provides and facilitates</li>
+<li>Where: The yellow stickies of the six EMBL sites</li>
+<li>Who: The people, groups, teams and services that make up EMBL</li>
+</ul>
+<p>This is a first look at the shared truths of the pan-EMBL structure — the model isn’t finished, but we’re a lot closer (we still need to account for how these relate to each other and how importance varies across user types) but this is a defensible look at the structure EMBL uses to achieve its mission.<br>
+<a href="https://blogs.embl.org/communications/2017/07/11/mapping-brand-structure-to-support-communication/" target="_blank" class="readmore">Read &quot;Mapping brand structure to support communication&quot;</a></p>
+</blockquote>
+<p></span><span class="cell small-3"><img src="http://i.imgur.com/NUHF3qo.png" /></span></span></p>
+<h3>Part 2: Architecting a holistic solution</h3>
+<p><span class="grid-x grid-padding-x main-content-area padding-bottom-xlarge"><span class="cell small-8"></p>
+<blockquote>
+<p>Using Who, What and Where as facets in all content allows use across all EMBL websites. These facets may not be shown in every view of content, but their capturing as content metadata allows us to pivot, mold and transform content.</p>
+<p>This holistic approach yields continuity and keeps content true to EMBL and user needs.<br>
+<a href="https://blogs.embl.org/communications/2017/07/18/the-embl-triangle-key-from-brand-structure-to-information-architecture/" target="_blank" class="readmore">Read &quot;The EMBL Triangle Key: From brand structure to information architecture&quot;</a></p>
+</blockquote>
+<p></span><span class="cell small-4"><img src="http://i.imgur.com/zHRUoxl.png" /></span></span></p>
+<h3>Part 3: Implementation</h3>
+<div class="callout">
+  UPDATE 2017-09-13: [We've been working on implementing this model, read the update](../posts/20170913-fluid-information-architecture.html).
+</div>
+<p><del>We're not here just yet, but during 2017 we'll be working to take this concept from architecture to implementatble navigation and layout patterns.</del></p>
+<p><del>Check back on this blog around mid-September for more — you could also <a href="../rss.xml">get the RSS feed</a> or <a href="https://twitter.com/khawkins98">follow me on Twitter @khawkins98</a>.</del></p>
+<p><br/><br/><span class="emoji">✏︎</span> Bonus: <a href="https://blogs.embl.org/communications/2017/07/05/name-it-for-what-it-does/">A post on the naming of things</a>.</p>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20170723-corporate-design-through-ia.html</link>
+  <guid>https://work.allaboutken.com/posts/20170723-corporate-design-through-ia.html</guid>
+  <pubDate>Sun Jul 23 2017 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>UX success story: Doubling conversion rates, sales</title>
+  <description>
+<![CDATA[
+<div class="padding-top-xlarge"></div>
+<img class="callout" src="../images/crop-cinema/blog/tearoom-new.jpg" />
+<h1>UX success story: Doubling conversion rates, sales</h1>
+<p class="lead"><a href="http://the-english-tearoom.de/">The English Tearoom</a> in Stuttgart, Germany, is a top-notch independent store. Open since 2011, owners Lynn and Christian offer superb tea and tea-related goods, with service mindful of each customer's unique tastes. This focus on in-person service hasn't prevented the owners from using e-commerce to attract new customers and offer more services to existing ones.</p>
+<p>But when the online-store first arrived in 2012 it struggled to find a fully effective engagement for similar-yet-different audiences.</p>
+<p>The need is to present the shop as a true brick-and-mortar experience with real human service and as an online store with doorstep service throughout Europe. Aiming to better deliver both messages, I worked with The English Tearoom in the summer and fall of 2013 to help them better integrate their online offerings while preserving — and enhancing — the marketing of The English Tearoom's physical location.</p>
+<p>My work focused on improving the homepage; refinements to deeper regions of the site and mobile user targeting are pending.</p>
+<p>I started by asking the owners what it was they needed out of the homepage, then devising the personas that would be likely to visit the online page and sort out their various needs. The new design works by first targeting the common needs amongst all user groups: &quot;What is The English Tearoom, and what have they been up to?&quot; and then presents engaging items from the shop's location and hours to hot new items or discounts available both online and in the shop.</p>
+<p>Further down the page more nuanced needs are met, from newsletter information to product categories.</p>
+<p>The results were immediate: the site launched in the fall shopping season and saw a doubling of conversion rates from visitors — compared to both the previous months and previous fall sales — and that pace has held strong (through early April as of this writing). Equally encouraging, the average checkout value remained constant for an effective doubling in sales.</p>
+<div class="callout"><img src="/images/original/blog/conversion_rate.svg" alt="Doubling of sales and conversion rate." style="width:100%"><br><cite>The conversion rate graphed (Number values have not been labeled as to protect proprietary client information.)</cite></div>
+<p>Of The English Tearoom's top months online, six of the seven have come after the UX updates. The message is clear.</p>
+<p>Bonus: We also were able to use the redesign chance to better connect online viewers with information about the physical shop location. By visitor accounts, we've managed to maintain or increase in-shop referrals from website visits. </p>
+<p><strong>Client information:</strong><br>
+- Location: Stuttgart, Germany<br>
+- Website platform: Drupal 6<br>
+- E-commerce solution: Ubercart<br>
+- Languages: English, German<br>
+- Timeframe: September to October 2013<br>
+- Services provided: UX analysis, user profiles, composite renderings (Photoshop, Illustrator, OmniGraffle), development (CSS, HTML, JS/jQuery, PHP), usability and automated testing</p>
+<p><em class="float-right">Image credit: Photoshop composite; Base image by <a href="https://www.flickr.com/photos/booleansplit/3887516326">Robert S. Donovan</a></em></p>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20140407-ux-success-double-conversion.html</link>
+  <guid>https://work.allaboutken.com/posts/20140407-ux-success-double-conversion.html</guid>
+  <pubDate>Mon Apr 07 2014 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>A model for better content, better readers, better journalism</title>
+  <description>
+<![CDATA[
+<div class="padding-top-xlarge"></div>
+<img class="callout" src="../images/crop-cinema/blog/newspapers.jpg" />
+<h1>A model for better content, better readers, better journalism</h1>
+<p class="lead">Six years ago my then roommate and I founded TheDigitel on the idea that the future of news was changing and that the service was in curating and linking content, and that curation was going to be bigger than the massive link mills then in existence.</p>
+<p>We were right, but failed to realize that social radius service like Facebook, Google+, Twitter, and the like would organically become almost zero cost curators.</p>
+<p>But hindsight quickly made something else more clear: The market was driving low-cost content that was appealing to low interest readers, and there was oft little reason to click through a blog post or Facebook share to the source material. </p>
+<p>This scarcity of quality will in turn, likely, drive a desire for premium grade content. </p>
+<p>If today's shell of journalism is akin to leaflets, there would in turn be a demand for well researched writing, more akin to scientific journal content.</p>
+<p>Last week a new online-only publication, The Information, <a href="https://www.theinformation.com/Letter-From-the-Editor1">announced its arrival</a>:</p>
+<blockquote><p>The Information, launching today, is our first step towards building a publication that operates differently. We’re a team of reporters and editors who have learned from the best in the business, and we want to challenge ourselves to write better articles that break new ground. Period.</p></blockquote>
+<p>The publication is a premium, $39 per month subscription-only one.</p>
+<p>I think the idea is spot on, and if it can hold it will be one of a series of events that could drive a far better journalism market.</p>
+<p>Not only will we be able to fund "real" journalism, but the readers of such content will be looking for more well reasoned writing and that's something that should help stop publications from pandering to attention grabbing headlines that belong more in tabloids of yesteryear.</p>
+<p>If we were to start TheDigitel in 2013, this is the direction we would have pushed.</p>
+<p><cite>Image credit: <a href="https://www.flickr.com/photos/statusfrustration/169995469">Flickr user &quot;J E Smith&quot;</a></cite></p>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20131208-content-model-better-journalism.html</link>
+  <guid>https://work.allaboutken.com/posts/20131208-content-model-better-journalism.html</guid>
+  <pubDate>Sun Dec 08 2013 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>Muliple IPs on an Ubuntu EC2 VPC? Yes, please!</title>
+  <description>
+<![CDATA[
+<div class="padding-top-xlarge"></div>
+<div class="columns medium-12">
+<img class="callout" src="../images/crop-cinema/blog/ethernet.jpg" />
+<h1>Muliple IPs on an Ubuntu EC2 VPC? Yes, please!</h1>
+<p class="lead">Subtitled: Configuring a second ethernet adapter on an Ubuntu EC2 VPC instance</p>
+<p>If you're wanting to have multiple valid SSL certificates for many domains (say, for Drupal a multisite running on Aegir) on a single EC2 instance you'll, of course, need multiple IP addresses. While Amazon's VPC offerings seem like an easy win there are a few twists to get the server to respond to that second internal IP.</p>
+<p>Here are my notes, hopefully they'll be of some use to you. You might not need to do all of these, but I've found things to work better this way. These steps were used on Ubuntu 12.04 in June 2012 — things can change.</p>
+<blockquote>
+<p><strong>Get set up:</strong></p>
+</blockquote>
+<ul>
+<li>Have one unique internal IP address (10.0.0.70, 10.0.0.80, etc) per network adapter</li>
+<li>Map the Elastic IP addresses to your internal IP</li>
+<li>I'm running Aegir and needed to map the Apache server not to the public IP used for the domain name, but the private internal IP address</li>
+</ul>
+<p>Once you've done the the above, you'll likely find the server working fine on the first IP address but not responding on the second.</p>
+<p>Here's what to do next:</p>
+<ol>
+<li>In the Amazon VPC Route Table console ensure you have a route entry for 0.0.0.0/0 using your IGW (this will look like igw-xxxxxx)</li>
+<li>SSH into your server</li>
+<li>If not root: <code>sudo su - root</code></li>
+<li>Initialize your secondary ethernet interface (don't do this for <code>eth0</code>)</li>
+</ol>
+<ul>
+<li><code>ifconfig eth1 10.0.0.YOURIPHERE netmask 255.255.255.0</code></li>
+</ul>
+<ol>
+<li>Set up your interfaces</li>
+</ol>
+<ul>
+<li><code>vi /etc/network/interfaces</code></li>
+<li>For each adapter add (changing &quot;1&quot; for your adapter)
+<ul>
+<li><code>auto eth1</code></li>
+<li><code>iface eth1 inet dhcp</code></li>
+</ul></li>
+<li>Start each adapter <code>ifup eth1</code></li>
+<li>We should be able to <code>ifconfig</code> and see the ethernet adapters up</li>
+<li>Reboot
+<ul>
+<li><code>init 6</code></li>
+</ul></li>
+<li>SSH into your server, become root</li>
+<li>For each ethernet adapter follow this pattern:
+<ul>
+<li><code>ip route add default via 10.0.0.1 dev eth0 tab 1</code></li>
+<li><code>ip route add default via 10.0.0.1 dev eth1 tab 2</code></li>
+<li>Similarly:
+<ul>
+<li><code>ip rule add from 10.0.0.170/32 tab 1 priority 500</code></li>
+<li><code>ip rule add from 10.0.0.190/32 tab 2 priority 600</code></li>
+</ul></li>
+</ul></li>
+</ul>
+<h3>Almost done</h3>
+<p>Good news is it works at this point, bad news is the ip routes and rules won't survive a reboot.</p>
+<p>Let's make changes survive a reboot:</p>
+<ul>
+<li><p>Return to <code>vi /etc/network/interfaces</code>; our file should look like:</p>
+<pre><code># The loopback network interface
+auto lo
+iface lo inet loopback
+# The primary network interface
+auto eth0
+iface eth0 inet dhcp
+auto eth1
+iface eth1 inet dhcp
+</code></pre></li>
+<li><p>We modify the above, adding in the ip route and ip rule commands from before, but prefixing them with &quot;post-up&quot;, like so:</p></li>
+</ul>
+<pre><code># The loopback network interface
+auto lo
+iface lo inet loopback
+# The primary network interface
+auto eth0
+iface eth0 inet dhcp
+  post-up ip route add default via 10.0.0.1 dev eth0 tab 1
+  post-up ip rule add from 10.0.0.170/32 tab 1 priority 500
+auto eth1
+iface eth1 inet dhcp
+  post-up ip route add default via 10.0.0.1 dev eth1 tab 2
+  post-up ip rule add from 10.0.0.190/32 tab 2 priority 600
+</code></pre>
+<p>Now reboot <code>/etc/init.d/networking restart</code></p>
+<p>All set!</p>
+<h4>Related reading and things that helped me:</h4>
+<ul>
+<li>AWS Forums: <a href="https://forums.aws.amazon.com/message.jspa?messageID=404454">Unable to connect to EC2 instance in VPC</a></li>
+<li>Getting ip rules and routes to work on reboot: <a href="http://www.cyberciti.biz/faq/ubuntu-linux-add-static-routing/">Ubuntu Linux Add Static Route</a></li>
+<li>Video on EC2 VPC multiple IP basics: <a href="http://www.youtube.com/watch?v=Z_MWQ75GtvE">How to add extra IP addresses on one EC2 Instance</a></li>
+</ul>
+<p><cite>Image credit: <a href="https://www.flickr.com/photos/tueksta/839920747#">Flickr user &quot;Andreas Beer&quot;</a></cite></p>
+</div>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20130612-ubuntu-ips-ec2-multiple.html</link>
+  <guid>https://work.allaboutken.com/posts/20130612-ubuntu-ips-ec2-multiple.html</guid>
+  <pubDate>Wed Jun 12 2013 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+<item>
+  <title>Cutting down on Postfix spam relaying</title>
+  <description>
+<![CDATA[
+<div class="padding-top-xlarge"></div>
+<img class="callout" src="../images/crop-cinema/blog/mail-pile.jpg" />
+<h1>Cutting down on Postfix spam relaying</h1>
+<p class="lead">Postfix, it's used with many a LAMP stack to send out messages from a site, unfortunately it's prone to relaying many spam messages out of the box.</p>
+<p>The below code can be easily appended to Postfix's main.cf to drastically reduce the authorization hole.</p>
+<p>On Ubuntu you'll find the file at <code>/etc/postfix/main.cf</code> </p>
+<code>smtpd_helo_required     = yes<br>
+strict_rfc821_envelopes = yes<br>
+disable_vrfy_command = yes<br>
+unknown_address_reject_code  = 554<br>
+unknown_hostname_reject_code = 554<br>
+unknown_client_reject_code   = 554<br>
+smtpd_helo_restrictions = permit_mynetworks, reject_invalid_hostname, permit<br>
+smtpd_recipient_restrictions =<br>
+   check_client_access hash:/etc/postfix/helo_client_exceptions<br>
+   check_sender_access    hash:/etc/postfix/sender_checks,<br>
+   reject_invalid_hostname,<br>
+   reject_non_fqdn_hostname,<br>
+   reject_non_fqdn_sender,<br>
+   reject_non_fqdn_recipient,<br>
+   reject_unknown_sender_domain,<br>
+   reject_unknown_recipient_domain,<br>
+   permit_mynetworks,<br>
+   reject_unauth_destination,<br>
+   reject_rbl_client cbl.abuseat.org,<br>
+   reject_rbl_client sbl-xbl.spamhaus.org,<br>
+   reject_rbl_client bl.spamcop.net,<br>
+   reject_rhsbl_sender    dsn.rfc-ignorant.org,<br>
+   permit<br></code>
+<p>Then restart postfix: <code>/etc/init.d/postfix restart</code></p>
+<p>A couple of other handy commands:</p>
+<p>- Check the mail queue with <code>mailq</code><br>
+- Empty the queue with <code>postsuper -d ALL</code></p>
+<p><cite>Image credit: <a href="https://www.flickr.com/photos/cogdog/2925889614">Flickr user &quot;Alan Levine&quot;</a></cite></p>
+]]>
+  </description>
+  <link>https://work.allaboutken.com/posts/20130321-postfix-spam.html</link>
+  <guid>https://work.allaboutken.com/posts/20130321-postfix-spam.html</guid>
+  <pubDate>Thu Mar 21 2013 00:00:00 GMT+0000 (Coordinated Universal Time)</pubDate>
+</item>
+
+  </channel>
+</rss>
